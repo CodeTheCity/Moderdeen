@@ -9,53 +9,58 @@
       "lat": 57.143027,
       "lon": -2.1117403,
       "building_number": null,
-      "postcode": null
+      "postcode": null,
+      "note": null
     },
     {
       "id": 290629629,
       "name": "McGinty's Pub",
-      "timestamp": "2011-08-02T18:52:19Z",
-      "version": 2,
+      "timestamp": "2021-05-02T10:49:00Z",
+      "version": 6,
       "amenity": "pub",
-      "lat": 57.143027,
-      "lon": -2.1117403,
-      "building_number": null,
-      "postcode": null
+      "lat": 57.1429989,
+      "lon": -2.1119629,
+      "building_number": "504",
+      "postcode": "AB10 1TT",
+      "note": null
     },
     {
       "id": 290629629,
-      "name": "McGinty's Meal An' Ale",
-      "timestamp": "2021-07-13T21:14:14Z",
-      "version": 7,
+      "name": "McGinty's Meal an' Ale",
+      "timestamp": "2022-06-06T19:06:06Z",
+      "version": 10,
       "amenity": "pub",
       "lat": 57.1430036,
       "lon": -2.1119763,
       "building_number": "504",
-      "postcode": "AB10 1TT"
+      "postcode": "AB10 1TT",
+      "note": null
     }
   ],
   [
     {
       "id": 290633283,
       "name": "La Tasca",
-      "timestamp": "2008-08-24T11:40:47Z",
-      "version": 1,
-      "amenity": "restaurant",
-      "lat": 57.1438268,
-      "lon": -2.1079242,
-      "building_number": null,
-      "postcode": null
-    },
-    {
-      "id": 290633283,
-      "name": "Topolabamba",
-      "timestamp": "2017-07-22T07:11:35Z",
-      "version": 4,
+      "timestamp": "2013-11-01T00:46:54Z",
+      "version": 3,
       "amenity": "restaurant",
       "lat": 57.1438268,
       "lon": -2.1079242,
       "building_number": "367-369",
-      "postcode": "AB11 6BT"
+      "postcode": "AB11 6BT",
+      "note": null
+    },
+    {
+      "id": 290633283,
+      "name": "Topolabamba",
+      "timestamp": "2021-09-20T19:41:08Z",
+      "version": 7,
+      "amenity": "restaurant",
+      "lat": 57.1438457,
+      "lon": -2.1079537,
+      "building_number": "367-369",
+      "postcode": "AB11 6BT",
+      "note": null
     },
     {
       "id": 290633283,
@@ -66,7 +71,8 @@
       "lat": 57.1438457,
       "lon": -2.1079537,
       "building_number": "367",
-      "postcode": "AB11 6BT"
+      "postcode": "AB11 6BT",
+      "note": "Topolabamba is no longer in FHRS and not listed on their website anymore so likely closed. Six by nico appears to be here instead"
     }
   ],
   [
@@ -79,140 +85,152 @@
       "lat": 57.1439438,
       "lon": -2.1066838,
       "building_number": null,
-      "postcode": null
+      "postcode": null,
+      "note": null
     },
     {
       "id": 290633287,
       "name": "Soul Bar & Casino",
-      "timestamp": "2011-07-27T12:54:52Z",
-      "version": 2,
-      "amenity": "casino, pub",
+      "timestamp": "2021-09-19T21:14:51Z",
+      "version": 6,
+      "amenity": "pub",
       "lat": 57.1439438,
       "lon": -2.1066838,
-      "building_number": null,
-      "postcode": null
+      "building_number": "333",
+      "postcode": "AB11 6BS",
+      "note": "Postcode approximate"
     },
     {
       "id": 290633287,
       "name": "SOUL",
-      "timestamp": "2021-10-29T11:45:13Z",
-      "version": 7,
+      "timestamp": "2023-03-15T16:40:38Z",
+      "version": 8,
       "amenity": "bar",
       "lat": 57.1439438,
       "lon": -2.1066838,
       "building_number": "333",
-      "postcode": "AB11 6BS"
+      "postcode": "AB11 6BS",
+      "note": null
     }
   ],
   [
     {
       "id": 290633289,
-      "name": "starbucks",
-      "timestamp": "2008-08-24T11:40:48Z",
-      "version": 1,
+      "name": "Starbucks",
+      "timestamp": "2021-09-04T15:09:29Z",
+      "version": 10,
       "amenity": "cafe",
-      "lat": 57.1448032,
-      "lon": -2.1059263,
-      "building_number": null,
-      "postcode": null
+      "lat": 57.1447413,
+      "lon": -2.1058659,
+      "building_number": "208",
+      "postcode": "AB10 1TL",
+      "note": null
     }
   ],
   [
     {
       "id": 290633292,
       "name": "Burger King",
-      "timestamp": "2008-08-24T11:40:48Z",
-      "version": 1,
+      "timestamp": "2022-06-08T19:57:47Z",
+      "version": 9,
       "amenity": "fast_food",
-      "lat": 57.1446809,
-      "lon": -2.1047659,
-      "building_number": null,
-      "postcode": null
+      "lat": 57.1447035,
+      "lon": -2.1048102,
+      "building_number": "221",
+      "postcode": "AB11 6BQ",
+      "note": null
     }
   ],
   [
     {
       "id": 290633294,
       "name": "Bank of Scotland",
-      "timestamp": "2008-08-24T11:40:48Z",
-      "version": 1,
+      "timestamp": "2021-11-25T19:07:48Z",
+      "version": 7,
       "amenity": "bank",
-      "lat": 57.145018,
-      "lon": -2.1036398,
-      "building_number": null,
-      "postcode": null
+      "lat": 57.1450152,
+      "lon": -2.1036478,
+      "building_number": "201",
+      "postcode": "AB11 6BB",
+      "note": "The postcode AB11 6UG does not exist in Code-Point Open."
     },
     {
       "id": 290633294,
-      "name": null,
+      "name": "Closed: Bank of Scotland",
       "timestamp": "2023-04-09T18:18:28Z",
       "version": 8,
       "amenity": null,
       "lat": 57.1450152,
       "lon": -2.1036478,
       "building_number": "201",
-      "postcode": "AB11 6BB"
+      "postcode": "AB11 6BB",
+      "note": "The postcode AB11 6UG does not exist in Code-Point Open."
     }
   ],
   [
     {
       "id": 290633297,
       "name": "Abbey",
-      "timestamp": "2008-08-24T11:40:48Z",
-      "version": 1,
-      "amenity": "bank",
-      "lat": 57.1453163,
-      "lon": -2.1025215,
-      "building_number": null,
-      "postcode": null
-    },
-    {
-      "id": 290633297,
-      "name": "Santander",
-      "timestamp": "2013-12-12T18:11:01Z",
-      "version": 3,
+      "timestamp": "2009-08-21T18:26:36Z",
+      "version": 2,
       "amenity": "bank",
       "lat": 57.1453132,
       "lon": -2.1025234,
       "building_number": null,
-      "postcode": null
+      "postcode": null,
+      "note": null
+    },
+    {
+      "id": 290633297,
+      "name": "Santander",
+      "timestamp": "2023-07-21T07:02:46Z",
+      "version": 8,
+      "amenity": "bank",
+      "lat": 57.1453132,
+      "lon": -2.1025234,
+      "building_number": null,
+      "postcode": "AB11 6WT",
+      "note": null
     }
   ],
   [
     {
       "id": 290633298,
       "name": "Barclays",
-      "timestamp": "2008-08-24T11:40:49Z",
-      "version": 1,
+      "timestamp": "2023-09-04T19:04:51Z",
+      "version": 7,
       "amenity": "bank",
-      "lat": 57.1454749,
-      "lon": -2.1018945,
-      "building_number": null,
-      "postcode": null
+      "lat": 57.145503,
+      "lon": -2.1019082,
+      "building_number": "163-165",
+      "postcode": "AB11 6BB",
+      "note": null
     }
   ],
   [
     {
       "id": 1105369534,
       "name": "Pizza Express",
-      "timestamp": "2011-01-15T21:32:27Z",
-      "version": 1,
-      "amenity": "restaurant",
-      "lat": 57.1438377,
-      "lon": -2.1090773,
-      "building_number": "402",
-      "postcode": "AB10 1TQ"
-    },
-    {
-      "id": 1105369534,
-      "name": "PizzaExpress",
-      "timestamp": "2019-05-19T12:04:38Z",
-      "version": 4,
+      "timestamp": "2018-11-12T09:39:01Z",
+      "version": 3,
       "amenity": "restaurant",
       "lat": 57.1438377,
       "lon": -2.1090773,
       "building_number": "402-404",
-      "postcode": "AB10 1TQ"
+      "postcode": "AB10 1TQ",
+      "note": null
+    },
+    {
+      "id": 1105369534,
+      "name": "PizzaExpress",
+      "timestamp": "2021-07-13T17:13:37Z",
+      "version": 6,
+      "amenity": "restaurant",
+      "lat": 57.1438202,
+      "lon": -2.1090478,
+      "building_number": "402-404",
+      "postcode": "AB10 1TQ",
+      "note": null
     }
   ],
   [
@@ -225,42 +243,46 @@
       "lat": 57.14492,
       "lon": -2.1050229,
       "building_number": null,
-      "postcode": null
+      "postcode": null,
+      "note": null
     },
     {
       "id": 1314114296,
       "name": "The Co-operative Food",
-      "timestamp": "2012-09-09T23:22:07Z",
-      "version": 2,
-      "amenity": null,
-      "lat": 57.1448868,
-      "lon": -2.1051852,
-      "building_number": null,
-      "postcode": null
-    },
-    {
-      "id": 1314114296,
-      "name": "Co-op Food",
-      "timestamp": "2020-05-29T22:51:21Z",
-      "version": 6,
+      "timestamp": "2018-11-11T20:16:12Z",
+      "version": 5,
       "amenity": null,
       "lat": 57.1449021,
       "lon": -2.1052924,
       "building_number": "204",
-      "postcode": "AB10 1QS"
+      "postcode": "AB10 1QS",
+      "note": null
+    },
+    {
+      "id": 1314114296,
+      "name": "Co-op Food",
+      "timestamp": "2023-09-04T17:24:19Z",
+      "version": 15,
+      "amenity": null,
+      "lat": 57.1449008,
+      "lon": -2.1053326,
+      "building_number": "204",
+      "postcode": "AB10 1QS",
+      "note": null
     }
   ],
   [
     {
       "id": 1314114297,
-      "name": "Natwest",
-      "timestamp": "2011-06-06T13:57:26Z",
-      "version": 1,
-      "amenity": "bank",
-      "lat": 57.1439683,
-      "lon": -2.1084267,
-      "building_number": null,
-      "postcode": null
+      "name": "NatWest",
+      "timestamp": "2023-08-12T21:12:48Z",
+      "version": 5,
+      "amenity": null,
+      "lat": 57.1440476,
+      "lon": -2.108361,
+      "building_number": "262",
+      "postcode": "AB10 1TN",
+      "note": null
     }
   ],
   [
@@ -273,18 +295,32 @@
       "lat": 57.1448225,
       "lon": -2.1054118,
       "building_number": null,
-      "postcode": null
+      "postcode": null,
+      "note": null
     },
     {
       "id": 1314114329,
       "name": "Sainsbury's",
-      "timestamp": "2012-09-09T23:22:07Z",
-      "version": 2,
+      "timestamp": "2019-05-19T12:04:37Z",
+      "version": 6,
       "amenity": null,
-      "lat": 57.1448225,
-      "lon": -2.1054118,
-      "building_number": null,
-      "postcode": null
+      "lat": 57.1448611,
+      "lon": -2.1054735,
+      "building_number": "206",
+      "postcode": "AB10 1QS",
+      "note": null
+    },
+    {
+      "id": 1314114329,
+      "name": "Closed: Sainsbury's Local",
+      "timestamp": "2022-07-23T09:35:30Z",
+      "version": 10,
+      "amenity": null,
+      "lat": 57.1448502,
+      "lon": -2.1055178,
+      "building_number": "206",
+      "postcode": "AB10 1QS",
+      "note": null
     },
     {
       "id": 1314114329,
@@ -295,68 +331,74 @@
       "lat": 57.1448401,
       "lon": -2.1055753,
       "building_number": "206B",
-      "postcode": "AB10 1QS"
+      "postcode": "AB10 1QS",
+      "note": null
     }
   ],
   [
     {
       "id": 1383400114,
       "name": "Cinnamon Indian Restaraunt",
-      "timestamp": "2011-08-02T18:52:18Z",
-      "version": 1,
+      "timestamp": "2013-11-01T00:34:22Z",
+      "version": 2,
       "amenity": "restaurant",
       "lat": 57.1431403,
       "lon": -2.1114699,
-      "building_number": null,
-      "postcode": null
+      "building_number": "476",
+      "postcode": "AB10 1TS",
+      "note": null
     },
     {
       "id": 1383400114,
       "name": "The Everest",
-      "timestamp": "2018-11-12T09:39:01Z",
-      "version": 3,
+      "timestamp": "2021-09-11T12:58:47Z",
+      "version": 10,
       "amenity": "restaurant",
-      "lat": 57.1431912,
-      "lon": -2.1113036,
+      "lat": 57.143213,
+      "lon": -2.1112097,
       "building_number": "476",
-      "postcode": "AB10 1TS"
+      "postcode": "AB10 1TS",
+      "note": null
     }
   ],
   [
     {
       "id": 1907704059,
       "name": "Tesco Express",
-      "timestamp": "2012-09-09T23:22:06Z",
-      "version": 1,
+      "timestamp": "2023-06-18T13:39:54Z",
+      "version": 9,
       "amenity": null,
-      "lat": 57.142895,
-      "lon": -2.1113998,
-      "building_number": null,
-      "postcode": null
+      "lat": 57.1429176,
+      "lon": -2.1114581,
+      "building_number": "499-501",
+      "postcode": "AB11 6DB",
+      "note": null
     }
   ],
   [
     {
       "id": 1907704060,
       "name": "Sainsbury's",
-      "timestamp": "2012-09-09T23:22:06Z",
-      "version": 1,
-      "amenity": null,
-      "lat": 57.1430842,
-      "lon": -2.111593,
-      "building_number": null,
-      "postcode": null
-    },
-    {
-      "id": 1907704060,
-      "name": "Sainsbury's Local",
-      "timestamp": "2020-05-12T23:20:21Z",
-      "version": 3,
+      "timestamp": "2016-03-21T14:34:24Z",
+      "version": 2,
       "amenity": null,
       "lat": 57.1430904,
       "lon": -2.111592,
       "building_number": null,
-      "postcode": null
+      "postcode": null,
+      "note": null
+    },
+    {
+      "id": 1907704060,
+      "name": "Sainsbury's Local",
+      "timestamp": "2023-08-13T12:11:07Z",
+      "version": 8,
+      "amenity": null,
+      "lat": 57.143105,
+      "lon": -2.1116034,
+      "building_number": "492-494",
+      "postcode": "AB10 1TS",
+      "note": null
     }
   ],
   [
@@ -369,7 +411,8 @@
       "lat": 57.1470918,
       "lon": -2.0974454,
       "building_number": null,
-      "postcode": null
+      "postcode": null,
+      "note": null
     },
     {
       "id": 2540160906,
@@ -380,196 +423,212 @@
       "lat": 57.1470918,
       "lon": -2.0974454,
       "building_number": null,
-      "postcode": null
+      "postcode": null,
+      "note": null
     },
     {
       "id": 2540160906,
       "name": "Virgin Money",
-      "timestamp": "2022-06-08T19:34:57Z",
-      "version": 3,
+      "timestamp": "2023-09-09T21:28:10Z",
+      "version": 5,
       "amenity": "bank",
-      "lat": 57.1470918,
-      "lon": -2.0974454,
-      "building_number": null,
-      "postcode": null
+      "lat": 57.1471249,
+      "lon": -2.0973124,
+      "building_number": "62",
+      "postcode": "AB10 1BB",
+      "note": null
     }
   ],
   [
     {
       "id": 2607284145,
       "name": "The Grill",
-      "timestamp": "2014-01-03T01:30:26Z",
-      "version": 1,
+      "timestamp": "2022-06-08T19:57:47Z",
+      "version": 8,
       "amenity": "pub",
-      "lat": 57.1448784,
-      "lon": -2.1042922,
+      "lat": 57.1448645,
+      "lon": -2.1043044,
       "building_number": "213",
-      "postcode": "AB11 6BA"
+      "postcode": "AB11 6BA",
+      "note": null
     }
   ],
   [
     {
       "id": 2929698385,
       "name": "The Justice Mill",
-      "timestamp": "2014-06-23T18:35:22Z",
-      "version": 1,
+      "timestamp": "2022-10-23T18:58:01Z",
+      "version": 6,
       "amenity": "pub",
-      "lat": 57.1433493,
-      "lon": -2.1097553,
-      "building_number": null,
-      "postcode": "AB11 6DA"
+      "lat": 57.1433883,
+      "lon": -2.1096856,
+      "building_number": "423-425",
+      "postcode": "AB11 6DA",
+      "note": null
     }
   ],
   [
     {
       "id": 3201301965,
       "name": "SportsDirect.com",
-      "timestamp": "2014-11-23T11:01:28Z",
-      "version": 1,
+      "timestamp": "2014-12-06T01:28:09Z",
+      "version": 2,
       "amenity": null,
       "lat": 57.1468897,
       "lon": -2.0971135,
       "building_number": "57-63",
-      "postcode": "AB10 1BB"
+      "postcode": "AB10 1BB",
+      "note": null
     },
     {
       "id": 3201301965,
       "name": "Sports Direct",
-      "timestamp": "2019-01-01T22:21:05Z",
-      "version": 3,
+      "timestamp": "2023-08-20T16:45:35Z",
+      "version": 9,
       "amenity": null,
-      "lat": 57.1468897,
-      "lon": -2.0971135,
+      "lat": 57.1468489,
+      "lon": -2.0969726,
       "building_number": "57-63",
-      "postcode": "AB10 1BB"
+      "postcode": "AB10 1BJ",
+      "note": null
     }
   ],
   [
     {
       "id": 3201525747,
       "name": "Greggs",
-      "timestamp": "2014-11-23T14:01:18Z",
-      "version": 1,
-      "amenity": null,
-      "lat": 57.1470039,
-      "lon": -2.0965814,
+      "timestamp": "2023-08-20T16:45:35Z",
+      "version": 12,
+      "amenity": "fast_food",
+      "lat": 57.1469672,
+      "lon": -2.096539,
       "building_number": "55",
-      "postcode": "AB11 5BJ"
+      "postcode": "AB11 5BJ",
+      "note": null
     }
   ],
   [
     {
       "id": 3328291778,
       "name": "CeX",
-      "timestamp": "2015-02-03T11:53:14Z",
-      "version": 1,
+      "timestamp": "2023-09-09T21:28:10Z",
+      "version": 8,
       "amenity": null,
-      "lat": 57.1473186,
-      "lon": -2.0965252,
+      "lat": 57.1473408,
+      "lon": -2.0964722,
       "building_number": "46",
-      "postcode": "AB10 1BD"
+      "postcode": "AB10 1BD",
+      "note": null
     }
   ],
   [
     {
       "id": 3358735619,
       "name": "Accenture",
-      "timestamp": "2015-02-18T22:27:26Z",
-      "version": 1,
+      "timestamp": "2019-03-19T20:32:03Z",
+      "version": 3,
       "amenity": null,
       "lat": 57.1447166,
       "lon": -2.1059881,
       "building_number": "214",
-      "postcode": "AB10 1TL"
+      "postcode": "AB10 1TL",
+      "note": null
     },
     {
       "id": 3358735619,
       "name": "Centrum Aberdeen",
-      "timestamp": "2021-07-12T17:02:52Z",
-      "version": 4,
+      "timestamp": "2021-09-04T15:09:29Z",
+      "version": 6,
       "amenity": null,
-      "lat": 57.1446984,
-      "lon": -2.1060364,
+      "lat": 57.1446999,
+      "lon": -2.106029,
       "building_number": "214",
-      "postcode": "AB10 1TL"
+      "postcode": "AB10 1TL",
+      "note": null
     }
   ],
   [
     {
       "id": 3363274808,
       "name": "KFC",
-      "timestamp": "2015-02-21T13:25:18Z",
-      "version": 1,
+      "timestamp": "2022-11-06T10:27:14Z",
+      "version": 9,
       "amenity": "fast_food",
-      "lat": 57.1454211,
-      "lon": -2.1033344,
+      "lat": 57.1454123,
+      "lon": -2.1033957,
       "building_number": "152",
-      "postcode": "AB10 1QT"
+      "postcode": "AB10 1QT",
+      "note": null
     }
   ],
   [
     {
       "id": 3488965949,
       "name": "Amarone",
-      "timestamp": "2015-04-30T14:59:55Z",
-      "version": 1,
+      "timestamp": "2021-09-19T21:14:51Z",
+      "version": 5,
       "amenity": "restaurant",
-      "lat": 57.1444184,
-      "lon": -2.1057666,
+      "lat": 57.1444308,
+      "lon": -2.1058605,
       "building_number": "257",
-      "postcode": "AB11 6BR"
+      "postcode": "AB11 6BR",
+      "note": null
     }
   ],
   [
     {
       "id": 3502766632,
       "name": "Pret A Manger",
-      "timestamp": "2015-05-07T11:09:51Z",
-      "version": 1,
-      "amenity": null,
-      "lat": 57.1443902,
-      "lon": -2.1070712,
+      "timestamp": "2021-07-12T17:54:56Z",
+      "version": 9,
+      "amenity": "fast_food",
+      "lat": 57.1444215,
+      "lon": -2.1070618,
       "building_number": "234",
-      "postcode": null
+      "postcode": "AB10 1TL",
+      "note": null
     }
   ],
   [
     {
       "id": 4581528891,
       "name": "Subway",
-      "timestamp": "2016-12-30T16:31:25Z",
-      "version": 1,
+      "timestamp": "2023-09-04T17:24:19Z",
+      "version": 9,
       "amenity": "fast_food",
-      "lat": 57.1450089,
-      "lon": -2.104904,
-      "building_number": null,
-      "postcode": null
+      "lat": 57.1450068,
+      "lon": -2.1049089,
+      "building_number": "196",
+      "postcode": "AB10 1QS",
+      "note": null
     }
   ],
   [
     {
       "id": 4590032219,
       "name": "Jamieson & Carry",
-      "timestamp": "2017-01-04T23:50:29Z",
-      "version": 1,
+      "timestamp": "2023-08-25T13:24:37Z",
+      "version": 4,
       "amenity": null,
-      "lat": 57.146048,
-      "lon": -2.1009873,
-      "building_number": null,
-      "postcode": null
+      "lat": 57.1460569,
+      "lon": -2.1010074,
+      "building_number": "136-142",
+      "postcode": "AB10 1JD",
+      "note": null
     }
   ],
   [
     {
       "id": 4590032222,
       "name": "McColl's",
-      "timestamp": "2017-01-04T23:50:29Z",
-      "version": 1,
+      "timestamp": "2021-05-01T18:46:43Z",
+      "version": 4,
       "amenity": null,
       "lat": 57.1462014,
       "lon": -2.1004592,
-      "building_number": null,
-      "postcode": null
+      "building_number": "130",
+      "postcode": "AB10 1JJ",
+      "note": null
     },
     {
       "id": 4590032222,
@@ -580,94 +639,102 @@
       "lat": 57.1462014,
       "lon": -2.1004592,
       "building_number": "130",
-      "postcode": "AB10 1JJ"
+      "postcode": "AB10 1JJ",
+      "note": "Shop available for rent\nhttps://www.shepherd.co.uk/commercial/property/details/7018"
     },
     {
       "id": 4590032222,
       "name": null,
-      "timestamp": "2023-01-26T17:48:01Z",
-      "version": 6,
+      "timestamp": "2023-08-25T13:24:37Z",
+      "version": 7,
       "amenity": null,
-      "lat": 57.1462014,
-      "lon": -2.1004592,
+      "lat": 57.146212,
+      "lon": -2.10043,
       "building_number": "130",
-      "postcode": "AB10 1JJ"
+      "postcode": "AB10 1JJ",
+      "note": null
     }
   ],
   [
     {
       "id": 4590032223,
       "name": "Ramsdens",
-      "timestamp": "2017-01-04T23:50:29Z",
-      "version": 1,
+      "timestamp": "2023-08-25T13:28:14Z",
+      "version": 4,
       "amenity": null,
-      "lat": 57.1462201,
-      "lon": -2.1003834,
-      "building_number": null,
-      "postcode": null
+      "lat": 57.1462399,
+      "lon": -2.1003382,
+      "building_number": "128",
+      "postcode": "AB10 1JJ",
+      "note": null
     }
   ],
   [
     {
       "id": 4590032224,
       "name": "William Hill",
-      "timestamp": "2017-01-04T23:50:29Z",
-      "version": 1,
+      "timestamp": "2019-10-19T19:08:22Z",
+      "version": 3,
       "amenity": null,
       "lat": 57.1462463,
       "lon": -2.1002979,
-      "building_number": null,
-      "postcode": null
+      "building_number": "122A",
+      "postcode": "AB10 1JJ",
+      "note": null
     },
     {
       "id": 4590032224,
       "name": "Adams Watch Specialist",
-      "timestamp": "2023-08-25T13:24:37Z",
-      "version": 4,
+      "timestamp": "2023-08-26T14:24:09Z",
+      "version": 6,
       "amenity": null,
-      "lat": 57.1462733,
-      "lon": -2.1002018,
+      "lat": 57.1462774,
+      "lon": -2.1001957,
       "building_number": "122A",
-      "postcode": "AB10 1JJ"
+      "postcode": "AB10 1JJ",
+      "note": null
     }
   ],
   [
     {
       "id": 4590032230,
       "name": "Specsavers",
-      "timestamp": "2017-01-04T23:50:29Z",
-      "version": 1,
+      "timestamp": "2023-09-09T21:28:10Z",
+      "version": 5,
       "amenity": null,
-      "lat": 57.1471402,
-      "lon": -2.0970472,
-      "building_number": null,
-      "postcode": null
+      "lat": 57.1471852,
+      "lon": -2.0970777,
+      "building_number": "56-58",
+      "postcode": "AB10 1BB",
+      "note": null
     }
   ],
   [
     {
       "id": 4590032231,
       "name": "Halifax",
-      "timestamp": "2017-01-04T23:50:30Z",
-      "version": 1,
+      "timestamp": "2023-09-09T21:28:10Z",
+      "version": 5,
       "amenity": "bank",
-      "lat": 57.1471853,
-      "lon": -2.0968944,
-      "building_number": null,
-      "postcode": null
+      "lat": 57.1472226,
+      "lon": -2.0969321,
+      "building_number": "52-54",
+      "postcode": "AB10 1BB",
+      "note": null
     }
   ],
   [
     {
       "id": 4590032275,
       "name": "Flight Centre",
-      "timestamp": "2017-01-04T23:50:30Z",
-      "version": 1,
+      "timestamp": "2021-09-19T18:23:44Z",
+      "version": 3,
       "amenity": null,
       "lat": 57.1452079,
       "lon": -2.1041728,
-      "building_number": null,
-      "postcode": null
+      "building_number": "172",
+      "postcode": "AB10 1QT",
+      "note": null
     },
     {
       "id": 4590032275,
@@ -678,20 +745,22 @@
       "lat": 57.1452079,
       "lon": -2.1041728,
       "building_number": "172",
-      "postcode": "AB10 1QT"
+      "postcode": "AB10 1QT",
+      "note": null
     }
   ],
   [
     {
       "id": 4590032276,
       "name": "Caff\u00e8 Nero",
-      "timestamp": "2017-01-04T23:50:30Z",
-      "version": 1,
+      "timestamp": "2023-07-24T21:17:36Z",
+      "version": 10,
       "amenity": "cafe",
       "lat": 57.1452886,
       "lon": -2.1038436,
-      "building_number": null,
-      "postcode": null
+      "building_number": "160-162",
+      "postcode": "AB10 1QT",
+      "note": null
     }
   ],
   [
@@ -704,164 +773,190 @@
       "lat": 57.1435324,
       "lon": -2.1089988,
       "building_number": null,
-      "postcode": null
+      "postcode": null,
+      "note": null
     },
     {
       "id": 4590032278,
       "name": "The Essence",
-      "timestamp": "2018-11-12T14:18:33Z",
-      "version": 2,
+      "timestamp": "2021-05-02T10:49:00Z",
+      "version": 3,
       "amenity": "restaurant",
       "lat": 57.1435324,
       "lon": -2.1089988,
-      "building_number": "403",
-      "postcode": "AB10 6BX"
+      "building_number": "401 - 405 Union Street",
+      "postcode": "AB10 6BX",
+      "note": null
     },
     {
       "id": 4590032278,
       "name": "The Essence Indian Cuisine",
-      "timestamp": "2021-05-08T19:01:22Z",
-      "version": 4,
+      "timestamp": "2021-09-21T21:35:05Z",
+      "version": 5,
       "amenity": "restaurant",
-      "lat": 57.1435324,
-      "lon": -2.1089988,
+      "lat": 57.1435531,
+      "lon": -2.1090712,
       "building_number": "401-405",
-      "postcode": "AB11 6BX"
+      "postcode": "AB11 6DA",
+      "note": null
     }
   ],
   [
     {
       "id": 4590032279,
       "name": "Paddy Power",
-      "timestamp": "2017-01-04T23:50:31Z",
-      "version": 1,
+      "timestamp": "2023-07-21T07:03:27Z",
+      "version": 5,
       "amenity": null,
       "lat": 57.1452952,
       "lon": -2.1026671,
-      "building_number": null,
-      "postcode": null
+      "building_number": "175",
+      "postcode": "AB11 6BB",
+      "note": null
     }
   ],
   [
     {
       "id": 4786968822,
       "name": "Aberdeen Whiskey Shop",
-      "timestamp": "2017-04-10T19:43:26Z",
-      "version": 1,
-      "amenity": null,
-      "lat": 57.1431573,
-      "lon": -2.1114003,
-      "building_number": null,
-      "postcode": null
-    },
-    {
-      "id": 4786968822,
-      "name": "Aberdeen Whisky Shop",
-      "timestamp": "2021-11-10T22:58:06Z",
-      "version": 6,
+      "timestamp": "2021-09-11T12:58:47Z",
+      "version": 5,
       "amenity": null,
       "lat": 57.1432301,
       "lon": -2.1111428,
       "building_number": "474",
-      "postcode": "AB10 1TS"
+      "postcode": "AB10 1TS",
+      "note": null
+    },
+    {
+      "id": 4786968822,
+      "name": "Aberdeen Whisky Shop",
+      "timestamp": "2022-06-06T19:04:16Z",
+      "version": 7,
+      "amenity": null,
+      "lat": 57.1432301,
+      "lon": -2.1111428,
+      "building_number": "474",
+      "postcode": "AB10 1TS",
+      "note": null
     }
   ],
   [
     {
       "id": 5040921221,
       "name": "Timpson",
-      "timestamp": "2017-08-17T11:24:59Z",
-      "version": 1,
+      "timestamp": "2023-09-10T19:52:30Z",
+      "version": 6,
       "amenity": null,
-      "lat": 57.1468149,
-      "lon": -2.0984239,
+      "lat": 57.1468616,
+      "lon": -2.0982362,
       "building_number": "86",
-      "postcode": "AB10 1JL"
+      "postcode": "AB10 1JL",
+      "note": null
     }
   ],
   [
     {
       "id": 5258685521,
       "name": "Shack",
-      "timestamp": "2017-12-02T00:44:58Z",
-      "version": 1,
+      "timestamp": "2018-10-28T18:39:06Z",
+      "version": 3,
       "amenity": "restaurant",
       "lat": 57.1469252,
       "lon": -2.0968761,
-      "building_number": null,
-      "postcode": "AB11 5BJ"
+      "building_number": "57",
+      "postcode": "AB11 5BJ",
+      "note": null
     },
     {
       "id": 5258685521,
       "name": null,
-      "timestamp": "2019-06-26T21:31:58Z",
-      "version": 4,
+      "timestamp": "2023-08-20T16:45:35Z",
+      "version": 6,
       "amenity": null,
-      "lat": 57.1469252,
-      "lon": -2.0968761,
+      "lat": 57.1468993,
+      "lon": -2.0967878,
       "building_number": "57",
-      "postcode": "AB11 5BJ"
+      "postcode": "AB11 5BJ",
+      "note": null
     }
   ],
   [
     {
       "id": 5414808261,
       "name": "Chrysaor",
-      "timestamp": "2018-02-15T18:00:04Z",
-      "version": 1,
+      "timestamp": "2022-01-31T15:19:12Z",
+      "version": 2,
       "amenity": null,
       "lat": 57.1433123,
       "lon": -2.1098605,
       "building_number": "431",
-      "postcode": "AB11 6DA"
+      "postcode": "AB11 6DA",
+      "note": null
     }
   ],
   [
     {
       "id": 6036096495,
       "name": "Boots",
-      "timestamp": "2018-11-04T08:17:57Z",
-      "version": 1,
-      "amenity": "pharmacy",
-      "lat": 57.1456036,
-      "lon": -2.1015519,
-      "building_number": "161",
-      "postcode": null
+      "timestamp": "2022-04-13T15:33:32Z",
+      "version": 8,
+      "amenity": null,
+      "lat": 57.1455107,
+      "lon": -2.1018012,
+      "building_number": "161-165",
+      "postcode": "AB11 6BB",
+      "note": null
     },
     {
       "id": 6036096495,
-      "name": null,
+      "name": "Closed: Boots",
       "timestamp": "2022-04-13T15:34:38Z",
       "version": 9,
       "amenity": null,
       "lat": 57.1455107,
       "lon": -2.1018012,
       "building_number": "161-165",
-      "postcode": "AB11 6BB"
+      "postcode": "AB11 6BB",
+      "note": null
     },
     {
       "id": 6036096495,
-      "name": "Greggs",
-      "timestamp": "2023-07-20T07:09:54Z",
-      "version": 11,
+      "name": null,
+      "timestamp": "2023-07-20T07:09:49Z",
+      "version": 10,
       "amenity": "fast_food",
       "lat": 57.1455107,
       "lon": -2.1018012,
       "building_number": "161-165",
-      "postcode": "AB11 6BB"
+      "postcode": "AB11 6BB",
+      "note": null
+    },
+    {
+      "id": 6036096495,
+      "name": "Greggs",
+      "timestamp": "2023-09-04T19:04:51Z",
+      "version": 13,
+      "amenity": "fast_food",
+      "lat": 57.1455494,
+      "lon": -2.1017324,
+      "building_number": "161-165",
+      "postcode": "AB11 6BB",
+      "note": null
     }
   ],
   [
     {
       "id": 6038966366,
       "name": "Millets",
-      "timestamp": "2018-11-05T10:55:01Z",
-      "version": 1,
+      "timestamp": "2023-09-04T19:04:51Z",
+      "version": 6,
       "amenity": null,
-      "lat": 57.1455542,
-      "lon": -2.1016958,
-      "building_number": null,
-      "postcode": null
+      "lat": 57.1455878,
+      "lon": -2.1015872,
+      "building_number": "157-159",
+      "postcode": "AB11 6BB",
+      "note": "not 167-169 as on FHRS"
     }
   ],
   [
@@ -874,31 +969,34 @@
       "lat": 57.1455093,
       "lon": -2.1030402,
       "building_number": "150",
-      "postcode": "AB10 1QX"
+      "postcode": "AB10 1QX",
+      "note": null
     },
     {
       "id": 6053234931,
       "name": "Jack's Grill",
-      "timestamp": "2021-05-15T20:47:40Z",
-      "version": 2,
+      "timestamp": "2022-06-08T19:57:47Z",
+      "version": 3,
       "amenity": "restaurant",
       "lat": 57.1455093,
       "lon": -2.1030402,
       "building_number": "150",
-      "postcode": "AB10 1QX"
+      "postcode": "AB10 1QX",
+      "note": null
     }
   ],
   [
     {
       "id": 6053234934,
       "name": null,
-      "timestamp": "2018-11-11T19:52:33Z",
-      "version": 1,
-      "amenity": "fast_food",
+      "timestamp": "2022-08-13T07:29:17Z",
+      "version": 5,
+      "amenity": null,
       "lat": 57.1452347,
       "lon": -2.1040541,
       "building_number": null,
-      "postcode": "AB10 1QT"
+      "postcode": "AB10 1QT",
+      "note": null
     },
     {
       "id": 6053234934,
@@ -909,270 +1007,292 @@
       "lat": 57.1452347,
       "lon": -2.1040541,
       "building_number": null,
-      "postcode": "AB10 1QT"
+      "postcode": "AB10 1QT",
+      "note": null
     }
   ],
   [
     {
       "id": 6053262880,
       "name": "Barnardo's",
-      "timestamp": "2018-11-11T20:16:12Z",
-      "version": 1,
+      "timestamp": "2023-09-04T17:24:19Z",
+      "version": 6,
       "amenity": null,
-      "lat": 57.1449629,
-      "lon": -2.1050492,
+      "lat": 57.1449698,
+      "lon": -2.1050569,
       "building_number": "200",
-      "postcode": "AB10 1QS"
+      "postcode": "AB10 1QS",
+      "note": null
     }
   ],
   [
     {
       "id": 6053271305,
       "name": "The Abercrombie Bar",
-      "timestamp": "2018-11-11T20:24:34Z",
-      "version": 1,
-      "amenity": "pub",
-      "lat": 57.1446006,
-      "lon": -2.1063903,
-      "building_number": "224",
-      "postcode": "AB10 1TL"
-    },
-    {
-      "id": 6053271305,
-      "name": "Molly Malones",
-      "timestamp": "2021-08-30T12:45:14Z",
-      "version": 4,
+      "timestamp": "2021-07-12T17:54:56Z",
+      "version": 3,
       "amenity": "pub",
       "lat": 57.1445897,
       "lon": -2.1064044,
       "building_number": "224",
-      "postcode": "AB10 1TL"
+      "postcode": "AB10 1TL",
+      "note": null
+    },
+    {
+      "id": 6053271305,
+      "name": "Molly Malones",
+      "timestamp": "2021-10-29T11:45:13Z",
+      "version": 5,
+      "amenity": "pub",
+      "lat": 57.1445897,
+      "lon": -2.1064044,
+      "building_number": "224",
+      "postcode": "AB10 1TL",
+      "note": null
     }
   ],
   [
     {
       "id": 6053280517,
       "name": "Vaporized",
-      "timestamp": "2018-11-11T20:30:37Z",
-      "version": 1,
+      "timestamp": "2021-05-02T10:49:00Z",
+      "version": 2,
       "amenity": null,
       "lat": 57.1445569,
       "lon": -2.1065659,
       "building_number": null,
-      "postcode": "AB10 1TL"
+      "postcode": "AB10 1TL",
+      "note": null
     },
     {
       "id": 6053280517,
       "name": "VPZ",
-      "timestamp": "2021-05-21T19:23:55Z",
-      "version": 3,
+      "timestamp": "2022-05-15T20:39:00Z",
+      "version": 8,
       "amenity": null,
-      "lat": 57.1445569,
-      "lon": -2.1065659,
-      "building_number": null,
-      "postcode": "AB10 1TL"
+      "lat": 57.1445489,
+      "lon": -2.1065532,
+      "building_number": "226",
+      "postcode": "AB10 1TL",
+      "note": null
     }
   ],
   [
     {
       "id": 6053280518,
       "name": "Skipton Building Society",
-      "timestamp": "2018-11-11T20:30:37Z",
-      "version": 1,
+      "timestamp": "2021-09-04T15:09:29Z",
+      "version": 4,
       "amenity": "bank",
-      "lat": 57.144522,
-      "lon": -2.1067001,
-      "building_number": null,
-      "postcode": null
+      "lat": 57.1445144,
+      "lon": -2.1067048,
+      "building_number": "230",
+      "postcode": "AB10 1TL",
+      "note": null
     }
   ],
   [
     {
       "id": 6054432432,
       "name": "Johnsons",
-      "timestamp": "2018-11-12T09:38:59Z",
-      "version": 1,
+      "timestamp": "2021-09-11T12:58:47Z",
+      "version": 4,
       "amenity": null,
-      "lat": 57.1431672,
-      "lon": -2.1113859,
+      "lat": 57.1431912,
+      "lon": -2.1113142,
       "building_number": "478",
-      "postcode": "AB10 1TS"
+      "postcode": "AB10 1TS",
+      "note": null
     }
   ],
   [
     {
       "id": 6054432433,
       "name": "Shelter",
-      "timestamp": "2018-11-12T09:38:59Z",
-      "version": 1,
+      "timestamp": "2021-09-11T12:58:47Z",
+      "version": 4,
       "amenity": null,
-      "lat": 57.1432414,
-      "lon": -2.1111633,
+      "lat": 57.1432461,
+      "lon": -2.1110822,
       "building_number": "472",
-      "postcode": "AB10 1TS"
+      "postcode": "AB10 1TS",
+      "note": null
     }
   ],
   [
     {
       "id": 6054432434,
       "name": "Sabai",
-      "timestamp": "2018-11-12T09:39:00Z",
-      "version": 1,
-      "amenity": "restaurant",
-      "lat": 57.1432574,
-      "lon": -2.1110747,
+      "timestamp": "2022-06-06T19:03:31Z",
+      "version": 5,
+      "amenity": null,
+      "lat": 57.1432781,
+      "lon": -2.1109929,
       "building_number": "470",
-      "postcode": "AB10 1TS"
+      "postcode": "AB10 1TS",
+      "note": null
     }
   ],
   [
     {
       "id": 6054432437,
       "name": "The Cafe Society",
-      "timestamp": "2018-11-12T09:39:00Z",
-      "version": 1,
+      "timestamp": "2022-06-06T19:03:54Z",
+      "version": 4,
       "amenity": "cafe",
-      "lat": 57.1432953,
-      "lon": -2.110946,
+      "lat": 57.1433149,
+      "lon": -2.1108803,
       "building_number": "464-466",
-      "postcode": "AB10 1TS"
+      "postcode": "AB10 1TS",
+      "note": null
     }
   ],
   [
     {
       "id": 6054432438,
       "name": "Caff\u00e8 Nero",
-      "timestamp": "2018-11-12T09:39:00Z",
-      "version": 1,
+      "timestamp": "2023-03-02T23:29:20Z",
+      "version": 6,
       "amenity": "cafe",
-      "lat": 57.1433782,
-      "lon": -2.1106161,
-      "building_number": "454-456",
-      "postcode": "AB10 1TS"
+      "lat": 57.1433866,
+      "lon": -2.1105839,
+      "building_number": "452-456",
+      "postcode": "AB10 1TR",
+      "note": null
     }
   ],
   [
     {
       "id": 6054432439,
       "name": "Collie",
-      "timestamp": "2018-11-12T09:39:00Z",
-      "version": 1,
+      "timestamp": "2020-06-05T23:56:43Z",
+      "version": 2,
       "amenity": null,
       "lat": 57.1433971,
       "lon": -2.1105598,
       "building_number": null,
-      "postcode": null
+      "postcode": null,
+      "note": null
     },
     {
       "id": 6054432439,
       "name": "James & George Collie (Property Sales)",
-      "timestamp": "2021-07-13T21:14:14Z",
-      "version": 3,
+      "timestamp": "2021-09-11T12:58:47Z",
+      "version": 4,
       "amenity": null,
       "lat": 57.1434106,
       "lon": -2.1104948,
       "building_number": "450",
-      "postcode": "AB10 1TR"
+      "postcode": "AB10 1TR",
+      "note": null
     }
   ],
   [
     {
       "id": 6054432440,
       "name": "Greggs",
-      "timestamp": "2018-11-12T09:39:00Z",
-      "version": 1,
-      "amenity": null,
-      "lat": 57.1434102,
-      "lon": -2.1105061,
-      "building_number": "446",
-      "postcode": "AB10 1TR"
-    },
-    {
-      "id": 6054432440,
-      "name": null,
-      "timestamp": "2021-08-30T12:45:14Z",
-      "version": 7,
+      "timestamp": "2021-07-13T21:14:14Z",
+      "version": 6,
       "amenity": null,
       "lat": 57.1434542,
       "lon": -2.110374,
       "building_number": "446-450",
-      "postcode": "AB10 1TR"
+      "postcode": "AB10 1TR",
+      "note": null
+    },
+    {
+      "id": 6054432440,
+      "name": "Closed: The Co-operative Food",
+      "timestamp": "2021-09-10T09:16:13Z",
+      "version": 8,
+      "amenity": null,
+      "lat": 57.1434542,
+      "lon": -2.110374,
+      "building_number": "446-450",
+      "postcode": "AB10 1TR",
+      "note": null
     }
   ],
   [
     {
       "id": 6054432442,
       "name": "Bryant",
-      "timestamp": "2018-11-12T09:39:00Z",
-      "version": 1,
+      "timestamp": "2021-11-10T22:58:06Z",
+      "version": 2,
       "amenity": null,
       "lat": 57.1435005,
       "lon": -2.1102728,
       "building_number": "440",
-      "postcode": "AB10 1TR"
+      "postcode": "AB10 1TR",
+      "note": null
     }
   ],
   [
     {
       "id": 6054432443,
       "name": "Aberdein Considine",
-      "timestamp": "2018-11-12T09:39:01Z",
-      "version": 1,
+      "timestamp": "2021-09-11T12:58:47Z",
+      "version": 5,
       "amenity": null,
-      "lat": 57.1436707,
-      "lon": -2.1096129,
-      "building_number": null,
-      "postcode": null
+      "lat": 57.143686,
+      "lon": -2.1095324,
+      "building_number": "420-424",
+      "postcode": "AB10 1TQ",
+      "note": null
     }
   ],
   [
     {
       "id": 6054432445,
       "name": "WHSmith",
-      "timestamp": "2018-11-12T09:39:01Z",
-      "version": 1,
-      "amenity": "post_office",
-      "lat": 57.1437333,
-      "lon": -2.1093903,
+      "timestamp": "2021-07-13T17:13:37Z",
+      "version": 5,
+      "amenity": null,
+      "lat": 57.1437388,
+      "lon": -2.1093179,
       "building_number": "408-412",
-      "postcode": "AB10 1PD"
+      "postcode": "AB10 1PD",
+      "note": null
     }
   ],
   [
     {
       "id": 6054432446,
       "name": "Signature 2",
-      "timestamp": "2018-11-12T09:39:01Z",
-      "version": 1,
+      "timestamp": "2021-07-13T17:13:37Z",
+      "version": 2,
       "amenity": null,
-      "lat": 57.1441218,
-      "lon": -2.1080814,
-      "building_number": null,
-      "postcode": null
+      "lat": 57.1441065,
+      "lon": -2.1081431,
+      "building_number": "256",
+      "postcode": "AB10 1TN",
+      "note": null
     }
   ],
   [
     {
       "id": 6054432447,
       "name": "Vovem",
-      "timestamp": "2018-11-12T09:39:01Z",
-      "version": 1,
+      "timestamp": "2021-07-12T17:54:56Z",
+      "version": 2,
       "amenity": null,
-      "lat": 57.1441698,
-      "lon": -2.1079151,
+      "lat": 57.1441036,
+      "lon": -2.1081337,
       "building_number": null,
-      "postcode": null
+      "postcode": null,
+      "note": null
     },
     {
       "id": 6054432447,
       "name": "Vovem Meat & Liquor",
-      "timestamp": "2021-07-13T17:13:37Z",
-      "version": 3,
+      "timestamp": "2023-08-12T21:12:48Z",
+      "version": 5,
       "amenity": "restaurant",
       "lat": 57.1441458,
       "lon": -2.1079882,
       "building_number": "254",
-      "postcode": "AB10 1TN"
+      "postcode": "AB10 1TN",
+      "note": null
     }
   ],
   [
@@ -1185,18 +1305,20 @@
       "lat": 57.1443241,
       "lon": -2.1073384,
       "building_number": null,
-      "postcode": null
+      "postcode": null,
+      "note": null
     },
     {
       "id": 6054432449,
       "name": "British Heart Foundation Furniture & Electrical",
-      "timestamp": "2021-06-28T14:54:57Z",
-      "version": 2,
+      "timestamp": "2021-09-04T15:09:29Z",
+      "version": 4,
       "amenity": null,
-      "lat": 57.1443241,
-      "lon": -2.1073384,
-      "building_number": null,
-      "postcode": null
+      "lat": 57.1443219,
+      "lon": -2.1074108,
+      "building_number": "236",
+      "postcode": "AB10 1TL",
+      "note": null
     },
     {
       "id": 6054432449,
@@ -1207,33 +1329,36 @@
       "lat": 57.1443219,
       "lon": -2.1074108,
       "building_number": "236",
-      "postcode": "AB10 1TL"
+      "postcode": "AB10 1TL",
+      "note": null
     }
   ],
   [
     {
       "id": 6054473447,
       "name": "Social Bite",
-      "timestamp": "2018-11-12T10:06:42Z",
-      "version": 1,
+      "timestamp": "2022-06-06T19:06:23Z",
+      "version": 4,
       "amenity": "fast_food",
-      "lat": 57.1429271,
-      "lon": -2.1123475,
+      "lat": 57.1429584,
+      "lon": -2.1123207,
       "building_number": "516",
-      "postcode": "AB10 1TT"
+      "postcode": "AB10 1TT",
+      "note": null
     }
   ],
   [
     {
       "id": 6054473448,
       "name": "Falafel Delight",
-      "timestamp": "2018-11-12T10:06:42Z",
-      "version": 1,
+      "timestamp": "2021-05-02T10:49:00Z",
+      "version": 3,
       "amenity": "fast_food",
-      "lat": 57.1429242,
-      "lon": -2.112267,
+      "lat": 57.142954,
+      "lon": -2.1122576,
       "building_number": "514",
-      "postcode": "AB10 1TT"
+      "postcode": "AB10 1TT",
+      "note": null
     }
   ],
   [
@@ -1246,31 +1371,34 @@
       "lat": 57.1429562,
       "lon": -2.112149,
       "building_number": null,
-      "postcode": null
+      "postcode": null,
+      "note": null
     },
     {
       "id": 6054473449,
       "name": "Duncan and Todd Opticians",
-      "timestamp": "2021-07-13T21:14:14Z",
-      "version": 2,
+      "timestamp": "2021-09-11T12:58:47Z",
+      "version": 3,
       "amenity": null,
       "lat": 57.1429562,
       "lon": -2.112149,
       "building_number": null,
-      "postcode": "AB10 1TT"
+      "postcode": "AB10 1TT",
+      "note": null
     }
   ],
   [
     {
       "id": 6054473450,
       "name": "Tulloch Recruitment",
-      "timestamp": "2018-11-12T10:06:43Z",
-      "version": 1,
+      "timestamp": "2021-09-11T12:58:47Z",
+      "version": 3,
       "amenity": null,
       "lat": 57.1429853,
       "lon": -2.1120444,
       "building_number": "506-508",
-      "postcode": null
+      "postcode": "AB10 1TT",
+      "note": null
     }
   ],
   [
@@ -1283,31 +1411,34 @@
       "lat": 57.1430352,
       "lon": -2.1118917,
       "building_number": null,
-      "postcode": null
+      "postcode": null,
+      "note": null
     },
     {
       "id": 6054668192,
       "name": "Edid Hutt Gallery",
-      "timestamp": "2021-05-02T10:49:00Z",
-      "version": 2,
+      "timestamp": "2021-09-11T12:58:47Z",
+      "version": 4,
       "amenity": null,
-      "lat": 57.1430352,
-      "lon": -2.1118917,
-      "building_number": null,
-      "postcode": null
+      "lat": 57.1430385,
+      "lon": -2.1118743,
+      "building_number": "500",
+      "postcode": "AB10 1TT",
+      "note": null
     }
   ],
   [
     {
       "id": 6054668193,
       "name": "Starbucks",
-      "timestamp": "2018-11-12T11:37:33Z",
-      "version": 1,
+      "timestamp": "2022-06-06T19:04:35Z",
+      "version": 4,
       "amenity": "cafe",
       "lat": 57.1430629,
       "lon": -2.1117764,
       "building_number": "496",
-      "postcode": "AB10 1TS"
+      "postcode": "AB10 1TS",
+      "note": null
     }
   ],
   [
@@ -1320,7 +1451,8 @@
       "lat": 57.1434878,
       "lon": -2.1091977,
       "building_number": null,
-      "postcode": null
+      "postcode": null,
+      "note": null
     },
     {
       "id": 6055020650,
@@ -1331,135 +1463,146 @@
       "lat": 57.1435147,
       "lon": -2.1092279,
       "building_number": "409",
-      "postcode": "AB11 6DA"
+      "postcode": "AB11 6DA",
+      "note": null
     }
   ],
   [
     {
       "id": 6055020651,
       "name": "Pure",
-      "timestamp": "2018-11-12T14:18:33Z",
-      "version": 1,
+      "timestamp": "2021-09-21T21:35:05Z",
+      "version": 2,
       "amenity": null,
-      "lat": 57.1434646,
-      "lon": -2.1092755,
-      "building_number": null,
-      "postcode": null
+      "lat": 57.1434915,
+      "lon": -2.1093057,
+      "building_number": "411",
+      "postcode": "AB11 6DA",
+      "note": null
     }
   ],
   [
     {
       "id": 6483716215,
       "name": "Miller & Carter Steakhouse",
-      "timestamp": "2019-05-19T11:37:54Z",
-      "version": 1,
-      "amenity": "restaurant",
-      "lat": 57.1476709,
-      "lon": -2.0956294,
-      "building_number": null,
-      "postcode": null
-    },
-    {
-      "id": 6483716215,
-      "name": "Miller & Carter",
-      "timestamp": "2021-10-27T13:55:51Z",
-      "version": 6,
+      "timestamp": "2021-09-04T15:09:29Z",
+      "version": 5,
       "amenity": "restaurant",
       "lat": 57.147604,
       "lon": -2.0955007,
       "building_number": "26-38",
-      "postcode": "AB10 1BD"
+      "postcode": "AB10 1BD",
+      "note": null
+    },
+    {
+      "id": 6483716215,
+      "name": "Miller & Carter",
+      "timestamp": "2023-09-09T21:28:10Z",
+      "version": 8,
+      "amenity": "restaurant",
+      "lat": 57.1476,
+      "lon": -2.0955713,
+      "building_number": "26",
+      "postcode": "AB10 1BD",
+      "note": null
     }
   ],
   [
     {
       "id": 8872620352,
       "name": "Cancer Research UK",
-      "timestamp": "2021-06-28T14:54:57Z",
-      "version": 1,
+      "timestamp": "2023-09-03T20:51:25Z",
+      "version": 4,
       "amenity": null,
-      "lat": 57.146165,
-      "lon": -2.0996472,
+      "lat": 57.146175,
+      "lon": -2.0994646,
       "building_number": "125",
-      "postcode": "AB11 6BH"
+      "postcode": "AB11 6BH",
+      "note": null
     }
   ],
   [
     {
       "id": 8872620353,
       "name": "Taco Bell",
-      "timestamp": "2021-06-28T14:54:57Z",
-      "version": 1,
+      "timestamp": "2023-09-03T20:51:25Z",
+      "version": 3,
       "amenity": "fast_food",
-      "lat": 57.1461839,
-      "lon": -2.0995667,
-      "building_number": null,
-      "postcode": null
+      "lat": 57.1462014,
+      "lon": -2.0993665,
+      "building_number": "123",
+      "postcode": "AB11 6BH",
+      "note": null
     }
   ],
   [
     {
       "id": 8917189491,
       "name": "gslp financial",
-      "timestamp": "2021-07-13T17:13:37Z",
-      "version": 1,
+      "timestamp": "2021-09-04T15:09:29Z",
+      "version": 2,
       "amenity": null,
       "lat": 57.1441792,
       "lon": -2.1078864,
       "building_number": "252",
-      "postcode": "AB10 1TN"
+      "postcode": "AB10 1TN",
+      "note": null
     }
   ],
   [
     {
       "id": 8917189492,
       "name": "Save the Children",
-      "timestamp": "2021-07-13T17:13:37Z",
-      "version": 1,
+      "timestamp": "2021-11-03T22:47:17Z",
+      "version": 3,
       "amenity": null,
       "lat": 57.1441949,
       "lon": -2.1078247,
       "building_number": "252A",
-      "postcode": "AB10 1TN"
+      "postcode": "AB10 1TN",
+      "note": null
     }
   ],
   [
     {
       "id": 8917591514,
       "name": "Aberdeen Music Lessons",
-      "timestamp": "2021-07-13T21:14:14Z",
-      "version": 1,
+      "timestamp": "2022-04-16T10:00:43Z",
+      "version": 3,
       "amenity": "music_school",
       "lat": 57.1434411,
       "lon": -2.1105183,
       "building_number": "452",
-      "postcode": "AB10 1TR"
+      "postcode": "AB10 1TR",
+      "note": null
     }
   ],
   [
     {
       "id": 8917591515,
       "name": "Fit & Skin Studio",
-      "timestamp": "2021-07-13T21:14:14Z",
-      "version": 1,
+      "timestamp": "2021-09-11T12:58:47Z",
+      "version": 2,
       "amenity": null,
       "lat": 57.1435117,
       "lon": -2.1101797,
       "building_number": "440",
-      "postcode": "AB10 1TR"
+      "postcode": "AB10 1TR",
+      "note": null
     }
   ],
   [
     {
       "id": 8917591516,
       "name": "Sirene",
-      "timestamp": "2021-07-13T21:14:14Z",
-      "version": 1,
+      "timestamp": "2021-11-03T22:47:17Z",
+      "version": 3,
       "amenity": null,
       "lat": 57.1435564,
       "lon": -2.11,
       "building_number": "434",
-      "postcode": "AB10 1TR"
+      "postcode": "AB10 1TR",
+      "note": null
     }
   ],
   [
@@ -1472,7 +1615,8 @@
       "lat": 57.1431631,
       "lon": -2.1113374,
       "building_number": "480",
-      "postcode": null
+      "postcode": null,
+      "note": null
     }
   ],
   [
@@ -1485,7 +1629,8 @@
       "lat": 57.1437625,
       "lon": -2.1093215,
       "building_number": "408-412",
-      "postcode": "AB10 1PD"
+      "postcode": "AB10 1PD",
+      "note": null
     }
   ],
   [
@@ -1498,7 +1643,8 @@
       "lat": 57.1442363,
       "lon": -2.1076745,
       "building_number": "250",
-      "postcode": "AB10 1TN"
+      "postcode": "AB10 1TN",
+      "note": null
     }
   ],
   [
@@ -1511,7 +1657,8 @@
       "lat": 57.1455569,
       "lon": -2.1029001,
       "building_number": "148",
-      "postcode": "AB10 1QX"
+      "postcode": "AB10 1QX",
+      "note": null
     },
     {
       "id": 9048154297,
@@ -1522,20 +1669,22 @@
       "lat": 57.1455569,
       "lon": -2.1029001,
       "building_number": "148",
-      "postcode": "AB10 1QX"
+      "postcode": "AB10 1QX",
+      "note": null
     }
   ],
   [
     {
       "id": 9106209418,
       "name": "Yorkshire Building Society",
-      "timestamp": "2021-09-19T21:14:51Z",
-      "version": 1,
+      "timestamp": "2021-11-03T22:47:17Z",
+      "version": 2,
       "amenity": "bank",
       "lat": 57.1439453,
       "lon": -2.1075987,
       "building_number": "355",
-      "postcode": "AB11 6BT"
+      "postcode": "AB11 6BT",
+      "note": null
     }
   ],
   [
@@ -1548,7 +1697,8 @@
       "lat": 57.1439757,
       "lon": -2.107561,
       "building_number": "353",
-      "postcode": "AB11 6BT"
+      "postcode": "AB11 6BT",
+      "note": null
     }
   ],
   [
@@ -1561,7 +1711,8 @@
       "lat": 57.1439799,
       "lon": -2.1074914,
       "building_number": "349",
-      "postcode": "AB11 6BT"
+      "postcode": "AB11 6BT",
+      "note": null
     }
   ],
   [
@@ -1574,20 +1725,22 @@
       "lat": 57.1439955,
       "lon": -2.1074177,
       "building_number": "347",
-      "postcode": "AB11 6BS"
+      "postcode": "AB11 6BS",
+      "note": null
     }
   ],
   [
     {
       "id": 9106209422,
       "name": "Kin Kao",
-      "timestamp": "2021-09-19T21:14:51Z",
-      "version": 1,
+      "timestamp": "2022-06-09T19:20:06Z",
+      "version": 3,
       "amenity": "restaurant",
       "lat": 57.1440151,
       "lon": -2.1073117,
       "building_number": "345",
-      "postcode": "AB11 6BS"
+      "postcode": "AB11 6BS",
+      "note": null
     },
     {
       "id": 9106209422,
@@ -1598,7 +1751,8 @@
       "lat": 57.1440151,
       "lon": -2.1073117,
       "building_number": "345",
-      "postcode": "AB11 6BS"
+      "postcode": "AB11 6BS",
+      "note": null
     },
     {
       "id": 9106209422,
@@ -1609,7 +1763,8 @@
       "lat": 57.1440151,
       "lon": -2.1073117,
       "building_number": "345",
-      "postcode": "AB11 6BS"
+      "postcode": "AB11 6BS",
+      "note": null
     }
   ],
   [
@@ -1622,7 +1777,8 @@
       "lat": 57.1440529,
       "lon": -2.1072848,
       "building_number": "343",
-      "postcode": "AB11 6BS"
+      "postcode": "AB11 6BS",
+      "note": null
     }
   ],
   [
@@ -1635,7 +1791,8 @@
       "lat": 57.1442407,
       "lon": -2.1064433,
       "building_number": "269",
-      "postcode": "AB11 6BR"
+      "postcode": "AB11 6BR",
+      "note": null
     }
   ],
   [
@@ -1648,7 +1805,8 @@
       "lat": 57.1443115,
       "lon": -2.1063389,
       "building_number": "267",
-      "postcode": "AB11 6BR"
+      "postcode": "AB11 6BR",
+      "note": null
     }
   ],
   [
@@ -1661,20 +1819,22 @@
       "lat": 57.1443218,
       "lon": -2.1062569,
       "building_number": "265",
-      "postcode": "AB11 6BR"
+      "postcode": "AB11 6BR",
+      "note": null
     }
   ],
   [
     {
       "id": 9106209428,
       "name": "sk:n",
-      "timestamp": "2021-09-19T21:14:51Z",
-      "version": 1,
+      "timestamp": "2021-11-03T22:47:17Z",
+      "version": 2,
       "amenity": "clinic",
       "lat": 57.1443862,
       "lon": -2.1060082,
       "building_number": "261",
-      "postcode": "AB11 6BR"
+      "postcode": "AB11 6BR",
+      "note": null
     }
   ],
   [
@@ -1687,7 +1847,8 @@
       "lat": 57.1444722,
       "lon": -2.1057749,
       "building_number": "255",
-      "postcode": "AB11 6BR"
+      "postcode": "AB11 6BR",
+      "note": null
     }
   ],
   [
@@ -1700,7 +1861,8 @@
       "lat": 57.1444757,
       "lon": -2.1056896,
       "building_number": "253",
-      "postcode": "AB11 6BR"
+      "postcode": "AB11 6BR",
+      "note": null
     }
   ],
   [
@@ -1713,7 +1875,8 @@
       "lat": 57.1445354,
       "lon": -2.1054509,
       "building_number": "247",
-      "postcode": "AB11 6BR"
+      "postcode": "AB11 6BR",
+      "note": null
     }
   ],
   [
@@ -1726,33 +1889,36 @@
       "lat": 57.1446555,
       "lon": -2.105132,
       "building_number": "231A",
-      "postcode": "AB11 6BQ"
+      "postcode": "AB11 6BQ",
+      "note": null
     }
   ],
   [
     {
       "id": 9106209440,
       "name": "Friends 21 Unisex Hair and Beauty Salon",
-      "timestamp": "2021-09-19T21:14:51Z",
-      "version": 1,
+      "timestamp": "2021-09-21T21:35:05Z",
+      "version": 2,
       "amenity": null,
-      "lat": 57.1448009,
-      "lon": -2.1045363,
+      "lat": 57.1448093,
+      "lon": -2.1045008,
       "building_number": "219",
-      "postcode": "AB11 6BA"
+      "postcode": "AB11 6BA",
+      "note": null
     }
   ],
   [
     {
       "id": 9106209441,
       "name": "Silvan Repair Centre",
-      "timestamp": "2021-09-19T21:14:51Z",
-      "version": 1,
+      "timestamp": "2023-04-07T13:05:31Z",
+      "version": 3,
       "amenity": null,
-      "lat": 57.144822,
-      "lon": -2.1044545,
+      "lat": 57.1448304,
+      "lon": -2.104419,
       "building_number": "215",
-      "postcode": "AB11 6BA"
+      "postcode": "AB11 6BA",
+      "note": null
     }
   ],
   [
@@ -1765,7 +1931,8 @@
       "lat": 57.1436252,
       "lon": -2.1087447,
       "building_number": "399",
-      "postcode": "AB11 6BX"
+      "postcode": "AB11 6BX",
+      "note": null
     }
   ],
   [
@@ -1778,20 +1945,22 @@
       "lat": 57.1436841,
       "lon": -2.1086139,
       "building_number": "393",
-      "postcode": "AB11 6BX"
+      "postcode": "AB11 6BX",
+      "note": null
     }
   ],
   [
     {
       "id": 9108652072,
       "name": "Charles Michies Pharmacy",
-      "timestamp": "2021-09-20T19:41:08Z",
-      "version": 1,
+      "timestamp": "2021-10-10T00:58:48Z",
+      "version": 2,
       "amenity": "pharmacy",
       "lat": 57.1437008,
       "lon": -2.1084563,
       "building_number": "391",
-      "postcode": "AB11 6BX"
+      "postcode": "AB11 6BX",
+      "note": null
     }
   ],
   [
@@ -1804,7 +1973,8 @@
       "lat": 57.1437387,
       "lon": -2.1084162,
       "building_number": "387",
-      "postcode": "AB11 6BX"
+      "postcode": "AB11 6BX",
+      "note": null
     }
   ],
   [
@@ -1817,7 +1987,8 @@
       "lat": 57.1437492,
       "lon": -2.1082894,
       "building_number": "381",
-      "postcode": "AB11 6BT"
+      "postcode": "AB11 6BT",
+      "note": null
     }
   ],
   [
@@ -1830,7 +2001,8 @@
       "lat": 57.1438179,
       "lon": -2.1081271,
       "building_number": "375",
-      "postcode": "AB11 6BT"
+      "postcode": "AB11 6BT",
+      "note": null
     }
   ],
   [
@@ -1843,7 +2015,8 @@
       "lat": 57.1438158,
       "lon": -2.108052,
       "building_number": "373",
-      "postcode": "AB11 6BT"
+      "postcode": "AB11 6BT",
+      "note": null
     },
     {
       "id": 9108652076,
@@ -1854,46 +2027,50 @@
       "lat": 57.1438158,
       "lon": -2.108052,
       "building_number": "373",
-      "postcode": "AB11 6BT"
+      "postcode": "AB11 6BT",
+      "note": null
     }
   ],
   [
     {
       "id": 9108652077,
       "name": "Wild Ginger",
-      "timestamp": "2021-09-20T19:41:08Z",
-      "version": 1,
+      "timestamp": "2022-06-09T19:20:06Z",
+      "version": 3,
       "amenity": "restaurant",
       "lat": 57.1438645,
       "lon": -2.107887,
       "building_number": "367",
-      "postcode": "AB11 6BT"
+      "postcode": "AB11 6BT",
+      "note": null
     }
   ],
   [
     {
       "id": 9108652079,
       "name": "The Howff",
-      "timestamp": "2021-09-20T19:41:08Z",
-      "version": 1,
+      "timestamp": "2022-06-09T19:20:06Z",
+      "version": 3,
       "amenity": "bar",
       "lat": 57.1438845,
       "lon": -2.1077972,
-      "building_number": null,
-      "postcode": "AB11 6BT"
+      "building_number": "365",
+      "postcode": "AB11 6BT",
+      "note": null
     }
   ],
   [
     {
       "id": 9111989527,
       "name": "Frontier International",
-      "timestamp": "2021-09-21T21:35:05Z",
-      "version": 1,
+      "timestamp": "2023-07-02T09:54:05Z",
+      "version": 3,
       "amenity": null,
       "lat": 57.1429001,
       "lon": -2.1113846,
       "building_number": "499",
-      "postcode": "AB11 6DB"
+      "postcode": "AB11 6DB",
+      "note": null
     }
   ],
   [
@@ -1906,44 +2083,48 @@
       "lat": 57.1428692,
       "lon": -2.1114068,
       "building_number": "499",
-      "postcode": "AB11 6DB"
+      "postcode": "AB11 6DB",
+      "note": "Not sure how to tag this company. Check company website to learn more about them."
     },
     {
       "id": 9111989528,
       "name": "SR2 Communications Limited",
-      "timestamp": "2023-06-18T13:39:54Z",
-      "version": 2,
+      "timestamp": "2023-06-18T15:45:45Z",
+      "version": 3,
       "amenity": null,
       "lat": 57.1428692,
       "lon": -2.1114068,
       "building_number": "499",
-      "postcode": "AB11 6DB"
+      "postcode": "AB11 6DB",
+      "note": null
     }
   ],
   [
     {
       "id": 9111989529,
       "name": "Reed Recruitment Agency",
-      "timestamp": "2021-09-21T21:35:05Z",
-      "version": 1,
+      "timestamp": "2023-06-18T13:39:54Z",
+      "version": 2,
       "amenity": null,
       "lat": 57.1428826,
       "lon": -2.1114618,
       "building_number": "499",
-      "postcode": "AB11 6DB"
+      "postcode": "AB11 6DB",
+      "note": null
     }
   ],
   [
     {
       "id": 9111989530,
       "name": "AVENUE",
-      "timestamp": "2021-09-21T21:35:05Z",
-      "version": 1,
+      "timestamp": "2023-07-02T10:27:37Z",
+      "version": 4,
       "amenity": null,
-      "lat": 57.1429503,
-      "lon": -2.1113116,
+      "lat": 57.1429492,
+      "lon": -2.1113547,
       "building_number": null,
-      "postcode": "AB10 1QS"
+      "postcode": "AB10 1QS",
+      "note": null
     }
   ],
   [
@@ -1956,33 +2137,36 @@
       "lat": 57.1449599,
       "lon": -2.1057678,
       "building_number": "206",
-      "postcode": "AB10 1QS"
+      "postcode": "AB10 1QS",
+      "note": null
     }
   ],
   [
     {
       "id": 9111989546,
       "name": null,
-      "timestamp": "2021-09-21T21:35:05Z",
-      "version": 1,
+      "timestamp": "2023-07-02T10:27:37Z",
+      "version": 3,
       "amenity": null,
       "lat": 57.1429495,
       "lon": -2.1114138,
       "building_number": "499",
-      "postcode": "AB11 6DB"
+      "postcode": "AB11 6DB",
+      "note": null
     }
   ],
   [
     {
       "id": 9111989547,
       "name": null,
-      "timestamp": "2021-09-21T21:35:05Z",
-      "version": 1,
+      "timestamp": "2023-07-02T10:27:37Z",
+      "version": 3,
       "amenity": null,
-      "lat": 57.1429791,
-      "lon": -2.1113025,
+      "lat": 57.1429851,
+      "lon": -2.111279,
       "building_number": "491",
-      "postcode": "AB11 6DB"
+      "postcode": "AB11 6DB",
+      "note": null
     }
   ],
   [
@@ -1995,7 +2179,8 @@
       "lat": 57.1430196,
       "lon": -2.1111525,
       "building_number": "489",
-      "postcode": "AB11 6DB"
+      "postcode": "AB11 6DB",
+      "note": null
     }
   ],
   [
@@ -2008,7 +2193,8 @@
       "lat": 57.1431677,
       "lon": -2.110608,
       "building_number": null,
-      "postcode": null
+      "postcode": null,
+      "note": null
     }
   ],
   [
@@ -2021,7 +2207,8 @@
       "lat": 57.1432799,
       "lon": -2.1101072,
       "building_number": "441",
-      "postcode": "AB11 6DA"
+      "postcode": "AB11 6DA",
+      "note": null
     }
   ],
   [
@@ -2034,7 +2221,8 @@
       "lat": 57.1432881,
       "lon": -2.1101577,
       "building_number": "443",
-      "postcode": "AB11 6DA"
+      "postcode": "AB11 6DA",
+      "note": null
     }
   ],
   [
@@ -2047,7 +2235,8 @@
       "lat": 57.1433559,
       "lon": -2.1098202,
       "building_number": "429",
-      "postcode": "AB11 6DA"
+      "postcode": "AB11 6DA",
+      "note": null
     }
   ],
   [
@@ -2060,46 +2249,50 @@
       "lat": 57.1434375,
       "lon": -2.1096098,
       "building_number": "421",
-      "postcode": "AB11 6DA"
+      "postcode": "AB11 6DA",
+      "note": null
     }
   ],
   [
     {
       "id": 9111989555,
       "name": null,
-      "timestamp": "2021-09-21T21:35:05Z",
-      "version": 1,
+      "timestamp": "2022-06-06T20:43:49Z",
+      "version": 2,
       "amenity": null,
-      "lat": 57.143542,
-      "lon": -2.1092206,
+      "lat": 57.1435423,
+      "lon": -2.1092209,
       "building_number": "407",
-      "postcode": "AB11 6DA"
+      "postcode": "AB11 6DA",
+      "note": null
     }
   ],
   [
     {
       "id": 9180783768,
       "name": "The Esslemont",
-      "timestamp": "2021-10-18T16:53:54Z",
-      "version": 1,
+      "timestamp": "2023-09-09T21:28:10Z",
+      "version": 3,
       "amenity": "restaurant",
-      "lat": 57.1474775,
-      "lon": -2.0960551,
-      "building_number": null,
-      "postcode": null
+      "lat": 57.1474796,
+      "lon": -2.0960011,
+      "building_number": "38",
+      "postcode": "AB10 1BD",
+      "note": null
     }
   ],
   [
     {
       "id": 9180783769,
       "name": "City News Convenience",
-      "timestamp": "2021-10-18T16:53:54Z",
-      "version": 1,
+      "timestamp": "2023-08-20T16:45:35Z",
+      "version": 4,
       "amenity": null,
-      "lat": 57.1472906,
-      "lon": -2.0955829,
-      "building_number": null,
-      "postcode": null
+      "lat": 57.1472238,
+      "lon": -2.0955991,
+      "building_number": "37",
+      "postcode": null,
+      "note": null
     }
   ],
   [
@@ -2112,44 +2305,48 @@
       "lat": 57.1470838,
       "lon": -2.0963779,
       "building_number": null,
-      "postcode": null
+      "postcode": null,
+      "note": null
     },
     {
       "id": 9180783770,
       "name": "VPZ",
-      "timestamp": "2023-06-24T22:22:48Z",
-      "version": 2,
+      "timestamp": "2023-08-20T16:45:35Z",
+      "version": 4,
       "amenity": null,
-      "lat": 57.1470838,
-      "lon": -2.0963779,
-      "building_number": null,
-      "postcode": null
+      "lat": 57.1470337,
+      "lon": -2.0962956,
+      "building_number": "51",
+      "postcode": "AB11 5BJ",
+      "note": null
     }
   ],
   [
     {
       "id": 9180783771,
       "name": "Paddy Power",
-      "timestamp": "2021-10-18T16:53:54Z",
-      "version": 1,
+      "timestamp": "2023-08-20T16:45:35Z",
+      "version": 4,
       "amenity": null,
-      "lat": 57.1470448,
-      "lon": -2.0964789,
-      "building_number": null,
-      "postcode": null
+      "lat": 57.1469993,
+      "lon": -2.0964216,
+      "building_number": "53",
+      "postcode": "AB11 5BJ",
+      "note": null
     }
   ],
   [
     {
       "id": 9222461317,
       "name": "Mac's Pizzeria",
-      "timestamp": "2021-11-03T22:47:17Z",
-      "version": 1,
+      "timestamp": "2023-09-09T21:28:10Z",
+      "version": 2,
       "amenity": "restaurant",
-      "lat": 57.147516,
-      "lon": -2.0959486,
-      "building_number": null,
-      "postcode": null
+      "lat": 57.1475648,
+      "lon": -2.0960705,
+      "building_number": "38",
+      "postcode": "AB10 1BD",
+      "note": null
     }
   ],
   [
@@ -2162,83 +2359,90 @@
       "lat": 57.1429492,
       "lon": -2.1113163,
       "building_number": "491",
-      "postcode": "AB11 6DB"
+      "postcode": "AB11 6DB",
+      "note": "FHRS data is shared with Bardots"
     },
     {
       "id": 9584818414,
       "name": "491 Union Street",
-      "timestamp": "2023-07-02T09:54:05Z",
-      "version": 2,
+      "timestamp": "2023-07-02T10:27:37Z",
+      "version": 3,
       "amenity": "nightclub",
-      "lat": 57.1429492,
-      "lon": -2.1113163,
+      "lat": 57.1429385,
+      "lon": -2.1112526,
       "building_number": "491",
-      "postcode": "AB11 6DB"
+      "postcode": "AB11 6DB",
+      "note": "FHRS data is shared with Bardots"
     }
   ],
   [
     {
       "id": 9589945122,
       "name": "Geek Retreat",
-      "timestamp": "2022-03-19T13:19:44Z",
-      "version": 1,
+      "timestamp": "2023-07-30T13:06:35Z",
+      "version": 3,
       "amenity": null,
       "lat": 57.1452753,
       "lon": -2.1028267,
       "building_number": "177",
-      "postcode": "AB11 6BB"
+      "postcode": "AB11 6BB",
+      "note": null
     }
   ],
   [
     {
       "id": 9678624315,
       "name": "Nationwide",
-      "timestamp": "2022-04-19T23:39:47Z",
-      "version": 1,
+      "timestamp": "2023-09-04T19:04:51Z",
+      "version": 3,
       "amenity": "bank",
-      "lat": 57.1459991,
-      "lon": -2.1000839,
+      "lat": 57.1459936,
+      "lon": -2.1000506,
       "building_number": "133-141",
-      "postcode": "AB11 6BH"
+      "postcode": "AB11 6BH",
+      "note": null
     }
   ],
   [
     {
       "id": 9705588442,
       "name": "Adept Solutions",
-      "timestamp": "2022-04-30T17:12:43Z",
-      "version": 1,
+      "timestamp": "2023-07-17T15:16:42Z",
+      "version": 2,
       "amenity": null,
-      "lat": 57.1430111,
-      "lon": -2.1101877,
+      "lat": 57.1429904,
+      "lon": -2.1102751,
       "building_number": "455",
-      "postcode": "AB11 6DB"
+      "postcode": "AB11 6DB",
+      "note": null
     }
   ],
   [
     {
       "id": 10984016174,
       "name": null,
-      "timestamp": "2023-06-18T13:39:54Z",
-      "version": 1,
+      "timestamp": "2023-07-02T10:27:37Z",
+      "version": 3,
       "amenity": null,
       "lat": 57.1425918,
       "lon": -2.1111453,
-      "building_number": "499",
-      "postcode": "AB11 6DB"
+      "building_number": "499;501",
+      "postcode": "AB11 6DB",
+      "note": null
     }
   ],
   [
     {
       "id": 10984370340,
       "name": null,
-      "timestamp": "2023-06-18T15:45:45Z",
-      "version": 1,
+      "timestamp": "2023-07-02T10:27:37Z",
+      "version": 2,
       "amenity": null,
-      "lat": 57.1429252,
-      "lon": -2.111505,
+      "lat": 57.1429255,
+      "lon": -2.1115053,
       "building_number": "501",
-      "postcode": "AB11 6DB"
+      "postcode": "AB11 6DB",
+      "note": null
     }
   ],
   [
@@ -2251,7 +2455,8 @@
       "lat": 57.1429726,
       "lon": -2.1113262,
       "building_number": null,
-      "postcode": "AB11 6DB"
+      "postcode": "AB11 6DB",
+      "note": null
     }
   ],
   [
@@ -2264,7 +2469,8 @@
       "lat": 57.1429609,
       "lon": -2.1113703,
       "building_number": null,
-      "postcode": "AB11 6DB"
+      "postcode": "AB11 6DB",
+      "note": null
     }
   ],
   [
@@ -2277,7 +2483,8 @@
       "lat": 57.1430423,
       "lon": -2.1100764,
       "building_number": "455",
-      "postcode": "AB11 6DB"
+      "postcode": "AB11 6DB",
+      "note": null
     }
   ],
   [
@@ -2290,7 +2497,8 @@
       "lat": 57.1461067,
       "lon": -2.0998503,
       "building_number": null,
-      "postcode": null
+      "postcode": null,
+      "note": null
     },
     {
       "id": 11110519662,
@@ -2301,46 +2509,50 @@
       "lat": 57.1460957,
       "lon": -2.099758,
       "building_number": "131",
-      "postcode": "AB11 6BH"
+      "postcode": "AB11 6BH",
+      "note": null
     }
   ],
   [
     {
       "id": 11110519663,
       "name": null,
-      "timestamp": "2023-08-12T20:35:12Z",
-      "version": 1,
+      "timestamp": "2023-09-03T20:51:25Z",
+      "version": 2,
       "amenity": null,
-      "lat": 57.1461315,
-      "lon": -2.0997512,
-      "building_number": null,
-      "postcode": null
+      "lat": 57.1461358,
+      "lon": -2.0996095,
+      "building_number": "127",
+      "postcode": "AB11 6BH",
+      "note": null
     }
   ],
   [
     {
       "id": 11110519665,
       "name": null,
-      "timestamp": "2023-08-12T20:35:12Z",
-      "version": 1,
+      "timestamp": "2023-09-03T21:05:14Z",
+      "version": 3,
       "amenity": null,
-      "lat": 57.1462316,
-      "lon": -2.0994081,
-      "building_number": null,
-      "postcode": null
+      "lat": 57.1462289,
+      "lon": -2.0992647,
+      "building_number": "121",
+      "postcode": "AB11 6BH",
+      "note": null
     }
   ],
   [
     {
       "id": 11132012321,
       "name": "Annie Mo's",
-      "timestamp": "2023-08-20T13:58:10Z",
-      "version": 1,
+      "timestamp": "2023-08-20T16:45:35Z",
+      "version": 2,
       "amenity": null,
-      "lat": 57.1472163,
-      "lon": -2.0957338,
+      "lat": 57.1471935,
+      "lon": -2.0957099,
       "building_number": "39",
-      "postcode": "AB11 5BN"
+      "postcode": "AB11 5BN",
+      "note": null
     }
   ],
   [
@@ -2353,46 +2565,50 @@
       "lat": 57.1469316,
       "lon": -2.0966697,
       "building_number": "57",
-      "postcode": "AB11 5BJ"
+      "postcode": "AB11 5BJ",
+      "note": null
     }
   ],
   [
     {
       "id": 11143918498,
       "name": null,
-      "timestamp": "2023-08-25T13:24:37Z",
-      "version": 1,
+      "timestamp": "2023-08-25T13:28:14Z",
+      "version": 2,
       "amenity": null,
-      "lat": 57.1463497,
-      "lon": -2.0999174,
+      "lat": 57.1463464,
+      "lon": -2.0999235,
       "building_number": "118",
-      "postcode": "AB10 1JJ"
+      "postcode": "AB10 1JJ",
+      "note": null
     }
   ],
   [
     {
       "id": 11143918499,
       "name": "Beaverbrooks",
-      "timestamp": "2023-08-25T13:24:37Z",
-      "version": 1,
+      "timestamp": "2023-08-25T13:28:14Z",
+      "version": 2,
       "amenity": null,
-      "lat": 57.1463882,
-      "lon": -2.0998855,
+      "lat": 57.1464023,
+      "lon": -2.0998916,
       "building_number": "114-1166",
-      "postcode": "AB10 1JJ"
+      "postcode": "AB10 1JJ",
+      "note": null
     }
   ],
   [
     {
       "id": 11143918500,
       "name": "Arcadia Bar and Games",
-      "timestamp": "2023-08-25T13:24:37Z",
-      "version": 1,
+      "timestamp": "2023-08-25T13:28:14Z",
+      "version": 2,
       "amenity": "bar",
-      "lat": 57.1463219,
-      "lon": -2.1000209,
+      "lat": 57.1463773,
+      "lon": -2.1000514,
       "building_number": "120",
-      "postcode": "AB10 1JJ"
+      "postcode": "AB10 1JJ",
+      "note": null
     }
   ],
   [
@@ -2405,7 +2621,8 @@
       "lat": 57.1461801,
       "lon": -2.1005488,
       "building_number": "132",
-      "postcode": "AB10 1JJ"
+      "postcode": "AB10 1JJ",
+      "note": null
     }
   ],
   [
@@ -2418,7 +2635,8 @@
       "lat": 57.1463507,
       "lon": -2.0988137,
       "building_number": "107",
-      "postcode": "AB11 6BH"
+      "postcode": "AB11 6BH",
+      "note": null
     }
   ],
   [
@@ -2431,7 +2649,8 @@
       "lat": 57.146075,
       "lon": -2.0996409,
       "building_number": "129",
-      "postcode": "AB11 6BH"
+      "postcode": "AB11 6BH",
+      "note": null
     }
   ],
   [
@@ -2444,7 +2663,8 @@
       "lat": 57.1448701,
       "lon": -2.1054552,
       "building_number": "206A",
-      "postcode": "AB10 1QS"
+      "postcode": "AB10 1QS",
+      "note": null
     }
   ],
   [
@@ -2457,7 +2677,8 @@
       "lat": 57.1458659,
       "lon": -2.1005339,
       "building_number": "143-149",
-      "postcode": "AB11 6BH"
+      "postcode": "AB11 6BH",
+      "note": null
     }
   ],
   [
@@ -2470,7 +2691,8 @@
       "lat": 57.1459327,
       "lon": -2.100281,
       "building_number": "141",
-      "postcode": "AB11 6BH"
+      "postcode": "AB11 6BH",
+      "note": null
     }
   ],
   [
@@ -2483,7 +2705,8 @@
       "lat": 57.1473111,
       "lon": -2.0965876,
       "building_number": "48",
-      "postcode": "AB10 1BB"
+      "postcode": "AB10 1BB",
+      "note": null
     }
   ],
   [
@@ -2496,20 +2719,22 @@
       "lat": 57.147274,
       "lon": -2.096732,
       "building_number": "50",
-      "postcode": "AB10 1BB"
+      "postcode": "AB10 1BB",
+      "note": null
     }
   ],
   [
     {
       "id": 11181858059,
       "name": "Pro Mobile",
-      "timestamp": "2023-09-10T19:52:30Z",
-      "version": 1,
+      "timestamp": "2023-09-11T12:56:50Z",
+      "version": 2,
       "amenity": null,
       "lat": 57.1468862,
       "lon": -2.098147,
       "building_number": "82",
-      "postcode": "Ab10 1JL"
+      "postcode": "AB10 1JL",
+      "note": null
     }
   ],
   [
@@ -2522,7 +2747,8 @@
       "lat": 57.1467226,
       "lon": -2.098739,
       "building_number": "100",
-      "postcode": "AB10 1JL"
+      "postcode": "AB10 1JL",
+      "note": null
     }
   ],
   [
@@ -2535,7 +2761,8 @@
       "lat": 57.1468382,
       "lon": -2.0983206,
       "building_number": "88",
-      "postcode": "AB10 1JL"
+      "postcode": "AB10 1JL",
+      "note": null
     }
   ],
   [
@@ -2548,7 +2775,8 @@
       "lat": 57.1468126,
       "lon": -2.0984135,
       "building_number": "92",
-      "postcode": "AB10 1JL"
+      "postcode": "AB10 1JL",
+      "note": null
     }
   ],
   [
@@ -2561,7 +2789,8 @@
       "lat": 57.1467733,
       "lon": -2.0985556,
       "building_number": "98",
-      "postcode": "AB10 1JL"
+      "postcode": "AB10 1JL",
+      "note": null
     }
   ],
   [
@@ -2574,7 +2803,8 @@
       "lat": 57.1466751,
       "lon": -2.0989107,
       "building_number": "104",
-      "postcode": "AB10 1JL"
+      "postcode": "AB10 1JL",
+      "note": null
     },
     {
       "id": 11181858064,
@@ -2585,7 +2815,8 @@
       "lat": 57.1466751,
       "lon": -2.0989107,
       "building_number": "104",
-      "postcode": "AB10 1JL"
+      "postcode": "AB10 1JL",
+      "note": null
     }
   ]
 ]

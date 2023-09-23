@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Building History</title>
+    <style>
+        /* Center the content vertically and horizontally */
+        html, body {
+            height: 100%;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        /* Set the map container to 75% of the screen */
+        #map-container {
+            width: 75%;
+            max-width: 800px; /* Set a maximum width if needed */
+            height: 50vh; /* Set the height to 50% of the viewport height */
+            border: 1px solid #ccc;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        }
+
+        /* Center the drop-down box */
+        #building-select {
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <h1>Building History</h1>
+
+    <!-- Add a searchable drop-down box for building selection -->
+    <label for="building-select">Select a Building:</label>
+    <select id="building-select"></select>
+
+    <!-- Map container -->
+    <div id="map-container">
+        <div id="map"></div>
+    </div>
+
+    <script>
+        // Function to fetch JSON data from the URL
+        async function fetchBuildingData() {
+            try {
+                const response = await fetch("https://raw.githubusercontent.com/CodeTheCity/Moderdeen/main/History/combined_data.json");
+                const data = await response.json();
+                return data;
+            } catch (error) {
+                console.error("Error fetching data:", error);
+            }
+        }
+
+        // Function to initialize the map
+        function initMap(buildingData) {
+            // Create a map centered at a default location
+            const map = L.map('map').setView([57.1430036, -2.1119763], 15);
+
+            // Add OpenStreetMap tiles to the map
+            L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+                attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+            }).addTo(map);
+
+            // Specify the URLs for marker icons
+            const iconUrl = 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/images/marker-icon.png';
+            const shadowUrl = 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/images/marker-shadow.png';
+
+            // Create a custom icon using the specified URLs
+            const customIcon = L.icon({
+                iconUrl: iconUrl,
+                iconSize: [25, 41],
+                iconAnchor: [12, 41],
+                popupAnchor: [1, -34],
+                shadowUrl: shadowUrl,
+                shadowSize: [41, 41]
+            });
+
+            // Add a marker for the selected building's location with the custom icon
+            L.marker([buildingData.lat, buildingData.lon], { icon: customIcon })
+                .addTo(map)
+                .bindPopup(buildingData.name)
+                .openPopup();
+        }
+
+        // Function to populate the drop-down box with building names
+        async function populateBuildingDropdown() {
+            const data = await fetchBuildingData();
+            const buildingSelect = document.getElementById("building-select");
+
+            data.forEach(subarray => {
+                subarray.forEach(entry => {
+                    const option = document.createElement("option");
+                    option.value = entry.id;
+                    option.textContent = entry.name;
+                    buildingSelect.appendChild(option);
+                });
+            });
+
+            // Add an event listener to the drop-down box to update the map
+            buildingSelect.addEventListener("change", async () => {
+                const selectedBuildingId = buildingSelect.value;
+                const selectedBuilding = data.flat().find(entry => entry.id === Number(selectedBuildingId));
+
+                if (selectedBuilding) {
+                    // Clear the existing map
+                    document.getElementById("map").innerHTML = "";
+
+                    // Initialize the map with the selected building's data
+                    initMap(selectedBuilding);
+                }
+            });
+        }
+
+        // Call the function to populate the drop-down box
+        populateBuildingDropdown();
+    </script>
+
+    <!-- Include Leaflet.js library for OpenStreetMap -->
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+</body>
+</html>
