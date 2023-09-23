@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Store Locations</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+</head>
+
+<body>
+    <div id="map" style="height: 500px;"></div>
+    <div>
+        <h2>Select Locations to Plot</h2>
+        <form id="locationForm">
+            <!-- Checkbox inputs will be dynamically added here -->
+        </form>
+        <button type="button" onclick="plotSelectedLocations()">Plot Selected Locations</button>
+    </div>
+
+    <script>
+        var map = L.map('map').setView([57.1459838, -2.0978495], 13);
+
+        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+        }).addTo(map);
+
+        var geojsonLayer;
+
+        // Read the GeoJSON file and add markers to the map
+        fetch('export.geojson')
+            .then(response => response.json())
+            .then(data => {
+                geojsonLayer = L.geoJSON(data.features).addTo(map);
+
+                // Create checkboxes for each location
+                var locationForm = document.getElementById('locationForm');
+                data.features.forEach(feature => {
+                    if (feature.properties && feature.properties.name) {
+                        var checkbox = document.createElement('input');
+                        checkbox.type = 'checkbox';
+                        checkbox.name = 'location';
+                        checkbox.value = JSON.stringify(feature.geometry.coordinates);
+                        checkbox.id = 'location-' + feature.properties['@id'];
+
+                        var label = document.createElement('label');
+                        label.htmlFor = checkbox.id;
+                        label.appendChild(document.createTextNode(feature.properties.name));
+
+                        var br = document.createElement('br');
+
+                        locationForm.appendChild(checkbox);
+                        locationForm.appendChild(label);
+                        locationForm.appendChild(br);
+                    }
+                });
+            });
+
+
+        function plotSelectedLocations() {
+            // Get selected checkboxes
+            var selectedCheckboxes = document.querySelectorAll('input[name="location"]:checked');
+
+            // Create a GeoJSON feature collection for selected locations
+            var selectedFeatures = [];
+            selectedCheckboxes.forEach(function (checkbox) {
+                var coordinates = JSON.parse(checkbox.value);
+                selectedFeatures.push({
+                    type: 'Feature',
+                    geometry: {
+                        type: 'Point',
+                        coordinates: coordinates
+                    }
+                });
+            });
+
+            // Create a GeoJSON layer for selected locations and add it to the map
+            if (selectedFeatures.length > 0) {
+                if (map.hasLayer(geojsonLayer)) {
+                    map.removeLayer(geojsonLayer);
+                }
+                geojsonLayer = L.geoJSON(selectedFeatures).addTo(map);
+            }
+        }
+    </script>
+</body>
+
+</html>
