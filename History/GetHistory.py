@@ -1,11 +1,12 @@
 import json
 import requests
+import DataRefiner as DR
 
 # Initialize an empty list to store the @id values
 id_list = []
 
 # Specify the path to your export.geojson file
-geojson_file_path = 'export.geojson'
+geojson_file_path = 'ListOfNodes.geojson'
 print("Started getting IDs")
 try:
     # Open and read the GeoJSON file
@@ -37,10 +38,16 @@ for id_value in id_list:
     response = requests.get(url)
     if response.status_code == 200:
         data = response.json()
+        data = DR.refine(data)
+
         combined_data.append(data)
         print(f"Got json for {id_value}")
     else:
         print(f"Failed to fetch data for {id_value}")
+
+
+
+
 # Write the combined JSON data to a file
 output_file_path = 'combined_data.json'
 with open(output_file_path, 'w') as output_file:

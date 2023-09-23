@@ -9,4 +9,11 @@ Radius of the seach was 700m, the cordinates are 57.1445 and -2.0967
 );
 out;
 
-To get more uptodate data run GettingVersionData.py
+To get more uptodate data run GetHistory.py and run
+node
+  ["addr:street"="Union Street"]
+  ["addr:city"="Aberdeen"]
+  ;
+out;
+ in https://overpass-turbo.eu/ and export as a geojson and rename to ListOfNodes.geojson
+ 
