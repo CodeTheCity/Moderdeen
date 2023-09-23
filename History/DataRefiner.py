@@ -58,10 +58,10 @@ def extract_data(json_data):
                     "lon": lon,
                     "building_number": (
                         building_number if building_number is not None else existing_item["building_number"]
-                    ),
+                    ) if building_number is not None else "Unknown",  # Turn into "Unknown" if null
                     "postcode": (
                         postcode if postcode is not None else existing_item["postcode"]
-                    ),
+                    ) if postcode is not None else "Unknown",  # Turn into "Unknown" if null
                     "note": element.get("tags").get("note", "N/A"),  # Add the "note" field
                 }
         else:
@@ -74,8 +74,8 @@ def extract_data(json_data):
                 "amenity": amenity,
                 "lat": lat,
                 "lon": lon,
-                "building_number": building_number,
-                "postcode": postcode,
+                "building_number": building_number if building_number is not None else "Unknown",  # Turn into "Unknown" if null
+                "postcode": postcode if postcode is not None else "Unknown",  # Turn into "Unknown" if null
                 "note": element.get("tags").get("note", "N/A"),  # Include the "note" field
             }
 

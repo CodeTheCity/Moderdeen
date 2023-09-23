@@ -1,6 +1,6 @@
 CTC30 
 
-##
+## PubCrawler
 This gets all pubs on and around union street. to get more uptodate version run the code below on https://overpass-turbo.eu/ and export as a geojson and story into the PubCrawl dir and refresh the html.
 [out:json];
 (
@@ -16,7 +16,7 @@ out center;
 
 
 
-##
+## History
 To get more uptodate data run GetHistory.py and run
 node
   ["addr:street"="Union Street"]
@@ -27,3 +27,5 @@ out;
 
  run by cd in History the python GetHistory.py
  
+## Todo
+Mabye show img of stores
