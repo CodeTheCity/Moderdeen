@@ -2,7 +2,7 @@
   "type": "FeatureCollection",
   "generator": "overpass-ide",
   "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
-  "timestamp": "2023-09-23T10:16:45Z",
+  "timestamp": "2023-09-23T13:59:20Z",
   "features": [
     {
       "type": "Feature",
@@ -55,6 +55,160 @@
     {
       "type": "Feature",
       "properties": {
+        "@id": "way/314093681",
+        "addr:city": "Aberdeen",
+        "addr:housenumber": "7",
+        "addr:postcode": "AB10 1HF",
+        "addr:street": "St Nicholas Lane",
+        "amenity": "pub",
+        "brand": "Belhaven Pubs",
+        "brand:wikidata": "Q105516156",
+        "building": "yes",
+        "fhrs:authority": "Aberdeen City",
+        "fhrs:id": "593567",
+        "fhrs:local_authority_id": "EHDC9309",
+        "name": "Prince of Wales",
+        "operator": "Belhaven Pubs",
+        "source": "knowledge",
+        "source:addr": "fhrs",
+        "source:position": "knowledge;estimated",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.0983718,
+          57.1470599
+        ]
+      },
+      "id": "way/314093681"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/314692115",
+        "addr:city": "Aberdeen",
+        "addr:housenumber": "14-18",
+        "addr:postcode": "AB10 1JH",
+        "addr:street": "Belmont Street",
+        "amenity": "pub",
+        "building": "yes",
+        "contact:website": "http://www.eerie-pubs.co.uk/slains-castle",
+        "fhrs:authority": "Aberdeen City",
+        "fhrs:id": "867992",
+        "fhrs:local_authority_id": "EHDC11965",
+        "food": "yes",
+        "name": "Slains Castle",
+        "operator": "Stonegate",
+        "source": "knowledge",
+        "source:addr": "FHRS",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.1008565,
+          57.1466824
+        ]
+      },
+      "id": "way/314692115"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/314724910",
+        "addr:city": "Aberdeen",
+        "addr:postcode": "AB10 1JG",
+        "addr:street": "Little Belmont Street",
+        "amenity": "pub",
+        "brand": "Belhaven Pubs",
+        "brand:wikidata": "Q105516156",
+        "building": "commercial",
+        "contact:website": "http://www.oldschoolhouse-aberdeen.co.uk/",
+        "fhrs:authority": "Aberdeen City",
+        "fhrs:id": "593362",
+        "fhrs:local_authority_id": "EHDC8256",
+        "name": "The Old School House",
+        "operator": "Belhaven Pubs",
+        "source": "knowledge",
+        "source:addr": "FHRS",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.1009697,
+          57.1470549
+        ]
+      },
+      "id": "way/314724910"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/314725971",
+        "addr:city": "Aberdeen",
+        "addr:housenumber": "17-19",
+        "addr:postcode": "AB10 1JR",
+        "addr:street": "Belmont Street",
+        "amenity": "pub",
+        "brand": "Belhaven Pubs",
+        "brand:wikidata": "Q105516156",
+        "building": "yes",
+        "check_date": "2023-06-24",
+        "fhrs:authority": "Aberdeen City",
+        "fhrs:id": "592238",
+        "fhrs:local_authority_id": "EHDC10310",
+        "name": "Wild Boar",
+        "phone": "+44 1244 625357",
+        "smoking": "no",
+        "source": "survey",
+        "source:addr": "fhrs",
+        "source:shape": "bing-based NLS",
+        "website": "https://www.belhavenpubs.co.uk/pubs/aberdeenshire/wild-boar/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.1015968,
+          57.1466156
+        ]
+      },
+      "id": "way/314725971"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/404600165",
+        "addr:city": "Aberdeen",
+        "addr:housenumber": "9",
+        "addr:postcode": "AB10 1JN",
+        "addr:street": "Back Wynd",
+        "amenity": "pub",
+        "brand": "O'Neill's",
+        "brand:wikidata": "Q7071905",
+        "building": "yes",
+        "fhrs:authority": "Aberdeen City",
+        "fhrs:id": "592758",
+        "fhrs:local_authority_id": "EHDC2020",
+        "name": "O'Neill's",
+        "source:addr": "FHRS",
+        "source:shape": "bing-based NLS",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.1001652,
+          57.1468394
+        ]
+      },
+      "id": "way/404600165"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "@id": "node/595490589",
         "addr:city": "Aberdeen",
         "addr:postcode": "AB10 1JS",
@@ -81,54 +235,235 @@
     {
       "type": "Feature",
       "properties": {
-        "@id": "node/2315879396",
-        "addr:country": "GB",
-        "addr:housenumber": "31",
-        "addr:street": "Loch Street",
+        "@id": "way/636141920",
+        "addr:city": "Aberdeen",
+        "addr:housenumber": "57-59",
+        "addr:postcode": "AB10 1AU",
+        "addr:street": "Netherkirkgate",
         "amenity": "pub",
+        "building": "yes",
         "fhrs:authority": "Aberdeen City",
-        "fhrs:id": "1347586",
-        "fhrs:local_authority_id": "195",
-        "fixme": "Removed erroneous postcode \"AB25 1DD\".",
-        "name": "Balaclava Bar",
-        "source": "survey; bing",
+        "fhrs:id": "592888",
+        "fhrs:local_authority_id": "EHDC3111",
+        "name": "Frigate Bar",
+        "source:addr": "fhrs",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.0972304,
+          57.147321
+        ]
+      },
+      "id": "way/636141920"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/864934541",
+        "addr:city": "Aberdeen",
+        "addr:country": "GB",
+        "addr:housenumber": "67-69",
+        "addr:postcode": "AB25 1NR",
+        "addr:street": "Rosemount Viaduct",
+        "amenity": "pub",
+        "contact:facebook": "https://www.facebook.com/MasadaBar/",
+        "fhrs:authority": "Aberdeen City",
+        "fhrs:id": "1346913",
+        "fhrs:local_authority_id": "1270",
+        "name": "Masada Bar",
+        "note:source:addr": "these have same entry in fhrs",
         "source:addr": "fhrs"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -2.1010426,
-          57.1494144
+          -2.1092637,
+          57.148273
         ]
       },
-      "id": "node/2315879396"
+      "id": "node/864934541"
     },
     {
       "type": "Feature",
       "properties": {
-        "@id": "node/2468774598",
+        "@id": "way/923091891",
         "addr:city": "Aberdeen",
-        "addr:housenumber": "32",
-        "addr:postcode": "AB11 5BB",
-        "addr:street": "Castle Street",
-        "alt_name": "The Carlton",
+        "addr:housenumber": "17",
+        "addr:postcode": "AB25 1EB",
+        "addr:street": "Gallowgate",
         "amenity": "pub",
+        "brand": "BrewDog",
+        "brand:wikidata": "Q911367",
+        "brand:wikipedia": "en:BrewDog",
+        "building": "retail",
+        "check_date": "2023-06-24",
+        "fhrs:authority": "Aberdeen City",
+        "fhrs:id": "1347986",
+        "fhrs:local_authority_id": "316",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "name": "BrewDog Flagship",
+        "old_name": "The Marischal",
+        "smoking": "outside",
+        "source:addr": "fhrs",
+        "toilets:wheelchair": "no",
+        "website": "https://www.brewdog.com/bars/aberdeen",
+        "wheelchair": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.0978968,
+          57.1494578
+        ]
+      },
+      "id": "way/923091891"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/942350482",
+        "addr:city": "Aberdeen",
+        "addr:housenumber": "5",
+        "addr:postcode": "AB25 1UW",
+        "addr:street": "Gilcomston Steps",
+        "amenity": "pub",
+        "building": "yes",
+        "contact:website": "http://www.gilcomstonbar.co.uk/",
+        "fhrs:authority": "Aberdeen City",
+        "fhrs:id": "592458",
+        "fhrs:local_authority_id": "EHDC10896",
+        "fhrs:localauthoritybusinessID": "EHDC10896",
+        "name": "Gilcomston Bar",
+        "roof:shape": "gabled",
+        "source": "survey",
+        "source:addr": "fhrs",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.1071555,
+          57.1501489
+        ]
+      },
+      "id": "way/942350482"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1180776446",
+        "addr:city": "Aberdeen",
+        "addr:housenumber": "5-9",
+        "addr:postcode": "AB11 5BU",
+        "addr:street": "Union Street",
+        "addr:unit": "The Athenaeum",
+        "amenity": "pub",
+        "brand": "BrewDog",
+        "brand:wikidata": "Q911367",
+        "brand:wikipedia": "en:BrewDog",
+        "building": "yes",
         "check_date": "2023-06-23",
         "fhrs:authority": "Aberdeen City",
-        "fhrs:id": "592366",
-        "fhrs:local_authority_id": "EHDC10654",
-        "name": "Carlton Bar",
+        "fhrs:id": "1347987",
+        "fhrs:local_authority_id": "317",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "name": "BrewDog Castlegate",
+        "old_name": "TheAtheneum",
+        "website": "https://www.brewdog.com/bars/uk/castlegate",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.0944793,
+          57.1475567
+        ]
+      },
+      "id": "way/1180776446"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1201995100",
+        "addr:city": "Aberdeen",
+        "addr:housenumber": "1",
+        "addr:postcode": "AB10 1JN",
+        "addr:street": "Back Wynd",
+        "alt_name": "99 Bar & Kitchen",
+        "amenity": "pub",
+        "building": "yes",
+        "fhrs:authority": "Aberdeen City",
+        "fhrs:id": "696448",
+        "fhrs:local_authority_id": "EHDC11473",
+        "name": "Ninety-Nine Bar & Kitchen",
+        "source:addr": "FHRS",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.0999972,
+          57.1465196
+        ]
+      },
+      "id": "way/1201995100"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2315882329",
+        "addr:city": "Aberdeen",
+        "addr:housenumber": "43-49",
+        "addr:postcode": "AB25 1LN",
+        "addr:street": "John Street",
+        "amenity": "pub",
+        "fhrs:authority": "Aberdeen City",
+        "fhrs:id": "593477",
+        "fhrs:local_authority_id": "EHDC8898",
+        "name": "Coopers Bar",
+        "source": "survey",
+        "source:addr": "fhrs"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.103103,
+          57.1508776
+        ]
+      },
+      "id": "node/2315882329"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2466580235",
+        "addr:city": "Aberdeen",
+        "addr:housenumber": "31-36",
+        "addr:postcode": "AB25 1NQ",
+        "addr:street": "Rosemount Viaduct",
+        "amenity": "pub",
+        "contact:website": "http://www.nooseandmonkey.com/",
+        "fhrs:authority": "Aberdeen City",
+        "fhrs:id": "1347054",
+        "fhrs:local_authority_id": "1414",
+        "food": "yes",
+        "name": "Noose & Monkey",
         "source": "survey",
         "source:addr": "FHRS"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -2.0920459,
-          57.148166
+          -2.1079699,
+          57.1477906
         ]
       },
-      "id": "node/2468774598"
+      "id": "node/2466580235"
     },
     {
       "type": "Feature",
@@ -347,33 +682,6 @@
     {
       "type": "Feature",
       "properties": {
-        "@id": "node/2931618807",
-        "addr:city": "Aberdeen",
-        "addr:housenumber": "30",
-        "addr:postcode": "AB11 5AH",
-        "addr:street": "Regent Quay",
-        "amenity": "pub",
-        "fhrs:authority": "Aberdeen City",
-        "fhrs:id": "1347246",
-        "fhrs:local_authority_id": "1608",
-        "fhrs:localauthoritybusinessID": "EHDC1306",
-        "name": "Regent Bridge Bar",
-        "source": "survey",
-        "source:addr": "fhrs",
-        "source:position": "gps"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -2.092039,
-          57.1464108
-        ]
-      },
-      "id": "node/2931618807"
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "@id": "node/3200684765",
         "addr:city": "Aberdeen",
         "addr:country": "GB",
@@ -397,33 +705,6 @@
         ]
       },
       "id": "node/3200684765"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@id": "node/3201369768",
-        "addr:city": "Aberdeen",
-        "addr:country": "GB",
-        "addr:housenumber": "42-44",
-        "addr:postcode": "AB11 5PL",
-        "addr:street": "Market Street",
-        "amenity": "pub",
-        "check_date": "2023-06-24",
-        "fhrs:authority": "Aberdeen City",
-        "fhrs:id": "1347669",
-        "fhrs:local_authority_id": "2032",
-        "name": "Tipsy Cow",
-        "opening_hours": "Mo-Th 16:00-24:00; Fr 11:00-01:00; Su 11:00-24:00",
-        "phone": "+44 1224 588 773"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -2.0963162,
-          57.1457921
-        ]
-      },
-      "id": "node/3201369768"
     },
     {
       "type": "Feature",
@@ -485,58 +766,6 @@
     {
       "type": "Feature",
       "properties": {
-        "@id": "node/3201808275",
-        "addr:city": "Aberdeen",
-        "addr:housenumber": "9-11",
-        "addr:postcode": "AB11 6LN",
-        "addr:street": "Portland Street",
-        "alt_name": "The Hayloft",
-        "amenity": "pub",
-        "fhrs:authority": "Aberdeen City",
-        "fhrs:id": "1347673",
-        "fhrs:local_authority_id": "2039",
-        "name": "The Hayloft Bar",
-        "source": "survey",
-        "source:addr": "fhrs",
-        "source:alt_name": "fhrs"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -2.1003485,
-          57.1404089
-        ]
-      },
-      "id": "node/3201808275"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@id": "node/4128521691",
-        "addr:city": "Aberdeen",
-        "addr:housenumber": "97",
-        "addr:postcode": "AB24 5AB",
-        "addr:street": "King Street",
-        "amenity": "pub",
-        "fhrs:authority": "Aberdeen City",
-        "fhrs:id": "592868",
-        "fhrs:local_authority_id": "EHDC2939",
-        "name": "The Kings Bar",
-        "source": "survey",
-        "source:address": "fhrs"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -2.0941269,
-          57.150458
-        ]
-      },
-      "id": "node/4128521691"
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "@id": "node/6053271305",
         "addr:city": "Aberdeen",
         "addr:housenumber": "224",
@@ -562,148 +791,27 @@
     {
       "type": "Feature",
       "properties": {
-        "@id": "node/6483716216",
+        "@id": "node/6055343961",
         "addr:city": "Aberdeen",
-        "addr:housenumber": "55-56",
-        "addr:postcode": "AB11 5BA",
-        "addr:street": "Castle Street",
+        "addr:housenumber": "37",
+        "addr:postcode": "AB10 1SB",
+        "addr:street": "Summer Street",
         "amenity": "pub",
         "fhrs:authority": "Aberdeen City",
-        "fhrs:id": "592660",
-        "fhrs:local_authority_id": "EHDC11326",
-        "name": "The Wig"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -2.0937669,
-          57.1475648
-        ]
-      },
-      "id": "node/6483716216"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@id": "node/6719039533",
-        "addr:city": "Aberdeen",
-        "addr:postcode": "AB11 5RG",
-        "addr:street": "Union Square",
-        "addr:unit": "Unit Fs15 Upper Mall Union Square",
-        "amenity": "pub",
-        "brand": "BrewDog",
-        "brand:wikidata": "Q911367",
-        "brand:wikipedia": "en:BrewDog",
-        "fhrs:authority": "Aberdeen City",
-        "fhrs:id": "1131911",
-        "fhrs:local_authority_id": "EHDC12974",
-        "level": "1",
-        "name": "BrewDog",
+        "fhrs:id": "592179",
+        "fhrs:local_authority_id": "EHDC10188",
+        "name": "McNasty's",
+        "source": "survey (distant view)",
         "source:addr": "FHRS Open Data"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -2.0969169,
-          57.1432516
+          -2.1094123,
+          57.1448837
         ]
       },
-      "id": "node/6719039533"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@id": "node/9311545673",
-        "addr:city": "Aberdeen",
-        "addr:housenumber": "52",
-        "addr:postcode": "AB11 5BB",
-        "addr:street": "Castle Street",
-        "amenity": "pub",
-        "brand": "Belhaven Pubs",
-        "brand:wikidata": "Q105516156",
-        "check_date": "2023-06-23",
-        "fhrs:authority": "Aberdeen City",
-        "fhrs:id": "592916",
-        "fhrs:local_authority_id": "EHDC332",
-        "name": "Old Blackfriars",
-        "outdoor_seating": "yes",
-        "phone": "+44 1224 581922",
-        "smoking": "outside",
-        "website": "https://www.belhavenpubs.co.uk/pubs/aberdeenshire/old-blackfriars/",
-        "wheelchair": "limited"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -2.0932003,
-          57.1477792
-        ]
-      },
-      "id": "node/9311545673"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@id": "node/11164691154",
-        "amenity": "pub",
-        "name": "Scottish Embassy"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -2.0980474,
-          57.1452033
-        ]
-      },
-      "id": "node/11164691154"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@id": "node/11178978516",
-        "addr:city": "Aberdeen",
-        "addr:housenumber": "19",
-        "addr:postcode": "AB11 5BQ",
-        "addr:street": "Castle Street",
-        "amenity": "pub",
-        "building": "yes",
-        "fhrs:authority": "Aberdeen City",
-        "fhrs:id": "592784",
-        "fhrs:local_authority_id": "EHDC2225",
-        "name": "Castle Bar"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -2.092449,
-          57.1485616
-        ]
-      },
-      "id": "node/11178978516"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@id": "node/11178994842",
-        "addr:city": "Aberdeen",
-        "addr:housenumber": "17",
-        "addr:postcode": "AB11 5BQ",
-        "addr:street": "Castle Street",
-        "amenity": "pub",
-        "check_date": "2023-06-23",
-        "fhrs:authority": "Aberdeen City",
-        "fhrs:id": "592783",
-        "fhrs:local_authority_id": "EHDC2224",
-        "name": "Portals"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -2.092582,
-          57.1485261
-        ]
-      },
-      "id": "node/11178994842"
+      "id": "node/6055343961"
     }
   ]
 }
