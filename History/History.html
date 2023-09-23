@@ -11,6 +11,27 @@
     <select id="buildingDropdown">
         <option value="default">Pick one</option>
     </select>
+
+    <table id="buildingTable">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Timestamp</th>
+                <th>Version</th>
+                <th>Amenity</th>
+                <th>Latitude</th>
+                <th>Longitude</th>
+                <th>Building Number</th>
+                <th>Postcode</th>
+                <th>Note</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- Table rows will be dynamically added here -->
+        </tbody>
+    </table>
+
     <div id="buildingHistory"></div>
     <div id="map">
         <!-- Initialize the map at the location of Aberdeen -->
@@ -18,13 +39,32 @@
     </div>
 
     <script>
+        // Function to create a table row for a building
+        function createTableRow(building) {
+            const row = document.createElement('tr');
+            row.innerHTML = `
+                <td>${building.id}</td>
+                <td>${building.name}</td>
+                <td>${building.timestamp}</td>
+                <td>${building.version}</td>
+                <td>${building.amenity}</td>
+                <td>${building.lat}</td>
+                <td>${building.lon}</td>
+                <td>${building.building_number || '-'}</td>
+                <td>${building.postcode || '-'}</td>
+                <td>${building.note || '-'}</td>
+            `;
+            return row;
+        }
+
         // Fetch the JSON data from the URL
         fetch('https://raw.githubusercontent.com/CodeTheCity/Moderdeen/main/History/combined_data.json')
             .then(response => response.json())
             .then(data => {
                 const buildingDropdown = document.getElementById('buildingDropdown');
+                const buildingTable = document.getElementById('buildingTable');
                 const buildingHistory = document.getElementById('buildingHistory');
-                const mapFrame = document.getElementById('mapFrame'); // Changed the ID
+                const mapFrame = document.getElementById('mapFrame');
 
                 // Create a dictionary to store building data grouped by ID
                 const buildingData = {};
@@ -53,11 +93,18 @@
                         // Show the default map with a marker
                         mapFrame.src = 'https://www.openstreetmap.org/export/embed.html?layer=mapnik';
                         buildingHistory.innerHTML = ''; // Clear building history
+                        buildingTable.querySelector('tbody').innerHTML = ''; // Clear table
                     } else {
                         const selectedBuilding = buildingData[selectedId];
 
                         // Display building history
                         buildingHistory.innerHTML = JSON.stringify(selectedBuilding, null, 2);
+
+                        // Populate the table with the selected building's data
+                        const tableBody = buildingTable.querySelector('tbody');
+                        tableBody.innerHTML = ''; // Clear previous data
+                        const row = createTableRow(selectedBuilding[0]);
+                        tableBody.appendChild(row);
 
                         // Update the map with the selected building's location using OpenStreetMap
                         const lat = selectedBuilding[0].lat;
