@@ -27,9 +27,8 @@
         }).addTo(map);
 
         var geojsonLayer;
-
         // Read the GeoJSON file and add markers to the map
-        fetch('export.geojson')
+        fetch('https://raw.githubusercontent.com/CodeTheCity/Moderdeen/main/export.geojson')
             .then(response => response.json())
             .then(data => {
                 geojsonLayer = L.geoJSON(data.features).addTo(map);
@@ -55,6 +54,9 @@
                         locationForm.appendChild(br);
                     }
                 });
+            })
+            .catch(error => {
+                console.error('Error fetching GeoJSON data:', error);
             });
 
 
