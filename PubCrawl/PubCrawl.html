@@ -125,26 +125,31 @@
             <div id="map"></div>
         </div>
     </div>
-
     <script>
         // Initialize the map
         var map = L.map('map').setView([57.1459838, -2.0978495], 15);
         var control; // Routing control variable
         var resetButton; // Variable to hold the "Reset Map" button
-
+    
         // Add OpenStreetMap tile layer
         L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
             attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
         }).addTo(map);
-
+    
         var geojsonLayer;
-
+    
         // Fetch and process GeoJSON data
         fetch('https://raw.githubusercontent.com/CodeTheCity/Moderdeen/main/PubCrawl/export.geojson')
             .then(response => response.json())
             .then(data => {
-                geojsonLayer = L.geoJSON(data.features).addTo(map);
-
+                geojsonLayer = L.geoJSON(data.features, {
+                    onEachFeature: function (feature, layer) {
+                        if (feature.properties && feature.properties.name) {
+                            layer.bindPopup(feature.properties.name); // Add a popup with the name
+                        }
+                    }
+                }).addTo(map);
+    
                 // Create checkboxes for each location
                 var locationForm = document.getElementById('locationForm');
                 data.features.forEach(feature => {
@@ -154,13 +159,13 @@
                         checkbox.name = 'location';
                         checkbox.value = JSON.stringify(feature.geometry.coordinates);
                         checkbox.id = 'location-' + feature.properties['@id'];
-
+    
                         var label = document.createElement('label');
                         label.htmlFor = checkbox.id;
                         label.appendChild(document.createTextNode(feature.properties.name));
-
+    
                         var br = document.createElement('br');
-
+    
                         locationForm.querySelector('.checkbox-scroll-container').appendChild(checkbox);
                         locationForm.querySelector('.checkbox-scroll-container').appendChild(label);
                         locationForm.querySelector('.checkbox-scroll-container').appendChild(br);
@@ -170,34 +175,34 @@
             .catch(error => {
                 console.error('Error fetching GeoJSON data:', error);
             });
-
+    
         // Function to create a route between selected locations
         function createRoute() {
             // Remove any existing routing control
             if (control) {
                 map.removeControl(control);
             }
-
+    
             // Get selected checkboxes
             var selectedCheckboxes = document.querySelectorAll('input[name="location"]:checked');
-
+    
             // Extract coordinates from selected checkboxes
             var coordinates = [];
             selectedCheckboxes.forEach(function (checkbox) {
                 coordinates.push(JSON.parse(checkbox.value));
             });
-
+    
             // Check if there are at least two selected locations to create a route
             if (coordinates.length < 2) {
                 alert("Select at least two locations to create a route.");
                 return;
             }
-
+    
             // Hide all other pubs
             if (geojsonLayer) {
                 map.removeLayer(geojsonLayer);
             }
-
+    
             // Initialize the new routing control
             control = L.Routing.control({
                 waypoints: coordinates.map(function (coord) {
@@ -205,7 +210,7 @@
                 }),
                 routeWhileDragging: true,
             }).addTo(map);
-
+    
             // Check if the "Reset Map" button has already been created
             if (!resetButton) {
                 // Create the "Reset Map" button
@@ -214,7 +219,7 @@
                 resetButton.onclick = function () {
                     // Remove the routing control
                     map.removeControl(control);
-
+    
                     // Add back the geojsonLayer to show all pubs
                     if (geojsonLayer) {
                         geojsonLayer.addTo(map);
@@ -224,5 +229,6 @@
             }
         }
     </script>
+    
 </body>
 </html>

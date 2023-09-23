@@ -35,7 +35,7 @@ def extract_data(json_data):
         if name in extracted_data:
             existing_item = extracted_data[name]
             # Check if the current item has a newer timestamp
-            if timestamp > existing_item["timestamp"]:
+            if timestamp < existing_item["timestamp"]:
                 # Update the existing item with the newer information
                 extracted_data[name] = {
                     "id": id_value,
