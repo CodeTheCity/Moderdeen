@@ -2,7 +2,7 @@
   "type": "FeatureCollection",
   "generator": "overpass-ide",
   "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
-  "timestamp": "2023-09-23T13:59:20Z",
+  "timestamp": "2023-09-23T14:01:21Z",
   "features": [
     {
       "type": "Feature",
@@ -51,6 +51,40 @@
         ]
       },
       "id": "node/288036760"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/290629629",
+        "addr:city": "Aberdeen",
+        "addr:country": "GB",
+        "addr:housenumber": "504",
+        "addr:postcode": "AB10 1TT",
+        "addr:street": "Union Street",
+        "alt_name": "McGinty's Pub",
+        "amenity": "pub",
+        "contact:instagram": "https://www.instagram.com/mcgintysaberdeen/",
+        "contact:tripadvisor": "https://www.tripadvisor.co.uk/Restaurant_Review-g186487-d2394632-Reviews-McGinty_s_Meal_an_Ale-Aberdeen_Aberdeenshire_Scotland.html",
+        "email": "info@mcgintysmealanale.co.uk",
+        "fhrs:authority": "Aberdeen City",
+        "fhrs:id": "593714",
+        "fhrs:local_authority_id": "EHDC9892",
+        "name": "McGinty’s Meal an’ Ale",
+        "old_fhrs:id": "150676",
+        "opening_hours": "Mo-Fr 16:00-22:30; Sa,Su 12:00-22:30",
+        "operator": "The McGinty’s Group",
+        "phone": "+44 1224 626720",
+        "source:addr": "fhrs",
+        "website": "https://www.mcgintysmealanale.co.uk/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.1119763,
+          57.1430036
+        ]
+      },
+      "id": "node/290629629"
     },
     {
       "type": "Feature",
@@ -355,40 +389,6 @@
     {
       "type": "Feature",
       "properties": {
-        "@id": "way/1180776446",
-        "addr:city": "Aberdeen",
-        "addr:housenumber": "5-9",
-        "addr:postcode": "AB11 5BU",
-        "addr:street": "Union Street",
-        "addr:unit": "The Athenaeum",
-        "amenity": "pub",
-        "brand": "BrewDog",
-        "brand:wikidata": "Q911367",
-        "brand:wikipedia": "en:BrewDog",
-        "building": "yes",
-        "check_date": "2023-06-23",
-        "fhrs:authority": "Aberdeen City",
-        "fhrs:id": "1347987",
-        "fhrs:local_authority_id": "317",
-        "internet_access": "wlan",
-        "internet_access:fee": "no",
-        "name": "BrewDog Castlegate",
-        "old_name": "TheAtheneum",
-        "website": "https://www.brewdog.com/bars/uk/castlegate",
-        "@geometry": "center"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -2.0944793,
-          57.1475567
-        ]
-      },
-      "id": "way/1180776446"
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "@id": "way/1201995100",
         "addr:city": "Aberdeen",
         "addr:housenumber": "1",
@@ -678,6 +678,65 @@
         ]
       },
       "id": "node/2728596452"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2929698385",
+        "addr:city": "Aberdeen",
+        "addr:country": "GB",
+        "addr:housenumber": "423-425",
+        "addr:postcode": "AB11 6DA",
+        "addr:street": "Union Street",
+        "alt_name": "Lloyds No 1 Bar",
+        "amenity": "pub",
+        "brand": "Wetherspoon",
+        "brand:wikidata": "Q6109362",
+        "brand:wikipedia": "en:Wetherspoons",
+        "camra": "yes",
+        "check_date": "2022-09-24",
+        "cuisine": "regional",
+        "delivery": "no",
+        "diet:vegan": "yes",
+        "diet:vegetarian": "yes",
+        "drink:beer": "yes",
+        "drink:coffee": "yes",
+        "drink:soft_drink": "yes",
+        "drink:wine": "yes",
+        "fhrs:authority": "Aberdeen City",
+        "fhrs:id": "1346756",
+        "fhrs:local_authority_id": "1097",
+        "fhrs:localauthoritybusinessID": "EHDC7970",
+        "food": "yes",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "microbrewery": "no",
+        "name": "The Justice Mill",
+        "opening_hours": "Mo-Th 08:00-00:00; Fr-Sa 08:00-01:00; Su 09:00-00:00",
+        "operator": "Wetherspoon",
+        "outdoor_seating": "no",
+        "payment:american_express": "yes",
+        "payment:mastercard": "yes",
+        "payment:visa": "yes",
+        "payment:visa_debit": "yes",
+        "phone": "+44 1224 252410",
+        "real_fire": "no",
+        "smoking": "outside",
+        "source": "survey",
+        "source:addr": "fhrs",
+        "source:alt_name": "fhrs",
+        "takeaway": "no",
+        "website": "https://www.jdwetherspoon.com/pubs/all-pubs/scotland/aberdeen/the-justice-mill-aberdeen",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.1096856,
+          57.1433883
+        ]
+      },
+      "id": "node/2929698385"
     },
     {
       "type": "Feature",
