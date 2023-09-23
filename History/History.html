@@ -5,14 +5,47 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Building History Viewer</title>
     <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f7f7f7;
+        }
+
+        h1 {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        label {
+            font-weight: bold;
+        }
+
+        select {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 20px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+
         table {
             width: 100%;
             border-collapse: collapse;
+            margin-top: 20px;
         }
 
         th, td {
             border: 1px solid #ddd;
-            padding: 8px;
+            padding: 10px;
             text-align: left;
         }
 
@@ -27,41 +60,51 @@
         tr:hover {
             background-color: #ddd;
         }
+
+        #map {
+            margin-top: 20px;
+        }
+
+        #mapFrame {
+            width: 100%;
+            height: 400px;
+            border: none;
+        }
     </style>
 </head>
 <body>
     <h1>Building History Viewer</h1>
-    <label for="buildingDropdown">Select a Building:</label>
-    <select id="buildingDropdown">
-        <option value="default">Pick one</option>
-    </select>
+    <div class="container">
+        <label for="buildingDropdown">Select a Building:</label>
+        <select id="buildingDropdown">
+            <option value="default">Pick one</option>
+        </select>
 
-    <table id="buildingTable">
-        <thead>
-            <tr>
-                <th>ID</th>
-                <th>Name</th>
-                <th>Timestamp</th>
-                <th>Version</th>
-                <th>Amenity</th>
-                <th>Latitude</th>
-                <th>Longitude</th>
-                <th>Building Number</th>
-                <th>Postcode</th>
-                <th>Note</th>
-            </tr>
-        </thead>
-        <tbody>
-            <!-- Table rows will be dynamically added here -->
-        </tbody>
-    </table>
+        <table id="buildingTable">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Name</th>
+                    <th>Timestamp</th>
+                    <th>Version</th>
+                    <th>Amenity</th>
+                    <th>Latitude</th>
+                    <th>Longitude</th>
+                    <th>Building Number</th>
+                    <th>Postcode</th>
+                    <th>Note</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Table rows will be dynamically added here -->
+            </tbody>
+        </table>
 
-    <div id="buildingHistory"></div>
-    <div id="map">
-        <!-- Initialize the map at the location of Aberdeen -->
-        <iframe id="mapFrame" width="100%" height="400" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.openstreetmap.org/export/embed.html?bbox=-2.2105,57.1497,-2.0861,57.1957&layer=mapnik"></iframe>
+        <div id="map">
+            <!-- Initialize the map at the location of Aberdeen -->
+            <iframe id="mapFrame" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.openstreetmap.org/export/embed.html?bbox=-2.2105,57.1497,-2.0861,57.1957&layer=mapnik"></iframe>
+        </div>
     </div>
-
     <script>
         // Function to create a table row for a building
         function createTableRow(building) {
@@ -87,7 +130,6 @@
             .then(data => {
                 const buildingDropdown = document.getElementById('buildingDropdown');
                 const buildingTable = document.getElementById('buildingTable');
-                const buildingHistory = document.getElementById('buildingHistory');
                 const mapFrame = document.getElementById('mapFrame');
 
                 // Create a dictionary to store building data grouped by ID
@@ -120,15 +162,14 @@
                         buildingTable.querySelector('tbody').innerHTML = ''; // Clear table
                     } else {
                         const selectedBuilding = buildingData[selectedId];
-
                         // Display building history
-                        buildingHistory.innerHTML = JSON.stringify(selectedBuilding, null, 2);
 
                         // Populate the table with the selected building's data
                         const tableBody = buildingTable.querySelector('tbody');
                         tableBody.innerHTML = ''; // Clear previous data
-                        const row = createTableRow(selectedBuilding[0]);
-                        tableBody.appendChild(row);
+                        for( i=0; i<selectedBuilding.length;i++){
+                        var row = createTableRow(selectedBuilding[i]);
+                        tableBody.appendChild(row);}
 
                         // Update the map with the selected building's location using OpenStreetMap
                         const lat = selectedBuilding[0].lat;
