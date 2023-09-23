@@ -38,7 +38,7 @@ for id_value in id_list:
     response = requests.get(url)
     if response.status_code == 200:
         data = response.json()
-        data = DR.refine(data)
+        data = DR.extract_data(data)
 
         combined_data.append(data)
         print(f"Got json for {id_value}")
