@@ -128,7 +128,9 @@
 
     <script>
         // Initialize the map
-        var map = L.map('map').setView([57.1459838, -2.0978495], 13);
+        var map = L.map('map').setView([57.1459838, -2.0978495], 15);
+        var control; // Routing control variable
+        var resetButton; // Variable to hold the "Reset Map" button
 
         // Add OpenStreetMap tile layer
         L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
@@ -171,6 +173,11 @@
 
         // Function to create a route between selected locations
         function createRoute() {
+            // Remove any existing routing control
+            if (control) {
+                map.removeControl(control);
+            }
+
             // Get selected checkboxes
             var selectedCheckboxes = document.querySelectorAll('input[name="location"]:checked');
 
@@ -186,32 +193,35 @@
                 return;
             }
 
-            // Remove the existing geojsonLayer from the map
+            // Hide all other pubs
             if (geojsonLayer) {
                 map.removeLayer(geojsonLayer);
             }
 
-            // Initialize the routing control
-            var control = L.Routing.control({
+            // Initialize the new routing control
+            control = L.Routing.control({
                 waypoints: coordinates.map(function (coord) {
                     return L.latLng(coord[1], coord[0]);
                 }),
                 routeWhileDragging: true,
             }).addTo(map);
 
-            // Add a button to reset the map and show all the pubs again
-            var resetButton = document.createElement('button');
-            resetButton.textContent = 'Reset Map';
-            resetButton.onclick = function () {
-                // Remove the routing control
-                map.removeControl(control);
+            // Check if the "Reset Map" button has already been created
+            if (!resetButton) {
+                // Create the "Reset Map" button
+                resetButton = document.createElement('button');
+                resetButton.textContent = 'Reset Map';
+                resetButton.onclick = function () {
+                    // Remove the routing control
+                    map.removeControl(control);
 
-                // Add back the geojsonLayer to show all pubs
-                if (geojsonLayer) {
-                    geojsonLayer.addTo(map);
-                }
-            };
-            document.getElementById('map-container').appendChild(resetButton);
+                    // Add back the geojsonLayer to show all pubs
+                    if (geojsonLayer) {
+                        geojsonLayer.addTo(map);
+                    }
+                };
+                document.getElementById('map-container').appendChild(resetButton);
+            }
         }
     </script>
 </body>
