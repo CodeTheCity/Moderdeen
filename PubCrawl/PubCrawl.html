@@ -104,6 +104,8 @@
             margin-bottom: 20px;
         }
     </style>
+    <!-- Add a Favicon -->
+    <link rel="icon" type="image/x-icon" href="https://raw.githubusercontent.com/CodeTheCity/Moderdeen/main/PubCrawl/favicon.ico" />
 </head>
 <body>
     <header>
@@ -136,7 +138,7 @@
         var geojsonLayer;
 
         // Fetch and process GeoJSON data
-        fetch('https://raw.githubusercontent.com/CodeTheCity/Moderdeen/main/export.geojson')
+        fetch('https://raw.githubusercontent.com/CodeTheCity/Moderdeen/main/PubCrawl/export.geojson')
             .then(response => response.json())
             .then(data => {
                 geojsonLayer = L.geoJSON(data.features).addTo(map);
@@ -184,6 +186,11 @@
                 return;
             }
 
+            // Remove the existing geojsonLayer from the map
+            if (geojsonLayer) {
+                map.removeLayer(geojsonLayer);
+            }
+
             // Initialize the routing control
             var control = L.Routing.control({
                 waypoints: coordinates.map(function (coord) {
@@ -191,6 +198,20 @@
                 }),
                 routeWhileDragging: true,
             }).addTo(map);
+
+            // Add a button to reset the map and show all the pubs again
+            var resetButton = document.createElement('button');
+            resetButton.textContent = 'Reset Map';
+            resetButton.onclick = function () {
+                // Remove the routing control
+                map.removeControl(control);
+
+                // Add back the geojsonLayer to show all pubs
+                if (geojsonLayer) {
+                    geojsonLayer.addTo(map);
+                }
+            };
+            document.getElementById('map-container').appendChild(resetButton);
         }
     </script>
 </body>
