@@ -11,7 +11,6 @@ node_geojson_url = 'https://raw.githubusercontent.com/CodeTheCity/Moderdeen/main
 way_geojson_url = 'https://raw.githubusercontent.com/CodeTheCity/Moderdeen/main/History/ListOfWays.geojson'
 
 print("Started getting IDs")
-
 # Function to fetch IDs from GeoJSON and add them to the id_list
 def fetch_ids_from_geojson(geojson_url):
     try:
@@ -36,7 +35,6 @@ def fetch_ids_from_geojson(geojson_url):
         print(f"Error decoding JSON: {str(e)}")
     except Exception as e:
         print(f"An error occurred: {str(e)}")
-
 # Fetch IDs from both GeoJSON files
 fetch_ids_from_geojson(node_geojson_url)
 fetch_ids_from_geojson(way_geojson_url)

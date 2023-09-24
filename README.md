@@ -84,13 +84,30 @@ To obtain historical data, you can use the OpenStreetMap Overpass API. Follow th
 [out:json][timeout:999];
 // gather results
 (
-node["addr:street"="Union Street"]["addr:city"="Aberdeen"];
-way["addr:street"="Union Street"]["addr:city"="Aberdeen"];
+  node["addr:street"="Union Street"]["addr:city"="Aberdeen"];
 );
-out;
-
+// print results
+out body;
+>;
+out skel qt;
+```
+run this and save as ListOfNodes.geojson
 ```
 
+[out:json][timeout:999];
+// gather results
+(
+  way["addr:street"="Union Street"]["addr:city"="Aberdeen"];
+);
+// print results
+out body;
+>;
+out skel qt;
+
+```
+run this and save it as ListOfWays.geojson
+
+commit and push both to the repo or storage.
 3. Click the "Run" button to execute the query.
 
 Once the data is displayed on the map, click the "Export" button and select "GeoJSON" as the export format. Save the file with an appropriate name, e.g., ListOfNodes.geojson.

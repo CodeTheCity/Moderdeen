@@ -111,6 +111,7 @@
         <label for="buildingDropdown">Select a Building:</label>
         <select id="buildingDropdown">
             <option value="default">Pick one</option>
+            <option value="searchByYear" id="searchByYear">Search by Year</option>
         </select>
         <table id="buildingTable">
             <thead>
@@ -195,17 +196,42 @@
 
                 // Event listener for dropdown selection
                 buildingDropdown.addEventListener('change', () => {
-                    const selectedId = parseInt(buildingDropdown.value);
+                    const selectedValue = buildingDropdown.value;
 
-                    if (selectedId == "default") {
+                    if (selectedValue === "default") {
                         // Show the default map with a marker
                         mapFrame.src = 'https://www.openstreetmap.org/export/embed.html?layer=mapnik';
+                        tableBody.innerHTML = ''; // Clear the table
+                    } else if (selectedValue === "searchByYear") {
+                        // Handle the year search here
+                        const yearToSearch = prompt("Enter a year to search for:");
+                        if (yearToSearch !== null && yearToSearch.trim() !== "") {
+                            // Filter and display buildings by the entered year
+                            const filteredBuildings = data.filter(building => {
+                                const buildingYear = new Date(building[0].timestamp).getFullYear();
+                                return buildingYear.toString() === yearToSearch;
+                            });
+
+                            if (filteredBuildings.length === 0) {
+                                alert("No buildings found for the entered year.");
+                                buildingDropdown.value = "default"; // Reset dropdown selection
+                            } else {
+                                mapFrame.src = 'https://www.openstreetmap.org/export/embed.html?layer=mapnik';
+                                tableBody.innerHTML = ''; // Clear the table
+                                filteredBuildings.forEach(building => {
+                                    const row = createTableRow(building[0]);
+                                    tableBody.appendChild(row);
+                                });
+                            }
+                        } else {
+                            buildingDropdown.value = "default"; // Reset dropdown selection
+                        }
                     } else {
-                        let selectedBuildings = buildingData[selectedId];
+                        let selectedBuildings = buildingData[parseInt(selectedValue)];
 
                         // Check if none of the selected buildings have valid coordinates
                         let hasValidCoordinates = selectedBuildings.some(building => building.lat !== null && building.lon !== null);
-                        
+
                         if (!hasValidCoordinates) {
                             // Show the map with default coordinates
                             mapFrame.src = 'https://www.openstreetmap.org/export/embed.html?bbox=-2.2,57.0,-2.0,57.3&layer=mapnik';
@@ -245,5 +271,4 @@
 
     </script>
 </body>
-
 </html>

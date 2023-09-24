@@ -3,6 +3,7 @@ import time
 
 # Fixed address for Union Street, Aberdeen, UK
 FIXED_ADDRESS = "Union+Street&city=Aberdeen&country=UK"
+
 def forward_geocode(building_number, name):
     if building_number:
         url = f"https://geocode.maps.co/search?street={building_number}+{FIXED_ADDRESS}"
@@ -38,6 +39,7 @@ def reverse_geocode(lat, lon):
 
 def extract_data(json_data):
     extracted_data = {}
+    previous_name = None  # Initialize previous_name as None
 
     for element in json_data.get("elements", []):
         # Extract relevant information
@@ -50,18 +52,18 @@ def extract_data(json_data):
         disused_shop = element["tags"].get("disused:shop", None)
         disused_amenity = element["tags"].get("disused:amenity", None)
         building = element["tags"].get("building", None)
-        
+        craft = element["tags"].get("craft",None)
 
         # Use the first non-empty name (prefer "name" over "alt_name")
         if name != "Unknown":
-            original_name = name.replace('\u2019', "'")
+            original_name = name.replace('\u2019', "'").replace('\u00e8', 'è')
             name = name.lower()
         elif alt_name:
-            original_name = alt_name.replace('\u2019', "'")
+            original_name = alt_name.replace('\u2019', "'").replace('\u00e8', 'è')
             name = alt_name.lower()
         elif old_name:
             name = old_name.lower()  # Use old_name as the name
-            original_name = "Closed: " + old_name.replace('\u2019', "'")  # Keep the original casing
+            original_name = "Closed: " + old_name.replace('\u2019', "'").replace('\u00e8', 'è')  # Keep the original casing
         else:
             name = "Unknown"
             original_name = "Unknown"
@@ -90,10 +92,13 @@ def extract_data(json_data):
             amenity = shop
         elif amenity is None and shop is None and building:
             amenity = building
+        elif amenity is None and craft:
+            amenity = craft
         elif amenity is None and shop is None and disused_amenity:
             amenity = disused_amenity
-
-        # Check if disused:shop is "yes" and add "Disused" prefix to the name
+        else:
+            amenity = "Unkown"
+        # Check if disused:shop is " yes" and add "Disused" prefix to the name
         if disused_shop == "yes":
             if name != "Unknown":
                 name = "Disused " + name
@@ -130,6 +135,12 @@ def extract_data(json_data):
                 "postcode": postcode if postcode is not None else "Unknown",
                 "note": element.get("tags").get("note", "N/A"),
             }
+            
+            # Check if there's a previous_name and update the current item's name
+            if previous_name:
+                extracted_data[name]["name"] = f"{original_name} (Formally: {previous_name})"
+            
+        previous_name = original_name  # Update previous_name for the next iteration
 
     # Convert the dictionary values to a list of items
     extracted_data_list = list(extracted_data.values())
