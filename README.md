@@ -16,19 +16,65 @@ This gets all pubs on and around union street. to get more uptodate version run 
     out center;
 
 
+# History
 
-## History
-To get more uptodate data run GetHistory.py and run
+This section provides instructions on how to obtain and update historical data related to Union Street in Aberdeen, UK. The historical data includes information about buildings and other elements captured by OpenStreetMap contributors.
 
-    node["addr:street"="Union Street"]["addr:city"="Aberdeen"];
-    ways["addr:street"="Union Street"]["addr:city"="Aberdeen"];
-    out;
- in https://overpass-turbo.eu/ and export as a geojson and rename to ListOfNodes.geojson
+## Getting Historical Data
 
- run by cd in History the python GetHistory.py
+To obtain historical data, you can use the OpenStreetMap Overpass API. Follow these steps:
 
- pip install tqdm 
+1. Go to [Overpass Turbo](https://overpass-turbo.eu/).
 
+2. In the Overpass Turbo editor, use the following query to search for data related to Union Street in Aberdeen:
+
+```overpass
+node["addr:street"="Union Street"]["addr:city"="Aberdeen"];
+ways["addr:street"="Union Street"]["addr:city"="Aberdeen"];
+out;
+# History
+
+This section provides instructions on how to obtain and update historical data related to Union Street in Aberdeen, UK. The historical data includes information about buildings and other elements captured by OpenStreetMap contributors.
+
+## Getting Historical Data
+
+To obtain historical data, you can use the OpenStreetMap Overpass API. Follow these steps:
+
+1. Go to [Overpass Turbo](https://overpass-turbo.eu/).
+
+2. In the Overpass Turbo editor, use the following query to search for data related to Union Street in Aberdeen:
+
+```overpass
+node["addr:street"="Union Street"]["addr:city"="Aberdeen"];
+ways["addr:street"="Union Street"]["addr:city"="Aberdeen"];
+out;
+
+3. Click the "Run" button to execute the query.
+
+Once the data is displayed on the map, click the "Export" button and select "GeoJSON" as the export format. Save the file with an appropriate name, e.g., ListOfNodes.geojson.
+
+Store the exported GeoJSON file in the "History" directory of your project and commit it and push it to remote or change the link to your chosen json file.
+
+Updating Historical Data
+To keep the historical data up-to-date, you can use the provided Python script, GetHistory.py, which automates the process of fetching and updating data. Follow these steps:
+
+Run the Python script GetHistory.py. This script uses the Overpass API to fetch the latest data related to Union Street.
+
+The script will create or update the ListOfNodes.geojson file in the "History" directory with the latest data.
+
+You can run this script periodically to ensure your historical data remains current.
+
+##Dependencies
+To run the GetHistory.py script, make sure you have the tqdm library installed. You can install it using pip:
+
+
+```pip install tqdm```
  
-## Todo
-Mabye show img of stores
+##Example Usage
+Here's an example of how you can use the historical data:
+Load the historical data into your application using the GeoJSON file.
+Use the data to display information about buildings, amenities, and other elements along Union Street in Aberdeen.
+Explore and visualize the historical changes and evolution of Union Street over time.
+Feel free to enhance and customize your project with this valuable historical data to create engaging visualizations or applications.
+For more information on using the historical data in your project, refer to the provided Python script and HTML interface.
+If you have any questions or need further assistance, please don't hesitate to ask.
