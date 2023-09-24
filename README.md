@@ -28,26 +28,12 @@ To obtain historical data, you can use the OpenStreetMap Overpass API. Follow th
 
 2. In the Overpass Turbo editor, use the following query to search for data related to Union Street in Aberdeen:
 
-```overpass
+```
+overpass
 node["addr:street"="Union Street"]["addr:city"="Aberdeen"];
 ways["addr:street"="Union Street"]["addr:city"="Aberdeen"];
 out;
-# History
-
-This section provides instructions on how to obtain and update historical data related to Union Street in Aberdeen, UK. The historical data includes information about buildings and other elements captured by OpenStreetMap contributors.
-
-## Getting Historical Data
-
-To obtain historical data, you can use the OpenStreetMap Overpass API. Follow these steps:
-
-1. Go to [Overpass Turbo](https://overpass-turbo.eu/).
-
-2. In the Overpass Turbo editor, use the following query to search for data related to Union Street in Aberdeen:
-
-```overpass
-node["addr:street"="Union Street"]["addr:city"="Aberdeen"];
-ways["addr:street"="Union Street"]["addr:city"="Aberdeen"];
-out;```
+```
 
 3. Click the "Run" button to execute the query.
 
