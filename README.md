@@ -29,10 +29,14 @@ To obtain historical data, you can use the OpenStreetMap Overpass API. Follow th
 2. In the Overpass Turbo editor, use the following query to search for data related to Union Street in Aberdeen:
 
 ```
-overpass
+[out:json][timeout:999];
+// gather results
+(
 node["addr:street"="Union Street"]["addr:city"="Aberdeen"];
-ways["addr:street"="Union Street"]["addr:city"="Aberdeen"];
+way["addr:street"="Union Street"]["addr:city"="Aberdeen"];
+);
 out;
+
 ```
 
 3. Click the "Run" button to execute the query.
