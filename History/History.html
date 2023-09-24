@@ -1,12 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Building History Viewer</title>
-    <link rel="icon" type="image/x-icon"
-        href="https://raw.githubusercontent.com/CodeTheCity/Moderdeen/main/History/favicon.ico" />
+    <link rel="icon" type="image/x-icon" href="https://raw.githubusercontent.com/CodeTheCity/Moderdeen/main/History/favicon.ico" />
 
     <style>
         body {
@@ -47,8 +45,7 @@
             margin-top: 20px;
         }
 
-        th,
-        td {
+        th, td {
             border: 1px solid #ddd;
             padding: 10px;
             text-align: left;
@@ -77,7 +74,6 @@
         }
     </style>
 </head>
-
 <body>
     <h1>Building History Viewer</h1>
     <div class="container">
@@ -108,8 +104,7 @@
 
         <div id="map">
             <!-- Initialize the map at the location of Aberdeen -->
-            <iframe id="mapFrame" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"
-                src="https://www.openstreetmap.org/export/embed.html?bbox=-2.2105,57.1497,-2.0861,57.1957&layer=mapnik"></iframe>
+            <iframe id="mapFrame" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.openstreetmap.org/export/embed.html?bbox=-2.2105,57.1497,-2.0861,57.1957&layer=mapnik"></iframe>
         </div>
     </div>
     <script>
@@ -130,20 +125,7 @@
             `;
             return row;
         }
-    
-        // Function to find the first valid latitude and longitude in a building group
-        function findValidLatLon(buildingGroup) {
-            for (const building of buildingGroup) {
-                if (building.lat && building.lon) {
-                    return {
-                        lat: building.lat,
-                        lon: building.lon
-                    };
-                }
-            }
-            return null; // Return null if no valid lat/lon found
-        }
-    
+
         // Fetch the JSON data from the URL
         fetch('https://raw.githubusercontent.com/CodeTheCity/Moderdeen/main/History/combined_data.json')
             .then(response => response.json())
@@ -151,10 +133,10 @@
                 const buildingDropdown = document.getElementById('buildingDropdown');
                 const buildingTable = document.getElementById('buildingTable');
                 const mapFrame = document.getElementById('mapFrame');
-    
+
                 // Create a dictionary to store building data grouped by ID
                 const buildingData = {};
-    
+
                 // Iterate through the JSON data and group it by ID
                 data.forEach(building => {
                     const id = building[0].id;
@@ -162,53 +144,44 @@
                         buildingData[id] = building;
                     }
                 });
-    
+
                 // Populate the dropdown with building names
                 Object.values(buildingData).forEach(building => {
                     const option = document.createElement('option');
                     option.value = building[0].id;
-                    option.textContent = building[building.length - 1].name;
+                    option.textContent = building[building.length -1].name;
                     buildingDropdown.appendChild(option);
                 });
-    
+
                 // Event listener for dropdown selection
                 buildingDropdown.addEventListener('change', () => {
                     const selectedId = parseInt(buildingDropdown.value);
-    
+
                     if (selectedId === "default") {
                         // Show the default map with a marker
                         mapFrame.src = 'https://www.openstreetmap.org/export/embed.html?layer=mapnik';
+                        buildingHistory.innerHTML = ''; // Clear building history
                         buildingTable.querySelector('tbody').innerHTML = ''; // Clear table
                     } else {
                         const selectedBuilding = buildingData[selectedId];
                         // Display building history
-    
-                        // Find the first valid latitude and longitude in the selected building group
-                        const validLatLon = findValidLatLon(selectedBuilding);
-                        if (validLatLon) {
-                            const { lat, lon } = validLatLon;
-    
-                            // Populate the table with the selected building's data
-                            const tableBody = buildingTable.querySelector('tbody');
-                            tableBody.innerHTML = ''; // Clear previous data
-                            for (i = 0; i < selectedBuilding.length; i++) {
-                                var row = createTableRow(selectedBuilding[i]);
-                                tableBody.appendChild(row);
-                            }
-    
-                            // Set the map URL with a marker at the valid lat/lon
-                            mapFrame.src = `https://www.openstreetmap.org/export/embed.html?bbox=${lon - 0.001},${lat - 0.001},${lon + 0.001},${lat + 0.001}&layer=mapnik&marker=${lat},${lon}`;
-                        } else {
-                            // If no valid lat/lon found, show a message or handle it as needed
-                            alert('No valid latitude and longitude found for this building.');
-                            mapFrame.src = 'https://www.openstreetmap.org/export/embed.html?layer=mapnik'; // Show default map
-                            buildingTable.querySelector('tbody').innerHTML = ''; // Clear table
-                        }
+
+                        // Populate the table with the selected building's data
+                        const tableBody = buildingTable.querySelector('tbody');
+                        tableBody.innerHTML = ''; // Clear previous data
+                        for( i=0; i<selectedBuilding.length;i++){
+                        var row = createTableRow(selectedBuilding[i]);
+                        tableBody.appendChild(row);}
+
+                        // Update the map with the selected building's location using OpenStreetMap
+                        const lat = selectedBuilding[0].lat;
+                        const lon = selectedBuilding[0].lon;
+
+                        // Set the map URL with a marker
+                        mapFrame.src = `https://www.openstreetmap.org/export/embed.html?bbox=${lon - 0.001},${lat - 0.001},${lon + 0.001},${lat + 0.001}&layer=mapnik&marker=${lat},${lon}`;
                     }
                 });
             });
     </script>
-    
 </body>
-
 </html>

@@ -7,10 +7,9 @@ def forward_geocode(building_number, name):
     if building_number:
         url = f"https://geocode.maps.co/search?street={building_number}+{FIXED_ADDRESS}"
     elif name:
-        url = f"https://geocode.maps.co/search?q={name}&street=union+street&city=aberdeen&country=uk"
+        url = f"https://geocode.maps.co/search?q={name.replace(' ', '+')}&street=union+street&city=aberdeen&country=uk"
     else:
         return None, None
-
     response = requests.get(url)
     if response.status_code == 200:
         data = response.json()
@@ -65,7 +64,7 @@ def extract_data(json_data):
         building_number = element["tags"].get("addr:housenumber", None)
         postcode = element["tags"].get("addr:postcode", None)
         # Check if lat and lon are None, and perform forward geocoding with the fixed address
-        if lat is None and lon is None and building_number and name != "Unknown":
+        if lat is None and lon is None and (building_number or name != "Unknown"):
             lat, lon = forward_geocode(building_number, name)
             time.sleep(0.5)  # To avoid exceeding the rate limit (2 calls per second)
 
@@ -89,28 +88,22 @@ def extract_data(json_data):
             if original_name:
                 original_name = "Disused " + original_name
 
-        # Check if this item with the same name already exists (case-insensitive comparison)
         if name in extracted_data:
             existing_item = extracted_data[name]
+
             # Check if the current item has a newer timestamp
             if timestamp < existing_item["timestamp"]:
                 # Update the existing item with the newer information
-                extracted_data[name] = {
-                    "id": id_value,
-                    "name": original_name,  # Keep the original casing
-                    "timestamp": timestamp,
-                    "version": element.get("version", None),
-                    "amenity": amenity,
-                    "lat": lat,
-                    "lon": lon,
-                    "building_number": (
-                        building_number if building_number is not None else existing_item["building_number"]
-                    ) if building_number is not None else "Unknown",  # Turn into "Unknown" if null
-                    "postcode": (
-                        postcode if postcode is not None else existing_item["postcode"]
-                    ) if postcode is not None else "Unknown",  # Turn into "Unknown" if null
-                    "note": element.get("tags").get("note", "N/A"),  # Add the "note" field
-                }
+                # and fill in missing values if they are null
+                existing_item["lat"] = lat if lat is not None else existing_item["lat"]
+                existing_item["lon"] = lon if lon is not None else existing_item["lon"]
+                existing_item["building_number"] = (
+                    building_number if building_number is not None else existing_item["building_number"]
+                )
+                existing_item["postcode"] = (
+                    postcode if postcode is not None else existing_item["postcode"]
+                )
+
         else:
             # This is the first item with this name, add it to the dictionary
             extracted_data[name] = {
@@ -121,25 +114,11 @@ def extract_data(json_data):
                 "amenity": amenity,
                 "lat": lat,
                 "lon": lon,
-                "building_number": building_number if building_number is not None else "Unknown",  # Turn into "Unknown" if null
-                "postcode": postcode if postcode is not None else "Unknown",  # Turn into "Unknown" if null
-                "note": element.get("tags").get("note", "N/A"),  # Include the "note" field
+                "building_number": building_number if building_number is not None else "Unknown",
+                "postcode": postcode if postcode is not None else "Unknown",
+                "note": element.get("tags").get("note", "N/A"),
             }
 
-    # Convert the dictionary values to a list of items, excluding the lowercase name
-    extracted_data_list = []
-    for value in extracted_data.values():
-        extracted_data_list.append({
-            "id": value["id"],
-            "name": value["name"],
-            "timestamp": value["timestamp"],
-            "version": value["version"],
-            "amenity": value["amenity"],
-            "lat": value["lat"],
-            "lon": value["lon"],
-            "building_number": value["building_number"],
-            "postcode": value["postcode"],
-            "note": value["note"],  # Include the "note" field
-        })
-
+    # Convert the dictionary values to a list of items
+    extracted_data_list = list(extracted_data.values())
     return extracted_data_list
