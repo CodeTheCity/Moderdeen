@@ -15,10 +15,16 @@ def forward_geocode(building_number, name):
         data = response.json()
         if data and len(data) > 0:
             first_element = data[0]
-            return first_element.get("lat"), first_element.get("lon")
+            lat_str = first_element.get("lat")
+            lon_str = first_element.get("lon")
+            
+            # Parse lat and lon as floats
+            lat = float(lat_str) if lat_str else None
+            lon = float(lon_str) if lon_str else None
+            
+            return lat, lon
     
     return None, None
-
 
 # Function to perform reverse geocoding
 def reverse_geocode(lat, lon):
