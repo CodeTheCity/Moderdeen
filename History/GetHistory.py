@@ -6,25 +6,29 @@ from tqdm import tqdm
 # Initialize an empty list to store the @id values
 id_list = []
 
-# Specify the path to your export.geojson file
-geojson_file_path = 'ListOfNodes.geojson'
-print("Started getting IDs")
-try:
-    # Open and read the GeoJSON file
-    with open(geojson_file_path, 'r') as file:
-        geojson_data = json.load(file)
+# Specify the URL to fetch the GeoJSON file
+geojson_url = 'https://raw.githubusercontent.com/CodeTheCity/Moderdeen/main/History/ListOfNodes.geojson'
 
-    # Check if the GeoJSON has a 'features' key and it's a list
-    if 'features' in geojson_data and isinstance(geojson_data['features'], list):
-        # Iterate through each feature in the GeoJSON
-        for feature in geojson_data['features']:
-            # Check if '@id' is present in the feature's properties
-            if 'properties' in feature and '@id' in feature['properties']:
-                # Append the '@id' value to the id_list
-                id_list.append(feature['properties']['@id'])
-    print("Got IDs")
-except FileNotFoundError:
-    print(f"File '{geojson_file_path}' not found.")
+print("Started getting IDs")
+
+try:
+    # Fetch the GeoJSON data from the URL
+    response = requests.get(geojson_url)
+    if response.status_code == 200:
+        geojson_data = response.json()
+
+        # Check if the GeoJSON has a 'features' key and it's a list
+        if 'features' in geojson_data and isinstance(geojson_data['features'], list):
+            # Iterate through each feature in the GeoJSON
+            for feature in geojson_data['features']:
+                # Check if '@id' is present in the feature's properties
+                if 'properties' in feature and '@id' in feature['properties']:
+                    # Append the '@id' value to the id_list
+                    id_list.append(feature['properties']['@id'])
+        print("Got IDs")
+    else:
+        print(f"Failed to fetch GeoJSON data from the URL: {geojson_url}")
+
 except json.JSONDecodeError as e:
     print(f"Error decoding JSON: {str(e)}")
 except Exception as e:
@@ -33,13 +37,13 @@ except Exception as e:
 combined_data = []
 
 # Loop through the @id values and fetch data from the API with a loading bar
-print("Getting jsons")
+print("Getting JSONs")
 for id_value in tqdm(id_list):
     url = f"https://api.openstreetmap.org/api/0.6/{id_value}/history.json"
     response = requests.get(url)
     if response.status_code == 200:
         data = response.json()
-        
+
         data = DR.extract_data(data)
         combined_data.append(data)
     else:
