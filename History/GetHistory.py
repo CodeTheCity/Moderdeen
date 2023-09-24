@@ -39,8 +39,8 @@ for id_value in tqdm(id_list):
     response = requests.get(url)
     if response.status_code == 200:
         data = response.json()
+        
         data = DR.extract_data(data)
-
         combined_data.append(data)
     else:
         print(f"Failed to fetch data for {id_value}")

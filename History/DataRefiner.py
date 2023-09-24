@@ -1,3 +1,30 @@
+import requests
+import time
+
+# Fixed address for Union Street, Aberdeen, UK
+FIXED_ADDRESS = "Union+Street&city=Aberdeen&country=UK"
+# Function to perform forward geocoding
+def forward_geocode(building_number):
+    url = f"https://geocode.maps.co/search?street={building_number}+{FIXED_ADDRESS}"
+    response = requests.get(url)
+    if response.status_code == 200:
+        data = response.json()
+        if data and len(data) > 0:  # Check if data is not an empty list
+            first_element = data[0]  # Access the first element of the list
+            return first_element.get("lat"), first_element.get("lon")
+    return None, None
+
+
+# Function to perform reverse geocoding
+def reverse_geocode(lat, lon):
+    url = f"https://geocode.maps.co/reverse?lat={lat}&lon={lon}"
+    response = requests.get(url)
+    if response.status_code == 200:
+        data = response.json()
+        if data:
+            return data["display_name"]
+    return None
+
 def extract_data(json_data):
     extracted_data = {}
 
@@ -11,6 +38,7 @@ def extract_data(json_data):
         shop = element["tags"].get("shop", "Unknown")
         disused_shop = element["tags"].get("disused:shop", "Unknown")
         disused_amenity = element["tags"].get("disused:amenity", "Unknown")
+
         # Use the first non-empty name (prefer "name" over "alt_name")
         if name != "Unknown":
             original_name = name.replace('\u2019', "'")
@@ -30,7 +58,18 @@ def extract_data(json_data):
         lon = element.get("lon", None)
         building_number = element["tags"].get("addr:housenumber", None)
         postcode = element["tags"].get("addr:postcode", None)
+        # Check if lat and lon are None, and perform forward geocoding with the fixed address
+        if lat is None and lon is None and building_number:
+            lat, lon = forward_geocode(building_number)
+            time.sleep(0.5)  # To avoid exceeding the rate limit (2 calls per second)
 
+        # Check if building_number or postcode is not known, and perform reverse geocoding
+        if (building_number is None or postcode is None) and lat is not None and lon is not None:
+            address_data = reverse_geocode(lat, lon)
+            if address_data:
+                parts = address_data.split(", ")
+                if len(parts) > 6:
+                    building_number, postcode = parts[0], parts[-2]
         # Check if amenity is null but "shop" is present, use "shop" as amenity
         if amenity is None and shop:
             amenity = shop
