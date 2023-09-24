@@ -143,7 +143,7 @@
                 const buildingTable = document.getElementById('buildingTable');
                 const mapFrame = document.getElementById('mapFrame');
                 const tableBody = buildingTable.querySelector('tbody');
-                const buildingHistory = document.getElementById('buildingHistory'); // Add this line
+                const buildingHistory = document.getElementById('buildingHistory');
 
                 // Create a dictionary to store building data grouped by ID
                 const buildingData = {};
@@ -157,10 +157,19 @@
                 });
 
                 // Populate the dropdown with building names
-                Object.values(buildingData).forEach(building => {
+                const sortedOptions = Object.values(buildingData).map(building => ({
+                    value: building[0].id,
+                    text: building[building.length - 1].name,
+                }));
+
+                // Sort the options alphabetically by the building name
+                sortedOptions.sort((a, b) => a.text.localeCompare(b.text));
+
+                // Append the sorted options to the dropdown
+                sortedOptions.forEach(optionData => {
                     const option = document.createElement('option');
-                    option.value = building[0].id;
-                    option.textContent = building[building.length - 1].name;
+                    option.value = optionData.value;
+                    option.textContent = optionData.text;
                     buildingDropdown.appendChild(option);
                 });
 
@@ -168,38 +177,33 @@
                 buildingDropdown.addEventListener('change', () => {
                     const selectedId = parseInt(buildingDropdown.value);
 
-                    if (selectedId == "default") { // Use loose equality here
+                    if (selectedId == "default") {
                         // Show the default map with a marker
                         mapFrame.src = 'https://www.openstreetmap.org/export/embed.html?layer=mapnik';
-                        buildingHistory.innerHTML = ''; // Clear building history
-                        tableBody.innerHTML = ''; // Clear table
+                        buildingHistory.innerHTML = '';
+                        tableBody.innerHTML = '';
                     } else {
                         let selectedBuildings = buildingData[selectedId];
 
-                        // Find the first building in the list with valid latitude and longitude
                         let selectedBuilding = selectedBuildings.find(building => building.lat !== null && building.lon !== null);
 
-                        // If no building with valid coordinates is found, display an error message
                         if (!selectedBuilding) {
                             alert("No buildings with valid coordinates found for the selected building.");
                             return;
                         }
 
-                        // Populate the table with the selected building's data
-                        tableBody.innerHTML = ''; // Clear previous data
+                        tableBody.innerHTML = '';
                         for (let i = 0; i < selectedBuildings.length; i++) {
                             const row = createTableRow(selectedBuildings[i]);
                             tableBody.appendChild(row);
                         }
 
-                        // Update the map with the selected building's location using OpenStreetMap
                         const lat = selectedBuilding.lat;
                         const lon = selectedBuilding.lon;
 
-                        // Set the map URL with a marker
                         mapFrame.src = `https://www.openstreetmap.org/export/embed.html?bbox=${lon - 0.001},${lat - 0.001},${lon + 0.001},${lat + 0.001}&layer=mapnik&marker=${lat},${lon}`;
                     }
-                }); // Add this closing brace
+                });
             });
     </script>
 </body>
