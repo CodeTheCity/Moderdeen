@@ -74,13 +74,15 @@ def extract_data(json_data):
             lat, lon = forward_geocode(building_number, name)
             time.sleep(0.5)  # To avoid exceeding the rate limit (2 calls per second)
 
-        # Check if building_number or postcode is not known, and perform reverse geocoding
         if (building_number is None or postcode is None) and lat is not None and lon is not None:
             address_data = reverse_geocode(lat, lon)
             if address_data:
                 parts = address_data.split(", ")
                 if len(parts) > 6:
-                    building_number, postcode = parts[0], parts[-2]
+                    # Check if parts[0] is a number
+                    if parts[0].isdigit():
+                        building_number, postcode = parts[0], parts[-2]
+
         # Check if amenity is null but "shop" is present, use "shop" as amenity
         if amenity is None and shop:
             amenity = shop

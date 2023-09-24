@@ -1,13 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Building History Viewer</title>
-    <link rel="icon" type="image/x-icon"
-        href="https://raw.githubusercontent.com/CodeTheCity/Moderdeen/main/History/favicon.ico" />
-
+    <link rel="icon" type="image/x-icon" href="https://raw.githubusercontent.com/CodeTheCity/Moderdeen/main/History/favicon.ico" />
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -21,16 +18,28 @@
             color: #fff;
             padding: 20px;
             text-align: center;
+            margin: 0;
         }
 
         .container {
             max-width: 1200px;
             margin: 0 auto;
             padding: 20px;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
         }
 
         label {
             font-weight: bold;
+        }
+
+        input[type="text"] {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 20px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
         }
 
         select {
@@ -75,17 +84,34 @@
             height: 400px;
             border: none;
         }
+
+        #buildingHistory {
+            margin-top: 20px;
+            padding: 20px;
+            background-color: #f2f2f2;
+            border-radius: 5px;
+        }
+
+        /* Style the search input */
+        #searchInput {
+            background-color: #f7f7f7;
+        }
+
+        /* Style the building dropdown */
+        #buildingDropdown {
+            background-color: #f7f7f7;
+        }
     </style>
 </head>
-
 <body>
     <h1>Building History Viewer</h1>
     <div class="container">
+        <label for="searchInput">Keyword</label>
+        <input type="text" id="searchInput" placeholder="Search for a keyword">
         <label for="buildingDropdown">Select a Building:</label>
         <select id="buildingDropdown">
             <option value="default">Pick one</option>
         </select>
-
         <table id="buildingTable">
             <thead>
                 <tr>
@@ -105,15 +131,9 @@
                 <!-- Table rows will be dynamically added here -->
             </tbody>
         </table>
-
         <div id="map">
             <!-- Initialize the map at the location of Aberdeen -->
-            <iframe id="mapFrame" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"
-                src="https://www.openstreetmap.org/export/embed.html?bbox=-2.2105,57.1497,-2.0861,57.1957&layer=mapnik"></iframe>
-        </div>
-
-        <div id="buildingHistory">
-            <!-- Create an element to display building history here -->
+            <iframe id="mapFrame" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.openstreetmap.org/export/embed.html?bbox=-2.2105,57.1497,-2.0861,57.1957&layer=mapnik"></iframe>
         </div>
     </div>
     <script>
@@ -140,10 +160,10 @@
             .then(response => response.json())
             .then(data => {
                 const buildingDropdown = document.getElementById('buildingDropdown');
+                const searchInput = document.getElementById('searchInput');
                 const buildingTable = document.getElementById('buildingTable');
                 const mapFrame = document.getElementById('mapFrame');
                 const tableBody = buildingTable.querySelector('tbody');
-                const buildingHistory = document.getElementById('buildingHistory');
 
                 // Create a dictionary to store building data grouped by ID
                 const buildingData = {};
@@ -180,31 +200,49 @@
                     if (selectedId == "default") {
                         // Show the default map with a marker
                         mapFrame.src = 'https://www.openstreetmap.org/export/embed.html?layer=mapnik';
-                        buildingHistory.innerHTML = '';
-                        tableBody.innerHTML = '';
                     } else {
                         let selectedBuildings = buildingData[selectedId];
 
-                        let selectedBuilding = selectedBuildings.find(building => building.lat !== null && building.lon !== null);
+                        // Check if none of the selected buildings have valid coordinates
+                        let hasValidCoordinates = selectedBuildings.some(building => building.lat !== null && building.lon !== null);
 
-                        if (!selectedBuilding) {
-                            alert("No buildings with valid coordinates found for the selected building.");
-                            return;
+                        if (!hasValidCoordinates) {
+                            // Show the map with default coordinates
+                            mapFrame.src = 'https://www.openstreetmap.org/export/embed.html?bbox=-2.2,57.0,-2.0,57.3&layer=mapnik';
+                        } else {
+                            const lat = selectedBuildings[0].lat;
+                            const lon = selectedBuildings[0].lon;
+
+                            mapFrame.src = `https://www.openstreetmap.org/export/embed.html?bbox=${lon - 0.001},${lat - 0.001},${lon + 0.001},${lat + 0.001}&layer=mapnik&marker=${lat},${lon}`;
                         }
-
+                        // Process and display selected buildings with valid coordinates
                         tableBody.innerHTML = '';
                         for (let i = 0; i < selectedBuildings.length; i++) {
                             const row = createTableRow(selectedBuildings[i]);
                             tableBody.appendChild(row);
                         }
-
-                        const lat = selectedBuilding.lat;
-                        const lon = selectedBuilding.lon;
-
-                        mapFrame.src = `https://www.openstreetmap.org/export/embed.html?bbox=${lon - 0.001},${lat - 0.001},${lon + 0.001},${lat + 0.001}&layer=mapnik&marker=${lat},${lon}`;
                     }
                 });
+
+                // Function to filter dropdown options based on user input
+                function filterDropdownOptions() {
+                    const searchText = searchInput.value.toLowerCase();
+                    const options = buildingDropdown.querySelectorAll("option");
+
+                    options.forEach(function (option) {
+                        const optionText = option.textContent.toLowerCase();
+                        if (optionText.includes(searchText) || searchText === "") {
+                            option.style.display = "block";
+                        } else {
+                            option.style.display = "none";
+                        }
+                    });
+                }
+
+                // Event listener for input field changes
+                searchInput.addEventListener("input", filterDropdownOptions);
             });
+
     </script>
 </body>
 
