@@ -47,7 +47,7 @@ To obtain historical data, you can use the OpenStreetMap Overpass API. Follow th
 ```overpass
 node["addr:street"="Union Street"]["addr:city"="Aberdeen"];
 ways["addr:street"="Union Street"]["addr:city"="Aberdeen"];
-out;
+out;```
 
 3. Click the "Run" button to execute the query.
 
