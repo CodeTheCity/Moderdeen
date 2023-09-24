@@ -97,7 +97,7 @@ def extract_data(json_data):
         elif amenity is None and shop is None and disused_amenity:
             amenity = disused_amenity
         else:
-            amenity = "Unkown"
+            amenity = "Unknown"
         # Check if disused:shop is " yes" and add "Disused" prefix to the name
         if disused_shop == "yes":
             if name != "Unknown":
@@ -138,7 +138,7 @@ def extract_data(json_data):
             
             # Check if there's a previous_name and update the current item's name
             if previous_name:
-                extracted_data[name]["name"] = f"{original_name} (Formally: {previous_name})"
+                extracted_data[name]["name"] = f"{original_name} (Formally: {previous_name})".replace("Closed: ", "")
             
         previous_name = original_name  # Update previous_name for the next iteration
 
