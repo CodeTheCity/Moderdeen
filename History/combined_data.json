@@ -153,18 +153,6 @@
       "building_number": "Bank of Scotland",
       "postcode": "AB11 6BB",
       "note": "N/A"
-    },
-    {
-      "id": 290633294,
-      "name": "Closed: Bank of Scotland",
-      "timestamp": "2023-04-09T18:18:28Z",
-      "version": 8,
-      "amenity": "Unknown",
-      "lat": 57.1450152,
-      "lon": -2.1036478,
-      "building_number": "201",
-      "postcode": "AB11 6BB",
-      "note": "The postcode AB11 6UG does not exist in Code-Point Open."
     }
   ],
   [
@@ -792,8 +780,8 @@
       "timestamp": "2018-10-19T23:06:08Z",
       "version": 1,
       "amenity": "Unknown",
-      "lat": "57.14750585",
-      "lon": "-2.0960036006698894",
+      "lat": null,
+      "lon": null,
       "building_number": "38",
       "postcode": "AB10 1BD",
       "note": "N/A"
@@ -914,8 +902,8 @@
       "timestamp": "2023-09-03T20:51:25Z",
       "version": 1,
       "amenity": "Unknown",
-      "lat": "57.1453448",
-      "lon": "-2.1031418",
+      "lat": null,
+      "lon": null,
       "building_number": "101-103",
       "postcode": "AB11 6BD",
       "note": "N/A"
@@ -928,8 +916,8 @@
       "timestamp": "2023-09-03T20:51:25Z",
       "version": 1,
       "amenity": "Unknown",
-      "lat": "57.1453448",
-      "lon": "-2.1031418",
+      "lat": null,
+      "lon": null,
       "building_number": "105",
       "postcode": "AB11 6BD",
       "note": "N/A"
@@ -1300,8 +1288,8 @@
       "amenity": "Unknown",
       "lat": 57.1443902,
       "lon": -2.1070712,
-      "building_number": "234",
-      "postcode": "Unknown",
+      "building_number": "Pret A Manger",
+      "postcode": "AB10 1TL",
       "note": "N/A"
     }
   ],
@@ -1314,8 +1302,8 @@
       "amenity": "fast_food",
       "lat": 57.1450089,
       "lon": -2.104904,
-      "building_number": "Unknown",
-      "postcode": "Unknown",
+      "building_number": "Subway",
+      "postcode": "AB10 1QS",
       "note": "N/A"
     }
   ],
@@ -1328,8 +1316,8 @@
       "amenity": "Unknown",
       "lat": 57.146048,
       "lon": -2.1009873,
-      "building_number": "Unknown",
-      "postcode": "Unknown",
+      "building_number": "Jamieson & Carry",
+      "postcode": "AB10 1BF",
       "note": "N/A"
     }
   ],
@@ -1622,18 +1610,6 @@
       "lon": -2.1015519,
       "building_number": "Trinity Centre",
       "postcode": "AB11 6JN",
-      "note": "N/A"
-    },
-    {
-      "id": 6036096495,
-      "name": "Closed: Boots",
-      "timestamp": "2022-04-13T15:34:38Z",
-      "version": 9,
-      "amenity": "Unknown",
-      "lat": 57.1455107,
-      "lon": -2.1018012,
-      "building_number": "161-165",
-      "postcode": "AB11 6BB",
       "note": "N/A"
     },
     {
@@ -2770,7 +2746,7 @@
       "amenity": "bar",
       "lat": 57.1438845,
       "lon": -2.1077972,
-      "building_number": "Unknown",
+      "building_number": "The Howff",
       "postcode": "AB11 6BT",
       "note": "N/A"
     }
@@ -2838,7 +2814,7 @@
       "amenity": "Unknown",
       "lat": 57.1429503,
       "lon": -2.1113116,
-      "building_number": "Unknown",
+      "building_number": "AVENUE",
       "postcode": "AB10 1QS",
       "note": "N/A"
     }

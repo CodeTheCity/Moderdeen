@@ -3,15 +3,21 @@ import time
 
 # Fixed address for Union Street, Aberdeen, UK
 FIXED_ADDRESS = "Union+Street&city=Aberdeen&country=UK"
-# Function to perform forward geocoding
-def forward_geocode(building_number):
-    url = f"https://geocode.maps.co/search?street={building_number}+{FIXED_ADDRESS}"
+def forward_geocode(building_number, name):
+    if building_number:
+        url = f"https://geocode.maps.co/search?street={building_number}+{FIXED_ADDRESS}"
+    elif name:
+        url = f"https://geocode.maps.co/search?q={name}&street=union+street&city=aberdeen&country=uk"
+    else:
+        return None, None
+
     response = requests.get(url)
     if response.status_code == 200:
         data = response.json()
-        if data and len(data) > 0:  # Check if data is not an empty list
-            first_element = data[0]  # Access the first element of the list
+        if data and len(data) > 0:
+            first_element = data[0]
             return first_element.get("lat"), first_element.get("lon")
+    
     return None, None
 
 
@@ -47,7 +53,7 @@ def extract_data(json_data):
             original_name = alt_name.replace('\u2019', "'")
             name = alt_name.lower()
         elif old_name != "Unknown":
-            name = old_name  # Use old_name as the name
+            name = old_name.lower()  # Use old_name as the name
             original_name = "Closed: " + old_name.replace('\u2019', "'")  # Keep the original casing
         else:
             name = "Unknown"
@@ -59,8 +65,8 @@ def extract_data(json_data):
         building_number = element["tags"].get("addr:housenumber", None)
         postcode = element["tags"].get("addr:postcode", None)
         # Check if lat and lon are None, and perform forward geocoding with the fixed address
-        if lat is None and lon is None and building_number:
-            lat, lon = forward_geocode(building_number)
+        if lat is None and lon is None and building_number and name != "Unknown":
+            lat, lon = forward_geocode(building_number, name)
             time.sleep(0.5)  # To avoid exceeding the rate limit (2 calls per second)
 
         # Check if building_number or postcode is not known, and perform reverse geocoding

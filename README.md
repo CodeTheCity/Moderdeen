@@ -18,14 +18,15 @@ out center;
 
 ## History
 To get more uptodate data run GetHistory.py and run
-node
-  ["addr:street"="Union Street"]
-  ["addr:city"="Aberdeen"]
-  ;
+node["addr:street"="Union Street"]["addr:city"="Aberdeen"];
+ways["addr:street"="Union Street"]["addr:city"="Aberdeen"];
 out;
  in https://overpass-turbo.eu/ and export as a geojson and rename to ListOfNodes.geojson
 
  run by cd in History the python GetHistory.py
+
+ pip install tqdm 
+
  
 ## Todo
 Mabye show img of stores
