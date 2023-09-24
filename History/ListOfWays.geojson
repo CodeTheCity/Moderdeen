@@ -2,6 +2,2231 @@
   "type": "FeatureCollection",
   "generator": "overpass-ide",
   "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
-  "timestamp": "2023-09-24T13:18:35Z",
-  "features": []
+  "timestamp": "2023-09-24T13:26:46Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/311813564",
+        "addr:city": "Aberdeen",
+        "addr:postcode": "AB10 1JL",
+        "addr:street": "Union Street",
+        "alt_name": "St Nicholas' Kirk",
+        "amenity": "place_of_worship",
+        "building": "church",
+        "contact:website": "http://www.kirk-of-st-nicholas.org.uk",
+        "denomination": "church_of_scotland",
+        "facebook": "https://www.facebook.com/KirkofStNicholasUniting/",
+        "historic": "church",
+        "image": "File:St Nicholas Kirk.jpg",
+        "name": "The Kirk of St. Nicholas",
+        "opening_date": "1157-12-06",
+        "phone": "+44 1224 643494",
+        "religion": "christian",
+        "source": "knowledge;website;survey;aerial imagery;streetlevel imagery",
+        "wheelchair": "limited",
+        "wikidata": "Q6415558",
+        "wikimedia_commons": "Category:St Nicholas Kirk, Aberdeen",
+        "wikipedia": "en:Kirk of St Nicholas"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -2.0994816,
+              57.1474086
+            ],
+            [
+              -2.0994805,
+              57.1473581
+            ],
+            [
+              -2.0994936,
+              57.1473582
+            ],
+            [
+              -2.0994932,
+              57.1473374
+            ],
+            [
+              -2.0994591,
+              57.1473375
+            ],
+            [
+              -2.0994591,
+              57.1473437
+            ],
+            [
+              -2.0993558,
+              57.1473444
+            ],
+            [
+              -2.0993555,
+              57.1473387
+            ],
+            [
+              -2.0993226,
+              57.1473387
+            ],
+            [
+              -2.0993232,
+              57.1473588
+            ],
+            [
+              -2.0993367,
+              57.1473587
+            ],
+            [
+              -2.0993386,
+              57.147412
+            ],
+            [
+              -2.0992765,
+              57.147412
+            ],
+            [
+              -2.0992761,
+              57.1474004
+            ],
+            [
+              -2.0992546,
+              57.1474003
+            ],
+            [
+              -2.0992551,
+              57.147412
+            ],
+            [
+              -2.0991913,
+              57.1474119
+            ],
+            [
+              -2.0991913,
+              57.1474003
+            ],
+            [
+              -2.0991753,
+              57.1474004
+            ],
+            [
+              -2.099176,
+              57.1474119
+            ],
+            [
+              -2.0991103,
+              57.1474118
+            ],
+            [
+              -2.0991103,
+              57.1474005
+            ],
+            [
+              -2.0990916,
+              57.1474004
+            ],
+            [
+              -2.0990921,
+              57.1474118
+            ],
+            [
+              -2.0990248,
+              57.1474118
+            ],
+            [
+              -2.0990242,
+              57.1474004
+            ],
+            [
+              -2.0990016,
+              57.1474
+            ],
+            [
+              -2.0990022,
+              57.1474118
+            ],
+            [
+              -2.0989332,
+              57.1474117
+            ],
+            [
+              -2.0989329,
+              57.1474074
+            ],
+            [
+              -2.0989146,
+              57.1474076
+            ],
+            [
+              -2.0989015,
+              57.1474048
+            ],
+            [
+              -2.0988917,
+              57.1474112
+            ],
+            [
+              -2.0988941,
+              57.1474144
+            ],
+            [
+              -2.0988812,
+              57.1474232
+            ],
+            [
+              -2.0988758,
+              57.1474225
+            ],
+            [
+              -2.0988668,
+              57.147429
+            ],
+            [
+              -2.0988767,
+              57.1474333
+            ],
+            [
+              -2.0988776,
+              57.1474578
+            ],
+            [
+              -2.0988632,
+              57.1474612
+            ],
+            [
+              -2.0988679,
+              57.1474708
+            ],
+            [
+              -2.0988111,
+              57.1474852
+            ],
+            [
+              -2.0987954,
+              57.1474806
+            ],
+            [
+              -2.0987817,
+              57.1474891
+            ],
+            [
+              -2.0987977,
+              57.1474941
+            ],
+            [
+              -2.0987967,
+              57.1475288
+            ],
+            [
+              -2.098782,
+              57.1475363
+            ],
+            [
+              -2.0987974,
+              57.1475453
+            ],
+            [
+              -2.0988095,
+              57.1475391
+            ],
+            [
+              -2.0988634,
+              57.1475488
+            ],
+            [
+              -2.09886,
+              57.1475616
+            ],
+            [
+              -2.0988785,
+              57.1475661
+            ],
+            [
+              -2.098881,
+              57.1475897
+            ],
+            [
+              -2.0988729,
+              57.1475941
+            ],
+            [
+              -2.0988828,
+              57.1476006
+            ],
+            [
+              -2.0988867,
+              57.1475986
+            ],
+            [
+              -2.0989006,
+              57.1476094
+            ],
+            [
+              -2.0988979,
+              57.1476115
+            ],
+            [
+              -2.0989074,
+              57.1476174
+            ],
+            [
+              -2.09892,
+              57.1476125
+            ],
+            [
+              -2.0989331,
+              57.1476125
+            ],
+            [
+              -2.0989325,
+              57.1476092
+            ],
+            [
+              -2.0989995,
+              57.147609
+            ],
+            [
+              -2.0989995,
+              57.1476203
+            ],
+            [
+              -2.0990205,
+              57.1476205
+            ],
+            [
+              -2.0990199,
+              57.147609
+            ],
+            [
+              -2.0990827,
+              57.1476092
+            ],
+            [
+              -2.0990834,
+              57.1476208
+            ],
+            [
+              -2.0991008,
+              57.1476209
+            ],
+            [
+              -2.0991002,
+              57.1476088
+            ],
+            [
+              -2.0991669,
+              57.1476085
+            ],
+            [
+              -2.0991673,
+              57.1476201
+            ],
+            [
+              -2.0991865,
+              57.1476205
+            ],
+            [
+              -2.0991863,
+              57.1476084
+            ],
+            [
+              -2.0992508,
+              57.147608
+            ],
+            [
+              -2.0992512,
+              57.1476197
+            ],
+            [
+              -2.0992699,
+              57.1476196
+            ],
+            [
+              -2.0992693,
+              57.1476079
+            ],
+            [
+              -2.0993373,
+              57.1476076
+            ],
+            [
+              -2.0993384,
+              57.1476316
+            ],
+            [
+              -2.099328,
+              57.1476314
+            ],
+            [
+              -2.0993287,
+              57.1476469
+            ],
+            [
+              -2.0993644,
+              57.1476466
+            ],
+            [
+              -2.0993643,
+              57.1476393
+            ],
+            [
+              -2.0994574,
+              57.1476385
+            ],
+            [
+              -2.099458,
+              57.1476449
+            ],
+            [
+              -2.0994893,
+              57.147645
+            ],
+            [
+              -2.0994903,
+              57.1476168
+            ],
+            [
+              -2.1000065,
+              57.1476111
+            ],
+            [
+              -2.1000063,
+              57.1475482
+            ],
+            [
+              -2.1000221,
+              57.1475481
+            ],
+            [
+              -2.1000217,
+              57.1475267
+            ],
+            [
+              -2.1000271,
+              57.1475266
+            ],
+            [
+              -2.1000271,
+              57.1474814
+            ],
+            [
+              -2.1000219,
+              57.1474814
+            ],
+            [
+              -2.100022,
+              57.1474612
+            ],
+            [
+              -2.1000069,
+              57.1474612
+            ],
+            [
+              -2.1000062,
+              57.1474042
+            ],
+            [
+              -2.0994816,
+              57.1474086
+            ]
+          ]
+        ]
+      },
+      "id": "way/311813564"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/313943986",
+        "addr:city": "Aberdeen",
+        "addr:housenumber": "31",
+        "addr:postcode": "AB11 5BP",
+        "addr:street": "Union Street",
+        "brand": "British Heart Foundation",
+        "brand:wikidata": "Q4970039",
+        "brand:wikipedia": "en:British Heart Foundation",
+        "building": "yes",
+        "name": "British Heart Foundation",
+        "opening_hours": "Mo-Sa 09:30-17:00; Su 12:00-16:00",
+        "shop": "charity"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -2.0954294,
+              57.1473644
+            ],
+            [
+              -2.0952659,
+              57.1471928
+            ],
+            [
+              -2.0951697,
+              57.14722
+            ],
+            [
+              -2.0953343,
+              57.1473913
+            ],
+            [
+              -2.0954294,
+              57.1473644
+            ]
+          ]
+        ]
+      },
+      "id": "way/313943986"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/313943988",
+        "addr:city": "Aberdeen",
+        "addr:housenumber": "33",
+        "addr:postcode": "AB11 5BP",
+        "addr:street": "Union Street",
+        "building": "yes",
+        "name": "Phone Fix",
+        "shop": "mobile_phone"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -2.0955309,
+              57.1473358
+            ],
+            [
+              -2.0953714,
+              57.1471632
+            ],
+            [
+              -2.0952659,
+              57.1471928
+            ],
+            [
+              -2.0954294,
+              57.1473644
+            ],
+            [
+              -2.0955309,
+              57.1473358
+            ]
+          ]
+        ]
+      },
+      "id": "way/313943988"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/313943990",
+        "addr:city": "Aberdeen",
+        "addr:housenumber": "27",
+        "addr:postcode": "AB11 5BP",
+        "addr:street": "Union Street",
+        "building": "yes",
+        "name": "Smart Phone Labs",
+        "shop": "mobile_phone"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -2.0953343,
+              57.1473913
+            ],
+            [
+              -2.0951697,
+              57.14722
+            ],
+            [
+              -2.0950754,
+              57.1472457
+            ],
+            [
+              -2.095244,
+              57.1474167
+            ],
+            [
+              -2.0953343,
+              57.1473913
+            ]
+          ]
+        ]
+      },
+      "id": "way/313943990"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/313943991",
+        "addr:city": "Aberdeen",
+        "addr:housenumber": "25",
+        "addr:postcode": "AB11 5BP",
+        "addr:street": "Union Street",
+        "building": "yes",
+        "clothes": "children",
+        "shop": "clothes"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -2.095244,
+              57.1474167
+            ],
+            [
+              -2.0950754,
+              57.1472457
+            ],
+            [
+              -2.0949917,
+              57.1472708
+            ],
+            [
+              -2.0951593,
+              57.1474406
+            ],
+            [
+              -2.095244,
+              57.1474167
+            ]
+          ]
+        ]
+      },
+      "id": "way/313943991"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/313974153",
+        "addr:city": "Aberdeen",
+        "addr:housenumber": "23",
+        "addr:postcode": "AB11 5BP",
+        "addr:street": "Union Street",
+        "building": "yes",
+        "check_date": "2023-05-19",
+        "information": "office",
+        "name": "VisitScotland iCentre",
+        "opening_hours": "Mo-Su 09:30-17:00",
+        "operator": "Visit Scotland",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -2.0951593,
+              57.1474406
+            ],
+            [
+              -2.0949917,
+              57.1472708
+            ],
+            [
+              -2.0948841,
+              57.147302
+            ],
+            [
+              -2.0950189,
+              57.1474181
+            ],
+            [
+              -2.0950722,
+              57.1474452
+            ],
+            [
+              -2.0951145,
+              57.1474533
+            ],
+            [
+              -2.0951593,
+              57.1474406
+            ]
+          ]
+        ]
+      },
+      "id": "way/313974153"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/314020851",
+        "addr:city": "Aberdeen",
+        "addr:housenumber": "49",
+        "addr:postcode": "AB11 5BN",
+        "addr:street": "Union Street",
+        "building": "yes",
+        "name": "Prime Vapour",
+        "shop": "e-cigarette"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -2.0961329,
+              57.1471658
+            ],
+            [
+              -2.096248,
+              57.1471334
+            ],
+            [
+              -2.0961753,
+              57.1470558
+            ],
+            [
+              -2.0961325,
+              57.1470106
+            ],
+            [
+              -2.0960789,
+              57.1470256
+            ],
+            [
+              -2.0960361,
+              57.1469807
+            ],
+            [
+              -2.0959753,
+              57.1469978
+            ],
+            [
+              -2.0960132,
+              57.1470382
+            ],
+            [
+              -2.0961329,
+              57.1471658
+            ]
+          ]
+        ]
+      },
+      "id": "way/314020851"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/314020861",
+        "addr:city": "Aberdeen",
+        "addr:housenumber": "47",
+        "addr:postcode": "AB11 5BN",
+        "addr:street": "Union Street",
+        "building": "yes",
+        "shop": "vacant"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -2.0960296,
+              57.147195
+            ],
+            [
+              -2.0961329,
+              57.1471658
+            ],
+            [
+              -2.0960132,
+              57.1470382
+            ],
+            [
+              -2.0959753,
+              57.1469978
+            ],
+            [
+              -2.0959075,
+              57.1470168
+            ],
+            [
+              -2.0959457,
+              57.1470575
+            ],
+            [
+              -2.0959107,
+              57.1470671
+            ],
+            [
+              -2.0960296,
+              57.147195
+            ]
+          ]
+        ]
+      },
+      "id": "way/314020861"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/314091321",
+        "addr:city": "Aberdeen",
+        "addr:housenumber": "122A-128",
+        "addr:postcode": "AB10 1JJ",
+        "addr:street": "Union Street",
+        "building": "yes"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -2.1004602,
+              57.1463167
+            ],
+            [
+              -2.1003505,
+              57.1462081
+            ],
+            [
+              -2.1001264,
+              57.1462692
+            ],
+            [
+              -2.1002398,
+              57.1463801
+            ],
+            [
+              -2.1002502,
+              57.146377
+            ],
+            [
+              -2.1004602,
+              57.1463167
+            ]
+          ]
+        ]
+      },
+      "id": "way/314091321"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/314091322",
+        "addr:city": "Aberdeen",
+        "addr:housenumber": "130",
+        "addr:postcode": "AB10 1JJ",
+        "addr:street": "Union Street",
+        "building": "yes",
+        "office": "yes"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -2.1006974,
+              57.1462486
+            ],
+            [
+              -2.1005908,
+              57.1461426
+            ],
+            [
+              -2.1003505,
+              57.1462081
+            ],
+            [
+              -2.1004602,
+              57.1463167
+            ],
+            [
+              -2.1006974,
+              57.1462486
+            ]
+          ]
+        ]
+      },
+      "id": "way/314091322"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/314091334",
+        "addr:city": "Aberdeen",
+        "addr:housenumber": "122",
+        "addr:postcode": "AB10 1JJ",
+        "addr:street": "Union Street",
+        "brand": "Bargain Buys",
+        "brand:wikidata": "Q19870995",
+        "brand:wikipedia": "en:Bargain Buys",
+        "building": "yes",
+        "name": "Bargain Buys",
+        "opening_hours": "Mo-Sa 09:00-18:00; Su 11:00-17:00",
+        "shop": "variety_store"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -2.1005187,
+              57.1465794
+            ],
+            [
+              -2.1004924,
+              57.1465611
+            ],
+            [
+              -2.1003406,
+              57.1464583
+            ],
+            [
+              -2.1002618,
+              57.1463879
+            ],
+            [
+              -2.1002502,
+              57.146377
+            ],
+            [
+              -2.1002398,
+              57.1463801
+            ],
+            [
+              -2.1001264,
+              57.1462692
+            ],
+            [
+              -2.1000216,
+              57.1462978
+            ],
+            [
+              -2.100121,
+              57.1463965
+            ],
+            [
+              -2.1000664,
+              57.1464117
+            ],
+            [
+              -2.1000871,
+              57.1464455
+            ],
+            [
+              -2.1001146,
+              57.1465571
+            ],
+            [
+              -2.1000475,
+              57.146581
+            ],
+            [
+              -2.1000733,
+              57.1466532
+            ],
+            [
+              -2.1001261,
+              57.1466849
+            ],
+            [
+              -2.1001709,
+              57.1467127
+            ],
+            [
+              -2.1005187,
+              57.1465794
+            ]
+          ]
+        ]
+      },
+      "id": "way/314091334"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/314113004",
+        "addr:city": "Aberdeen",
+        "addr:housenumber": "85",
+        "addr:postcode": "AB11 6BD",
+        "addr:street": "Union Street",
+        "building": "retail",
+        "clothes": "women",
+        "name": "Dizzy's",
+        "shop": "clothes"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -2.0978243,
+              57.1466875
+            ],
+            [
+              -2.0977042,
+              57.1465689
+            ],
+            [
+              -2.0976126,
+              57.1466014
+            ],
+            [
+              -2.0977283,
+              57.1467147
+            ],
+            [
+              -2.0978243,
+              57.1466875
+            ]
+          ]
+        ]
+      },
+      "id": "way/314113004"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/314113007",
+        "addr:city": "Aberdeen",
+        "addr:housenumber": "81",
+        "addr:postcode": "AB11 6BD",
+        "addr:street": "Union Street",
+        "branch": "LUSH Aberdeen",
+        "brand": "Lush",
+        "brand:wikidata": "Q1585448",
+        "brand:wikipedia": "en:Lush (company)",
+        "building": "retail",
+        "check_date:opening_hours": "2023-07-21",
+        "email": "aberdeen@lush.co.uk",
+        "lgbtq": "welcome",
+        "name": "Lush",
+        "note": "next to Caffe Nero",
+        "opening_hours": "Mo-Sa 09:30-18:00; Su 11:00-17:00",
+        "phone": "+441224592666",
+        "shop": "cosmetics",
+        "source": "survey",
+        "website": "https://www.lush.com/uk/en/shops/lush-aberdeen?id=UK036",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -2.0977283,
+              57.1467147
+            ],
+            [
+              -2.0976126,
+              57.1466014
+            ],
+            [
+              -2.0975377,
+              57.1466279
+            ],
+            [
+              -2.0976512,
+              57.1467366
+            ],
+            [
+              -2.0977283,
+              57.1467147
+            ]
+          ]
+        ]
+      },
+      "id": "way/314113007"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/314113008",
+        "addr:city": "Aberdeen",
+        "addr:housenumber": "95-99",
+        "addr:postcode": "AB11 6BD",
+        "addr:street": "Union Street",
+        "amenity": "bank",
+        "atm": "yes",
+        "brand": "HSBC UK",
+        "brand:wikidata": "Q64767453",
+        "brand:wikipedia": "en:HSBC",
+        "building": "yes",
+        "check_date": "2023-06-24",
+        "drive_through": "no",
+        "name": "HSBC UK",
+        "opening_hours": "Mo-Fr 09:30-16:30; Sa 09:30-13:00; PH,Su off",
+        "quiet_hours": "Mo-Fr 14:00-15:00; Sa,Su off",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -2.098426,
+              57.146517
+            ],
+            [
+              -2.0982759,
+              57.1463667
+            ],
+            [
+              -2.0980558,
+              57.1464432
+            ],
+            [
+              -2.098198,
+              57.1465816
+            ],
+            [
+              -2.098426,
+              57.146517
+            ]
+          ]
+        ]
+      },
+      "id": "way/314113008"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/314113009",
+        "addr:city": "Aberdeen",
+        "addr:housenumber": "98",
+        "addr:postcode": "AB10 1JL",
+        "addr:street": "Union Street",
+        "building": "yes"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -2.0984721,
+              57.1468629
+            ],
+            [
+              -2.0986508,
+              57.1468101
+            ],
+            [
+              -2.0985543,
+              57.1467093
+            ],
+            [
+              -2.0983733,
+              57.1467608
+            ],
+            [
+              -2.0984721,
+              57.1468629
+            ]
+          ]
+        ]
+      },
+      "id": "way/314113009"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/314113010",
+        "addr:city": "Aberdeen",
+        "addr:housenumber": "92",
+        "addr:postcode": "AB10 1JL",
+        "addr:street": "Union Street",
+        "building": "yes"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -2.0983179,
+              57.1469099
+            ],
+            [
+              -2.0984721,
+              57.1468629
+            ],
+            [
+              -2.0983733,
+              57.1467608
+            ],
+            [
+              -2.0982162,
+              57.1468046
+            ],
+            [
+              -2.0983179,
+              57.1469099
+            ]
+          ]
+        ]
+      },
+      "id": "way/314113010"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/314113011",
+        "addr:city": "Aberdeen",
+        "addr:housenumber": "78-80",
+        "addr:postcode": "AB10 1HH",
+        "addr:street": "Union Street",
+        "air_conditioning": "yes",
+        "amenity": "bank",
+        "atm": "yes",
+        "branch": "St. Nicholas",
+        "brand": "RBS",
+        "brand:wikidata": "Q160126",
+        "building": "retail",
+        "currency:GBP": "yes",
+        "drive_through": "no",
+        "internet_access": "wlan",
+        "name": "RBS",
+        "official_name": "Royal Bank of Scotland",
+        "opening_hours": "Mo,Tu,Th,Fr 9:30-16:30; We 10:00-16:30",
+        "phone": "+443457242424"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -2.097899,
+              57.1470354
+            ],
+            [
+              -2.0981669,
+              57.1469551
+            ],
+            [
+              -2.0980615,
+              57.1468481
+            ],
+            [
+              -2.097809,
+              57.1469193
+            ],
+            [
+              -2.097899,
+              57.1470354
+            ]
+          ]
+        ]
+      },
+      "id": "way/314113011"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/314113012",
+        "addr:city": "Aberdeen",
+        "addr:housenumber": "73",
+        "addr:postcode": "AB11 6BD",
+        "addr:street": "Union Street",
+        "building": "retail",
+        "cuisine": "coffee_shop",
+        "disused:amenity": "cafe",
+        "outdoor_seating": "no"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -2.0976512,
+              57.1467366
+            ],
+            [
+              -2.0975377,
+              57.1466279
+            ],
+            [
+              -2.0972936,
+              57.1467142
+            ],
+            [
+              -2.0974367,
+              57.1467974
+            ],
+            [
+              -2.0976512,
+              57.1467366
+            ]
+          ]
+        ]
+      },
+      "id": "way/314113012"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/404892147",
+        "addr:city": "Aberdeen",
+        "addr:postcode": "AB10 1QS",
+        "addr:street": "Union Street",
+        "amenity": "theatre",
+        "building": "yes",
+        "fhrs:authority": "Aberdeen City",
+        "fhrs:id": "592952",
+        "fhrs:local_authority_id": "EHDC3596",
+        "name": "Music Hall",
+        "old_fhrs:id": "104988",
+        "source:addr": "fhrs",
+        "source:shape": "Bing-aligned NLS",
+        "wikidata": "Q15260398",
+        "wikipedia": "en:Music Hall Aberdeen"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -2.1050656,
+              57.1452903
+            ],
+            [
+              -2.1049916,
+              57.1452124
+            ],
+            [
+              -2.1048056,
+              57.1450166
+            ],
+            [
+              -2.1047234,
+              57.1450396
+            ],
+            [
+              -2.1046925,
+              57.145007
+            ],
+            [
+              -2.1044455,
+              57.1450761
+            ],
+            [
+              -2.1044769,
+              57.1451092
+            ],
+            [
+              -2.1043996,
+              57.1451308
+            ],
+            [
+              -2.1044109,
+              57.1451427
+            ],
+            [
+              -2.1044562,
+              57.1451903
+            ],
+            [
+              -2.1044594,
+              57.1451937
+            ],
+            [
+              -2.1046589,
+              57.1454037
+            ],
+            [
+              -2.1046652,
+              57.1454103
+            ],
+            [
+              -2.1048391,
+              57.1455935
+            ],
+            [
+              -2.1052857,
+              57.1454686
+            ],
+            [
+              -2.1053093,
+              57.1454934
+            ],
+            [
+              -2.1054667,
+              57.1454494
+            ],
+            [
+              -2.1055713,
+              57.1454201
+            ],
+            [
+              -2.1053677,
+              57.1452058
+            ],
+            [
+              -2.1050656,
+              57.1452903
+            ]
+          ]
+        ]
+      },
+      "id": "way/404892147"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/404999677",
+        "addr:city": "Aberdeen",
+        "addr:housenumber": "367",
+        "addr:postcode": "AB11 6BT",
+        "addr:street": "Union Street",
+        "building": "yes",
+        "source:shape": "bing-based NLS",
+        "start_date": "before 1867"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -2.108023,
+              57.1438461
+            ],
+            [
+              -2.1079171,
+              57.1437368
+            ],
+            [
+              -2.1077462,
+              57.1437864
+            ],
+            [
+              -2.1077547,
+              57.1437952
+            ],
+            [
+              -2.1078502,
+              57.1438939
+            ],
+            [
+              -2.1078771,
+              57.1438865
+            ],
+            [
+              -2.108023,
+              57.1438461
+            ]
+          ]
+        ]
+      },
+      "id": "way/404999677"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/463771007",
+        "addr:city": "Aberdeen",
+        "addr:postcode": "AB10 1TP",
+        "addr:street": "Union Street",
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "denomination": "evangelical",
+        "fhrs:authority": "Aberdeen City",
+        "fhrs:id": "631957",
+        "fhrs:local_authority_id": "EHDC11446",
+        "name": "Gilcomston Church",
+        "religion": "christian",
+        "website": "http://www.gilcomston.org/",
+        "wikidata": "Q5561491",
+        "wikipedia": "en:Gilcomston Church"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -2.1089881,
+              57.1441842
+            ],
+            [
+              -2.1089113,
+              57.1440983
+            ],
+            [
+              -2.1089279,
+              57.144094
+            ],
+            [
+              -2.1088043,
+              57.1439557
+            ],
+            [
+              -2.1088863,
+              57.1439341
+            ],
+            [
+              -2.1088463,
+              57.1438894
+            ],
+            [
+              -2.1084982,
+              57.143981
+            ],
+            [
+              -2.1086497,
+              57.1441504
+            ],
+            [
+              -2.1086179,
+              57.1441588
+            ],
+            [
+              -2.108677,
+              57.144225
+            ],
+            [
+              -2.1087958,
+              57.1441937
+            ],
+            [
+              -2.1088471,
+              57.1442511
+            ],
+            [
+              -2.1089379,
+              57.1442272
+            ],
+            [
+              -2.1089163,
+              57.1442031
+            ],
+            [
+              -2.1089881,
+              57.1441842
+            ]
+          ]
+        ]
+      },
+      "id": "way/463771007"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/636120624",
+        "addr:city": "Aberdeen",
+        "addr:housenumber": "26-30",
+        "addr:postcode": "AB10 1BD",
+        "addr:street": "Union Street",
+        "building": "retail",
+        "building:levels": "4",
+        "roof:levels": "1",
+        "roof:shape": "double_saltbox"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -2.0959754,
+              57.1477279
+            ],
+            [
+              -2.0957521,
+              57.1476237
+            ],
+            [
+              -2.0957089,
+              57.1475791
+            ],
+            [
+              -2.0956521,
+              57.1475204
+            ],
+            [
+              -2.0954192,
+              57.1475846
+            ],
+            [
+              -2.0954306,
+              57.1475972
+            ],
+            [
+              -2.0953779,
+              57.1476116
+            ],
+            [
+              -2.0954644,
+              57.1477042
+            ],
+            [
+              -2.0954828,
+              57.147716
+            ],
+            [
+              -2.0954912,
+              57.1477222
+            ],
+            [
+              -2.0955026,
+              57.1477282
+            ],
+            [
+              -2.0955129,
+              57.1477345
+            ],
+            [
+              -2.0957633,
+              57.1478535
+            ],
+            [
+              -2.0958271,
+              57.1478148
+            ],
+            [
+              -2.0959754,
+              57.1477279
+            ]
+          ]
+        ]
+      },
+      "id": "way/636120624"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/636141921",
+        "addr:city": "Aberdeen",
+        "addr:housenumber": "60-62",
+        "addr:postcode": "AB10 1BB",
+        "addr:street": "Union Street",
+        "building": "yes"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -2.0972154,
+              57.1472458
+            ],
+            [
+              -2.0973726,
+              57.1473527
+            ],
+            [
+              -2.0975522,
+              57.1472717
+            ],
+            [
+              -2.0975418,
+              57.1472648
+            ],
+            [
+              -2.0975545,
+              57.1472568
+            ],
+            [
+              -2.0975666,
+              57.147247
+            ],
+            [
+              -2.0975713,
+              57.1472375
+            ],
+            [
+              -2.0976152,
+              57.1472126
+            ],
+            [
+              -2.0975777,
+              57.1471727
+            ],
+            [
+              -2.097587,
+              57.1471702
+            ],
+            [
+              -2.0974471,
+              57.1470212
+            ],
+            [
+              -2.0970915,
+              57.1471214
+            ],
+            [
+              -2.0972154,
+              57.1472458
+            ]
+          ]
+        ]
+      },
+      "id": "way/636141921"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/636141926",
+        "addr:city": "Aberdeen",
+        "addr:housenumber": "44",
+        "addr:postcode": "AB10 1BD",
+        "addr:street": "Union Street",
+        "building": "yes",
+        "name": "Outfits",
+        "shop": "general"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -2.096265,
+              57.1473512
+            ],
+            [
+              -2.0963692,
+              57.1474656
+            ],
+            [
+              -2.096391,
+              57.1474897
+            ],
+            [
+              -2.0965012,
+              57.1474601
+            ],
+            [
+              -2.0963745,
+              57.1473209
+            ],
+            [
+              -2.096265,
+              57.1473512
+            ]
+          ]
+        ]
+      },
+      "id": "way/636141926"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/636141927",
+        "addr:city": "Aberdeen",
+        "addr:housenumber": "40-42",
+        "addr:postcode": "AB10 1BD",
+        "addr:street": "Union Street",
+        "brand": "Optical Express",
+        "brand:wikidata": "Q7098810",
+        "building": "yes",
+        "name": "Optical Express",
+        "shop": "optician"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -2.096265,
+              57.1473512
+            ],
+            [
+              -2.0960861,
+              57.1474006
+            ],
+            [
+              -2.0961843,
+              57.1475131
+            ],
+            [
+              -2.0963692,
+              57.1474656
+            ],
+            [
+              -2.096265,
+              57.1473512
+            ]
+          ]
+        ]
+      },
+      "id": "way/636141927"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/636141930",
+        "addr:city": "Aberdeen",
+        "addr:housenumber": "38",
+        "addr:postcode": "AB10 1BD",
+        "addr:street": "Union Street",
+        "building": "retail",
+        "check_date": "2023-01-13",
+        "disused:amenity": "restaurant"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -2.0961843,
+              57.1475131
+            ],
+            [
+              -2.0960861,
+              57.1474006
+            ],
+            [
+              -2.0957961,
+              57.1474806
+            ],
+            [
+              -2.0958538,
+              57.1475403
+            ],
+            [
+              -2.0958949,
+              57.1475855
+            ],
+            [
+              -2.0959532,
+              57.1476522
+            ],
+            [
+              -2.0962173,
+              57.1476269
+            ],
+            [
+              -2.0961843,
+              57.1475131
+            ]
+          ]
+        ]
+      },
+      "id": "way/636141930"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1053169097",
+        "addr:city": "Aberdeen",
+        "addr:country": "GB",
+        "addr:housenumber": "117",
+        "addr:postcode": "AB11 6BH",
+        "addr:street": "Union Street",
+        "amenity": "fast_food",
+        "brand": "McDonald's",
+        "brand:wikidata": "Q38076",
+        "brand:wikipedia": "en:McDonald's",
+        "building": "retail",
+        "check_date": "2023-06-24",
+        "contact:website": "https://www.mcdonalds.com/gb/en-gb/location/aberdeen/aberdeen-city-centre/117-union-street/8260398.html",
+        "cuisine": "burger",
+        "drive_through": "no",
+        "fhrs:authority": "Aberdeen City",
+        "fhrs:id": "906417",
+        "fhrs:local_authority_id": "EHDC12014",
+        "name": "McDonald's",
+        "old_fhrs:id": "148839",
+        "opening_hours": "Su-Th 06:00-24:00, Fr,Sa 06:00-03:45",
+        "source:addr": "fhrs",
+        "source:alignment": "bing-based NLS",
+        "source:shape": "NLS",
+        "takeaway": "yes",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -2.0988458,
+              57.1461784
+            ],
+            [
+              -2.0990198,
+              57.1463486
+            ],
+            [
+              -2.0992641,
+              57.1462794
+            ],
+            [
+              -2.0991615,
+              57.1461726
+            ],
+            [
+              -2.0990942,
+              57.1461027
+            ],
+            [
+              -2.0988458,
+              57.1461784
+            ]
+          ]
+        ]
+      },
+      "id": "way/1053169097"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1180776446",
+        "addr:city": "Aberdeen",
+        "addr:housenumber": "5-9",
+        "addr:postcode": "AB11 5BU",
+        "addr:street": "Union Street",
+        "addr:unit": "The Athenaeum",
+        "amenity": "pub",
+        "brand": "BrewDog",
+        "brand:wikidata": "Q911367",
+        "brand:wikipedia": "en:BrewDog",
+        "building": "yes",
+        "check_date": "2023-06-23",
+        "fhrs:authority": "Aberdeen City",
+        "fhrs:id": "1347987",
+        "fhrs:local_authority_id": "317",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "name": "BrewDog Castlegate",
+        "old_name": "TheAtheneum",
+        "website": "https://www.brewdog.com/bars/uk/castlegate"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -2.0946855,
+              57.1475744
+            ],
+            [
+              -2.0945779,
+              57.1474732
+            ],
+            [
+              -2.0944841,
+              57.147506
+            ],
+            [
+              -2.094429,
+              57.147459
+            ],
+            [
+              -2.0943226,
+              57.1475005
+            ],
+            [
+              -2.094273,
+              57.1475199
+            ],
+            [
+              -2.0943084,
+              57.1475551
+            ],
+            [
+              -2.094302,
+              57.1475568
+            ],
+            [
+              -2.094363,
+              57.147622
+            ],
+            [
+              -2.0943694,
+              57.1476202
+            ],
+            [
+              -2.0944021,
+              57.1476544
+            ],
+            [
+              -2.0946855,
+              57.1475744
+            ]
+          ]
+        ]
+      },
+      "id": "way/1180776446"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1180776447",
+        "addr:city": "Aberdeen",
+        "addr:housenumber": "21",
+        "addr:postcode": "AB11 5BU",
+        "addr:street": "Union Street",
+        "amenity": "cafe",
+        "building": "yes",
+        "check_date": "2023-06-23",
+        "cuisine": "regional",
+        "fhrs:authority": "Aberdeen City",
+        "fhrs:id": "1347793",
+        "fhrs:local_authority_id": "2162",
+        "name": "Union Cafe & Bistro",
+        "smoking": "no"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -2.0948875,
+              57.1473657
+            ],
+            [
+              -2.0948097,
+              57.1473944
+            ],
+            [
+              -2.0949199,
+              57.1475082
+            ],
+            [
+              -2.0949954,
+              57.1474869
+            ],
+            [
+              -2.095009,
+              57.1474779
+            ],
+            [
+              -2.0950116,
+              57.1474651
+            ],
+            [
+              -2.0948875,
+              57.1473657
+            ]
+          ]
+        ]
+      },
+      "id": "way/1180776447"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1180776448",
+        "addr:city": "Aberdeen",
+        "addr:housenumber": "15",
+        "addr:postcode": "AB11 5BU",
+        "addr:street": "Union Street",
+        "building": "yes",
+        "name": "Royal Athenaeum Suites",
+        "operator": "Aberdeen Douglas Hotel",
+        "tourism": "apartment",
+        "website": "https://royalathenaeum.com/"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -2.0946855,
+              57.1475744
+            ],
+            [
+              -2.0948152,
+              57.1475378
+            ],
+            [
+              -2.0947051,
+              57.1474306
+            ],
+            [
+              -2.0945779,
+              57.1474732
+            ],
+            [
+              -2.0946855,
+              57.1475744
+            ]
+          ]
+        ]
+      },
+      "id": "way/1180776448"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1180776449",
+        "addr:city": "Aberdeen",
+        "addr:housenumber": "17",
+        "addr:postcode": "AB11 5BU",
+        "addr:street": "Union Street",
+        "brand": "Londis",
+        "brand:wikidata": "Q21008564",
+        "building": "yes",
+        "name": "Londis",
+        "opening_hours": "Mo-Su 06:00-24:00",
+        "shop": "convenience"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -2.0948152,
+              57.1475378
+            ],
+            [
+              -2.0949199,
+              57.1475082
+            ],
+            [
+              -2.0948097,
+              57.1473944
+            ],
+            [
+              -2.0947051,
+              57.1474306
+            ],
+            [
+              -2.0948152,
+              57.1475378
+            ]
+          ]
+        ]
+      },
+      "id": "way/1180776449"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1204758028",
+        "addr:city": "Aberdeen",
+        "addr:housenumber": "101-103",
+        "addr:postcode": "AB11 6BD",
+        "addr:street": "Union Street",
+        "building": "yes",
+        "shop": "yes"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -2.0984582,
+              57.1465078
+            ],
+            [
+              -2.098594,
+              57.1464693
+            ],
+            [
+              -2.0984378,
+              57.1463094
+            ],
+            [
+              -2.0983075,
+              57.1463555
+            ],
+            [
+              -2.0984582,
+              57.1465078
+            ]
+          ]
+        ]
+      },
+      "id": "way/1204758028"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1204758029",
+        "addr:city": "Aberdeen",
+        "addr:housenumber": "105",
+        "addr:postcode": "AB11 6BD",
+        "addr:street": "Union Street",
+        "building": "yes",
+        "shop": "yes"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -2.098594,
+              57.1464693
+            ],
+            [
+              -2.0987523,
+              57.1464245
+            ],
+            [
+              -2.0986001,
+              57.1462625
+            ],
+            [
+              -2.0985982,
+              57.1462605
+            ],
+            [
+              -2.0985956,
+              57.1462591
+            ],
+            [
+              -2.0985923,
+              57.1462581
+            ],
+            [
+              -2.0985886,
+              57.1462577
+            ],
+            [
+              -2.0985849,
+              57.1462579
+            ],
+            [
+              -2.0985811,
+              57.1462587
+            ],
+            [
+              -2.0984378,
+              57.1463094
+            ],
+            [
+              -2.098594,
+              57.1464693
+            ]
+          ]
+        ]
+      },
+      "id": "way/1204758029"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1204758031",
+        "addr:city": "Aberdeen",
+        "addr:housenumber": "111",
+        "addr:postcode": "AB11 6BH",
+        "addr:street": "Union Street",
+        "building": "yes",
+        "name": "Pound World",
+        "shop": "variety_store"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -2.0990198,
+              57.1463486
+            ],
+            [
+              -2.0988458,
+              57.1461784
+            ],
+            [
+              -2.0987213,
+              57.146219
+            ],
+            [
+              -2.0988908,
+              57.1463852
+            ],
+            [
+              -2.0990198,
+              57.1463486
+            ]
+          ]
+        ]
+      },
+      "id": "way/1204758031"
+    }
+  ]
 }

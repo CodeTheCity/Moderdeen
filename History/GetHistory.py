@@ -6,33 +6,40 @@ from tqdm import tqdm
 # Initialize an empty list to store the @id values
 id_list = []
 
-# Specify the URL to fetch the GeoJSON file
-geojson_url = 'https://raw.githubusercontent.com/CodeTheCity/Moderdeen/main/History/ListOfNodes.geojson'
+# Specify the URLs to fetch the GeoJSON files
+node_geojson_url = 'https://raw.githubusercontent.com/CodeTheCity/Moderdeen/main/History/ListOfNodes.geojson'
+way_geojson_url = 'https://raw.githubusercontent.com/CodeTheCity/Moderdeen/main/History/ListOfWays.geojson'
 
 print("Started getting IDs")
 
-try:
-    # Fetch the GeoJSON data from the URL
-    response = requests.get(geojson_url)
-    if response.status_code == 200:
-        geojson_data = response.json()
+# Function to fetch IDs from GeoJSON and add them to the id_list
+def fetch_ids_from_geojson(geojson_url):
+    try:
+        # Fetch the GeoJSON data from the URL
+        response = requests.get(geojson_url)
+        if response.status_code == 200:
+            geojson_data = response.json()
 
-        # Check if the GeoJSON has a 'features' key and it's a list
-        if 'features' in geojson_data and isinstance(geojson_data['features'], list):
-            # Iterate through each feature in the GeoJSON
-            for feature in geojson_data['features']:
-                # Check if '@id' is present in the feature's properties
-                if 'properties' in feature and '@id' in feature['properties']:
-                    # Append the '@id' value to the id_list
-                    id_list.append(feature['properties']['@id'])
-        print("Got IDs")
-    else:
-        print(f"Failed to fetch GeoJSON data from the URL: {geojson_url}")
+            # Check if the GeoJSON has a 'features' key and it's a list
+            if 'features' in geojson_data and isinstance(geojson_data['features'], list):
+                # Iterate through each feature in the GeoJSON
+                for feature in geojson_data['features']:
+                    # Check if '@id' is present in the feature's properties
+                    if 'properties' in feature and '@id' in feature['properties']:
+                        # Append the '@id' value to the id_list
+                        id_list.append(feature['properties']['@id'])
+                print(f"Got IDs from {geojson_url}")
+        else:
+            print(f"Failed to fetch GeoJSON data from the URL: {geojson_url}")
 
-except json.JSONDecodeError as e:
-    print(f"Error decoding JSON: {str(e)}")
-except Exception as e:
-    print(f"An error occurred: {str(e)}")
+    except json.JSONDecodeError as e:
+        print(f"Error decoding JSON: {str(e)}")
+    except Exception as e:
+        print(f"An error occurred: {str(e)}")
+
+# Fetch IDs from both GeoJSON files
+fetch_ids_from_geojson(node_geojson_url)
+fetch_ids_from_geojson(way_geojson_url)
 
 combined_data = []
 
