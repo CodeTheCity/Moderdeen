@@ -68,7 +68,7 @@ Here's an explanation of the JavaScript functionality in the code:
 
 The web application allows users to plan a pub crawl by selecting locations, creating a route, and viewing it on the map. It provides a user-friendly interface with checkboxes for location selection and a map for visualizing the pub crawl route.
 
-# History
+# Get History
 
 This section provides instructions on how to obtain and update historical data related to Union Street in Aberdeen, UK. The historical data includes information about buildings and other elements captured by OpenStreetMap contributors.
 
@@ -121,5 +121,68 @@ Feel free to enhance and customize your project with this valuable historical da
 For more information on using the historical data in your project, refer to the provided Python script and HTML interface.
 If you have any questions or need further assistance, please don't hesitate to ask.
 
-## Usage 
-Once the file combined_data.json had been compiled run the History.html file and it will give a GUI to interacet witht the data.
+# Building History Viewer Web Application
+
+This HTML document represents a web application called "Building History Viewer." The application allows users to search and view historical data about buildings in Aberdeen. Below is an explanation of the structure and functionality of the provided HTML and JavaScript code.
+
+## HTML Structure
+
+The HTML structure of the web application is as follows:
+
+### Document Head
+
+- The `<head>` section includes metadata such as character encoding and viewport settings.
+
+- The title of the web page is set to "Building History Viewer."
+
+- An icon (favicon) is linked to the web page.
+
+- CSS styles for the application are defined within a `<style>` block in the head.
+
+### Body Content
+
+- The `<body>` section contains the content visible to users.
+
+- An `<h1>` element displays the application's title, "Building History Viewer."
+
+- The main content is wrapped in a `<div>` with the class "container," which sets the maximum width, background color, and box shadow for the content.
+
+- The content includes:
+  - A search input field labeled "Keyword."
+  - A dropdown labeled "Select a Building" that allows users to choose a specific building.
+  - A table with an empty `<tbody>` element where building data will be displayed.
+  - An embedded OpenStreetMap frame for displaying location data.
+
+## JavaScript Functionality
+
+The JavaScript code at the bottom of the HTML document provides the application's functionality:
+
+- The `createTableRow` function is defined to create a table row (`<tr>`) for displaying building data.
+
+- The application fetches JSON data from a URL (https://raw.githubusercontent.com/CodeTheCity/Moderdeen/main/History/combined_data.json) using the `fetch` API.
+
+- The fetched JSON data is processed to group buildings by ID, considering the latest version of each building.
+
+- The dropdown for selecting buildings is populated with options based on the grouped data.
+
+- An event listener is added to the building dropdown to handle user selection. When a building is selected:
+  - The map is updated to display the building's location using an embedded OpenStreetMap frame. If no valid coordinates are available for the selected building, default coordinates are used.
+  - The table is updated to display the building's historical data.
+
+- The `filterDropdownOptions` function filters the dropdown options based on user input in the search field. It hides options that do not match the entered keyword.
+
+- An event listener is added to the search input field to filter dropdown options as the user types.
+
+## Application Functionality
+
+- Users can enter a keyword in the "Keyword" input field to filter the building dropdown options dynamically.
+
+- Users can select a building from the dropdown to view its historical data and location on the map.
+
+- The map displays a marker for the selected building's location. If coordinates are not available or valid, default map coordinates are used.
+
+- The table below the map displays historical data for the selected building, including its ID, name, timestamp, version, amenity, latitude, longitude, building number, postcode, and notes.
+
+- The table is updated based on the user's selection from the dropdown.
+
+Overall, this web application allows users to explore historical data about buildings in Aberdeen, search for specific buildings, and view their locations on a map. It provides a user-friendly interface for accessing and visualizing building history information.
