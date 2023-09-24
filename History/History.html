@@ -1,10 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Building History Viewer</title>
-    <link rel="icon" type="image/x-icon" href="https://raw.githubusercontent.com/CodeTheCity/Moderdeen/main/History/favicon.ico" />
+    <link rel="icon" type="image/x-icon"
+        href="https://raw.githubusercontent.com/CodeTheCity/Moderdeen/main/History/favicon.ico" />
+    <!-- Include Leaflet CSS and JavaScript -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -103,6 +108,7 @@
         }
     </style>
 </head>
+
 <body>
     <h1>Building History Viewer</h1>
     <div class="container">
@@ -134,7 +140,8 @@
         </table>
         <div id="map">
             <!-- Initialize the map at the location of Aberdeen -->
-            <iframe id="mapFrame" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.openstreetmap.org/export/embed.html?bbox=-2.2105,57.1497,-2.0861,57.1957&layer=mapnik"></iframe>
+            <iframe id="mapFrame" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"
+                src="https://www.openstreetmap.org/export/embed.html?bbox=-2.2105,57.1497,-2.0861,57.1957&layer=mapnik"></iframe>
         </div>
     </div>
     <script>
@@ -268,7 +275,66 @@
                 // Event listener for input field changes
                 searchInput.addEventListener("input", filterDropdownOptions);
             });
+        // Define a variable for the Leaflet map
+        let map;
 
+        // Function to initialize the Leaflet map
+        function initMap() {
+            // Initialize the map
+            map = L.map('map').setView([57.174, -2.148], 14); // Set initial map coordinates and zoom level
+
+            // Add a base layer (you can customize this)
+            L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+                attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+            }).addTo(map);
+
+            // Event listener for dropdown selection
+            buildingDropdown.addEventListener('change', () => {
+                const selectedValue = buildingDropdown.value;
+
+                if (selectedValue === "default") {
+                    // Show the default map with a marker
+                    map.setView([57.174, -2.148], 14); // Set default coordinates and zoom
+                    tableBody.innerHTML = ''; // Clear the table
+                } else if (selectedValue === "searchByYear") {
+                    // Handle the year search here...
+                } else {
+                    let selectedBuildings = buildingData[parseInt(selectedValue)];
+
+                    // Check if none of the selected buildings have valid coordinates...
+
+                    if (!hasValidCoordinates) {
+                        // Show the map with default coordinates...
+                    } else {
+                        const lat = selectedBuildings[0].lat;
+                        const lon = selectedBuildings[0].lon;
+
+                        // Set the map view to the selected building's coordinates
+                        map.setView([lat, lon], 16); // You can adjust the zoom level as needed
+
+                        // Clear existing markers
+                        map.eachLayer(layer => {
+                            if (layer instanceof L.Marker) {
+                                map.removeLayer(layer);
+                            }
+                        });
+
+                        // Add markers for selected buildings
+                        selectedBuildings.forEach(building => {
+                            const marker = L.marker([building.lat, building.lon]).addTo(map);
+
+                            // Add a popup with the building's name
+                            marker.bindPopup(building.name);
+                        });
+                    }
+                    // Process and display selected buildings with valid coordinates...
+                }
+            });
+        }
+
+        // Call the initMap function when the page loads
+        window.onload = initMap;
     </script>
 </body>
+
 </html>
