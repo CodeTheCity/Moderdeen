@@ -156,7 +156,7 @@
     },
     {
       "id": 290633294,
-      "name": "Unknown",
+      "name": "Closed: Bank of Scotland",
       "timestamp": "2023-04-09T18:18:28Z",
       "version": 8,
       "amenity": "Unknown",
@@ -1028,6 +1028,18 @@
     },
     {
       "id": 1314114329,
+      "name": "Closed: Sainsbury's Local",
+      "timestamp": "2019-12-07T13:38:02Z",
+      "version": 7,
+      "amenity": "Unknown",
+      "lat": 57.1448611,
+      "lon": -2.1054735,
+      "building_number": "206",
+      "postcode": "AB10 1QS",
+      "note": "N/A"
+    },
+    {
+      "id": 1314114329,
       "name": "Oodles",
       "timestamp": "2023-09-04T17:24:19Z",
       "version": 11,
@@ -1614,10 +1626,22 @@
     },
     {
       "id": 6036096495,
-      "name": "Unknown",
+      "name": "Closed: Boots",
       "timestamp": "2022-04-13T15:34:38Z",
       "version": 9,
       "amenity": "Unknown",
+      "lat": 57.1455107,
+      "lon": -2.1018012,
+      "building_number": "161-165",
+      "postcode": "AB11 6BB",
+      "note": "N/A"
+    },
+    {
+      "id": 6036096495,
+      "name": "Unknown",
+      "timestamp": "2023-07-20T07:09:49Z",
+      "version": 10,
+      "amenity": "fast_food",
       "lat": 57.1455107,
       "lon": -2.1018012,
       "building_number": "161-165",
@@ -1894,7 +1918,7 @@
     },
     {
       "id": 6054432440,
-      "name": "Unknown",
+      "name": "Closed: The Co-operative Food",
       "timestamp": "2021-08-30T12:45:14Z",
       "version": 7,
       "amenity": "Unknown",

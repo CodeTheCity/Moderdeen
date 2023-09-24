@@ -126,6 +126,39 @@
             return row;
         }
 
+        // Function to perform forward geocoding (convert address to coordinates)
+        function forwardGeocode(address) {
+            const apiUrl = `https://geocode.maps.co/search?q=${encodeURIComponent(address)}`;
+
+            return fetch(apiUrl)
+                .then(response => response.json())
+                .then(data => {
+                    if (data.results.length > 0) {
+                        const lat = data.results[0].geometry.location.lat;
+                        const lon = data.results[0].geometry.location.lon;
+                        return { lat, lon };
+                    } else {
+                        throw new Error('No results found for the address.');
+                    }
+                });
+        }
+
+        // Function to perform reverse geocoding (convert coordinates to address)
+        function reverseGeocode(lat, lon) {
+            const apiUrl = `https://geocode.maps.co/search?lat=${lat}&lon=${lon}`;
+
+            return fetch(apiUrl)
+                .then(response => response.json())
+                .then(data => {
+                    if (data.results.length > 0) {
+                        const address = data.results[0].formatted_address;
+                        return address;
+                    } else {
+                        throw new Error('No results found for the coordinates.');
+                    }
+                });
+        }
+
         // Fetch the JSON data from the URL
         fetch('https://raw.githubusercontent.com/CodeTheCity/Moderdeen/main/History/combined_data.json')
             .then(response => response.json())
@@ -149,7 +182,7 @@
                 Object.values(buildingData).forEach(building => {
                     const option = document.createElement('option');
                     option.value = building[0].id;
-                    option.textContent = building[building.length -1].name;
+                    option.textContent = building[building.length - 1].name;
                     buildingDropdown.appendChild(option);
                 });
 
@@ -164,21 +197,50 @@
                         buildingTable.querySelector('tbody').innerHTML = ''; // Clear table
                     } else {
                         const selectedBuilding = buildingData[selectedId];
-                        // Display building history
 
-                        // Populate the table with the selected building's data
-                        const tableBody = buildingTable.querySelector('tbody');
-                        tableBody.innerHTML = ''; // Clear previous data
-                        for( i=0; i<selectedBuilding.length;i++){
-                        var row = createTableRow(selectedBuilding[i]);
-                        tableBody.appendChild(row);}
+                        // Check if both building number and postcode are null
+                        if (selectedBuilding[0].building_number === "Unknown" || selectedBuilding[0].postcode === "Unknown") {
+                            // If both are null, perform reverse geocoding
+                            const lat = selectedBuilding[0].lat;
+                            const lon = selectedBuilding[0].lon;
 
-                        // Update the map with the selected building's location using OpenStreetMap
-                        const lat = selectedBuilding[0].lat;
-                        const lon = selectedBuilding[0].lon;
+                            // Call reverse geocoding function
+                            reverseGeocode(lat, lon)
+                                .then(address => {
+                                    const addressWithUnionStreet = `${address}, Union Street, Aberdeen, UK`;
+                                    forwardGeocode(addressWithUnionStreet)
+                                        .then(coordinates => {
+                                            const lat = coordinates.lat;
+                                            const lon = coordinates.lon;
 
-                        // Set the map URL with a marker
-                        mapFrame.src = `https://www.openstreetmap.org/export/embed.html?bbox=${lon - 0.001},${lat - 0.001},${lon + 0.001},${lat + 0.001}&layer=mapnik&marker=${lat},${lon}`;
+                                            // Set the map URL with a marker
+                                            mapFrame.src = `https://www.openstreetmap.org/export/embed.html?bbox=${lon - 0.001},${lat - 0.001},${lon + 0.001},${lat + 0.001}&layer=mapnik&marker=${lat},${lon}`;
+                                        })
+                                        .catch(error => {
+                                            console.error('Forward geocoding error:', error);
+                                        });
+                                })
+                                .catch(error => {
+                                    console.error('Reverse geocoding error:', error);
+                                });
+                        } else {
+                            // Display building history
+
+                            // Populate the table with the selected building's data
+                            const tableBody = buildingTable.querySelector('tbody');
+                            tableBody.innerHTML = ''; // Clear previous data
+                            for (let i = 0; i < selectedBuilding.length; i++) {
+                                const row = createTableRow(selectedBuilding[i]);
+                                tableBody.appendChild(row);
+                            }
+
+                            // Update the map with the selected building's location using OpenStreetMap
+                            const lat = selectedBuilding[0].lat;
+                            const lon = selectedBuilding[0].lon;
+
+                            // Set the map URL with a marker
+                            mapFrame.src = `https://www.openstreetmap.org/export/embed.html?bbox=${lon - 0.001},${lat - 0.001},${lon + 0.001},${lat + 0.001}&layer=mapnik&marker=${lat},${lon}`;
+                        }
                     }
                 });
             });

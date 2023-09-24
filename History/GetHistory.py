@@ -1,6 +1,7 @@
 import json
 import requests
 import DataRefiner as DR
+from tqdm import tqdm
 
 # Initialize an empty list to store the @id values
 id_list = []
@@ -31,9 +32,9 @@ except Exception as e:
 
 combined_data = []
 
-# Loop through the @id values and fetch data from the API
+# Loop through the @id values and fetch data from the API with a loading bar
 print("Getting jsons")
-for id_value in id_list:
+for id_value in tqdm(id_list):
     url = f"https://api.openstreetmap.org/api/0.6/{id_value}/history.json"
     response = requests.get(url)
     if response.status_code == 200:
@@ -41,12 +42,8 @@ for id_value in id_list:
         data = DR.extract_data(data)
 
         combined_data.append(data)
-        print(f"Got json for {id_value}")
     else:
         print(f"Failed to fetch data for {id_value}")
-
-
-
 
 # Write the combined JSON data to a file
 output_file_path = 'combined_data.json'

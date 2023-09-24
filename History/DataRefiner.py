@@ -10,15 +10,15 @@ def extract_data(json_data):
         amenity = element["tags"].get("amenity", "Unknown")
         shop = element["tags"].get("shop", "Unknown")
         disused_shop = element["tags"].get("disused:shop", "Unknown")
-
+        disused_amenity = element["tags"].get("disused:amenity", "Unknown")
         # Use the first non-empty name (prefer "name" over "alt_name")
-        if name:
+        if name != "Unknown":
             original_name = name.replace('\u2019', "'")
             name = name.lower()
-        elif alt_name:
+        elif alt_name  != "Unknown":
             original_name = alt_name.replace('\u2019', "'")
             name = alt_name.lower()
-        elif old_name:
+        elif old_name != "Unknown":
             name = old_name  # Use old_name as the name
             original_name = "Closed: " + old_name.replace('\u2019', "'")  # Keep the original casing
         else:
@@ -34,10 +34,12 @@ def extract_data(json_data):
         # Check if amenity is null but "shop" is present, use "shop" as amenity
         if amenity is None and shop:
             amenity = shop
+        elif amenity is None and shop is None and disused_amenity:
+            amenity = disused_amenity
 
         # Check if disused:shop is "yes" and add "Disused" prefix to the name
         if disused_shop == "yes":
-            if name != "unknown":
+            if name != "Unknown":
                 name = "Disused " + name
             if original_name:
                 original_name = "Disused " + original_name
