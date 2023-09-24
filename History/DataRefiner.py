@@ -43,21 +43,23 @@ def extract_data(json_data):
         # Extract relevant information
         id_value = element.get("id", "Unknown")
         name = element["tags"].get("name", "Unknown")
-        alt_name = element["tags"].get("alt_name", "Unknown")
-        old_name = element["tags"].get("old_name", "Unknown")
-        amenity = element["tags"].get("amenity", "Unknown")
-        shop = element["tags"].get("shop", "Unknown")
-        disused_shop = element["tags"].get("disused:shop", "Unknown")
-        disused_amenity = element["tags"].get("disused:amenity", "Unknown")
+        alt_name = element["tags"].get("alt_name", None)
+        old_name = element["tags"].get("old_name", None)
+        amenity = element["tags"].get("amenity", None)
+        shop = element["tags"].get("shop", None)
+        disused_shop = element["tags"].get("disused:shop", None)
+        disused_amenity = element["tags"].get("disused:amenity", None)
+        building = element["tags"].get("building", None)
+        
 
         # Use the first non-empty name (prefer "name" over "alt_name")
         if name != "Unknown":
             original_name = name.replace('\u2019', "'")
             name = name.lower()
-        elif alt_name  != "Unknown":
+        elif alt_name:
             original_name = alt_name.replace('\u2019', "'")
             name = alt_name.lower()
-        elif old_name != "Unknown":
+        elif old_name:
             name = old_name.lower()  # Use old_name as the name
             original_name = "Closed: " + old_name.replace('\u2019', "'")  # Keep the original casing
         else:
@@ -86,6 +88,8 @@ def extract_data(json_data):
         # Check if amenity is null but "shop" is present, use "shop" as amenity
         if amenity is None and shop:
             amenity = shop
+        elif amenity is None and shop is None and building:
+            amenity = building
         elif amenity is None and shop is None and disused_amenity:
             amenity = disused_amenity
 
