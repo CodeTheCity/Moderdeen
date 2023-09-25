@@ -44,7 +44,7 @@ def forward_geocode_from_json(json_url, output_file):
     return geocoded_data
 
 # Usage example:
-json_url = "https://example.com/your/json/file.json"
+json_url = "https://github.com/CodeTheCity/Moderdeen/blob/main/OldHistory/OldHistory.json"
 output_file = "geocoded_data.json"
 geocoded_data = forward_geocode_from_json(json_url, output_file)
 
