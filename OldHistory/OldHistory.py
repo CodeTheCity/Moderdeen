@@ -8,10 +8,19 @@ def forward_geocode_from_json(json_url, output_file):
     if response.status_code != 200:
         return None
     
-    data = response.json()
+    try:
+        data = response.json()
+    except json.JSONDecodeError:
+        print("Error decoding JSON response.")
+        return None
+    
     geocoded_data = []
     
     for item in data:
+        if not isinstance(item, dict):
+            print("Skipping non-dictionary item in JSON data.")
+            continue
+
         address = item.get("Address")
         city = item.get("City")
         
@@ -21,7 +30,11 @@ def forward_geocode_from_json(json_url, output_file):
             response = requests.get(url)
             
             if response.status_code == 200:
-                geocode_data = response.json()
+                try:
+                    geocode_data = response.json()
+                except json.JSONDecodeError:
+                    print(f"Error decoding JSON response for address: {address}")
+                    continue
                 
                 if geocode_data and len(geocode_data) > 0:
                     first_element = geocode_data[0]

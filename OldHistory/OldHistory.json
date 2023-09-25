@@ -1,46 +1,43 @@
-﻿  [
-    {
-      "Business Name": "City Building",
-      "Business Established": "",
-      "Residential": "",
-      "Building Name ": "",
-      "House Number": "",
-      "Address": " Union Street",
-      "City": "Aberdeen",
-      "Business Type": " Links and Parks Department, City Engineers Office, Water Engineer Office",
-      "Local Agent": "",
-      "Phone Number": "",
-      "Telegraph Address": ""
-      
-    },
-    {
-      "Business Name": "Town House",
-      "Business Established": "",
-      "Residential": "",
-      "Building Name ": "",
-      "House Number": "",
-      "Address": " Union Street",
-      "City": "Aberdeen",
-      "Business Type": "Town Clecks Office,City Chamberlain Office,Town Sergeant Office",
-      "Local Agent": "Lord Provest Edward W Watt, Charles Thompson,Keeper of the Town House",
-      "Phone Number": "",
-      "Telegraph Address": ""
-      
-    },
-    {
-      "Business Name": "Corperation Gas Showrooms",
-      "Business Established": "",
-      "Residential": "",
-      "Building Name ": "",
-      "House Number": "20",
-      "Address": "Union Street",
-      "City": "Aberdeen",
-      "Business Type": "",
-      "Local Agent": "Superintendant D.Parkinson",
-      "Phone Number": "3748",
-      "Telegraph Address": ""
-      
-    },
+﻿[
+  {
+    "Business Name": "City Building",
+    "Business Established": "",
+    "Residential": "",
+    "Building Name ": "",
+    "House Number": "",
+    "Address": " Union Street",
+    "City": "Aberdeen",
+    "Business Type": " Links and Parks Department, City Engineers Office, Water Engineer Office",
+    "Local Agent": "",
+    "Phone Number": "",
+    "Telegraph Address": ""
+  },
+  {
+    "Business Name": "Town House",
+    "Business Established": "",
+    "Residential": "",
+    "Building Name ": "",
+    "House Number": "",
+    "Address": " Union Street",
+    "City": "Aberdeen",
+    "Business Type": "Town Clecks Office,City Chamberlain Office,Town Sergeant Office",
+    "Local Agent": "Lord Provest Edward W Watt, Charles Thompson,Keeper of the Town House",
+    "Phone Number": "",
+    "Telegraph Address": ""
+  },
+  {
+    "Business Name": "Corperation Gas Showrooms",
+    "Business Established": "",
+    "Residential": "",
+    "Building Name ": "",
+    "House Number": "20",
+    "Address": "Union Street",
+    "City": "Aberdeen",
+    "Business Type": "",
+    "Local Agent": "Superintendant D.Parkinson",
+    "Phone Number": "3748",
+    "Telegraph Address": ""
+  },
   {
     "Business Name": "Public Library and Reading Room (East Branch)",
     "Business Established": "",
@@ -53,7 +50,6 @@
     "Local Agent": "",
     "Phone Number": "",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "Caledonian Order United Oddfellows",
@@ -67,7 +63,6 @@
     "Local Agent": "Mrs Maie Bradley",
     "Phone Number": "",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "Singer Sewing Machine Co LTD",
@@ -81,7 +76,6 @@
     "Local Agent": "",
     "Phone Number": "3600",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "Esslemont and Macintosh LTD",
@@ -95,7 +89,6 @@
     "Local Agent": "",
     "Phone Number": "3760",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "",
@@ -109,7 +102,6 @@
     "Local Agent": "",
     "Phone Number": "",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "Bank of Scotland ",
@@ -123,7 +115,6 @@
     "Local Agent": "James MacDonell, D MackIntosh",
     "Phone Number": "1621",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "James Cassie & Stewart",
@@ -137,7 +128,6 @@
     "Local Agent": "",
     "Phone Number": "2260",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "Millets Store  (1928) LTD",
@@ -151,7 +141,6 @@
     "Local Agent": "",
     "Phone Number": "3175",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "John A Dunn",
@@ -165,7 +154,6 @@
     "Local Agent": "",
     "Phone Number": "",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "National Union  of General and Municipal Workers",
@@ -179,7 +167,6 @@
     "Local Agent": "Jas. Thomson, Branch Secretary",
     "Phone Number": "",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "Law Union and Rock Insurance Co LTD",
@@ -193,7 +180,6 @@
     "Local Agent": "A.Bremner Stephen- Resident Secretary, W.Edmund Bell-Solicitor, J.M.Rigg-Secretary, James George",
     "Phone Number": "891",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "John Leding and Son LTD",
@@ -207,7 +193,6 @@
     "Local Agent": "",
     "Phone Number": "2544",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "Gray and Laing",
@@ -221,7 +206,6 @@
     "Local Agent": "",
     "Phone Number": "152",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "Andrew Stephen",
@@ -235,7 +219,6 @@
     "Local Agent": "",
     "Phone Number": "",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "H.M. Inspector of Factories and Workshops (Aberdeen District)",
@@ -249,7 +232,6 @@
     "Local Agent": "John Gordon",
     "Phone Number": "",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "W.Walker and Sons",
@@ -263,7 +245,6 @@
     "Local Agent": "",
     "Phone Number": "",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "Suttie's Temperance Hotel",
@@ -277,7 +258,6 @@
     "Local Agent": "Alexander Walker, Porprietor ",
     "Phone Number": "2378",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "R.S.McColl LTD",
@@ -291,7 +271,6 @@
     "Local Agent": "",
     "Phone Number": "",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "Department of Health for Scotland",
@@ -305,7 +284,6 @@
     "Local Agent": "",
     "Phone Number": "",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "Wm. Lumsden and Son",
@@ -319,7 +297,6 @@
     "Local Agent": "",
     "Phone Number": "260",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "Scottish Insurance Corporation LTD",
@@ -333,7 +310,6 @@
     "Local Agent": "Resident Secretary WB Sim,      Assistant Resident Secretary Andrew Berry",
     "Phone Number": "2573",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "Horne and MacKinnon",
@@ -347,7 +323,6 @@
     "Local Agent": "",
     "Phone Number": "",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "National Guarantee and Suretyship Association",
@@ -361,7 +336,6 @@
     "Local Agent": "Horne & MacKinnon",
     "Phone Number": "2",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "",
@@ -375,7 +349,6 @@
     "Local Agent": "",
     "Phone Number": "",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "Soutter and Morrison",
@@ -389,7 +362,6 @@
     "Local Agent": "T.S Morrison  Soutter,R. Veitch",
     "Phone Number": "",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "North of Scotland Bank LTD (St. Nicholas Branch)",
@@ -403,7 +375,6 @@
     "Local Agent": "agent George Howieson",
     "Phone Number": "",
     "Telegraph Address": "County Aberdeen"
-    
   },
   {
     "Business Name": "Commercial Bank of Scotland LTD ( chief office)",
@@ -417,7 +388,6 @@
     "Local Agent": "agent  J.N. Burns",
     "Phone Number": "3233",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "",
@@ -431,7 +401,6 @@
     "Local Agent": "",
     "Phone Number": "",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "",
@@ -445,7 +414,6 @@
     "Local Agent": "",
     "Phone Number": "",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "Bertha Pickford ",
@@ -459,7 +427,6 @@
     "Local Agent": "",
     "Phone Number": "",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "James Boyes Leitch",
@@ -473,7 +440,6 @@
     "Local Agent": "",
     "Phone Number": "6034",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "James Diack",
@@ -487,7 +453,6 @@
     "Local Agent": "",
     "Phone Number": "6233",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "Thomas Usher and Sons LTD ( Edinburgh)",
@@ -501,7 +466,6 @@
     "Local Agent": " agent George W Grant",
     "Phone Number": "6549",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "Raffan and Son",
@@ -515,7 +479,6 @@
     "Local Agent": "",
     "Phone Number": "462",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "Scottish Automobile and General Insurance Co. Ltd",
@@ -529,7 +492,6 @@
     "Local Agent": "Branch Manager Gordon Kellock A.C.I.I",
     "Phone Number": "3926",
     "Telegraph Address": "hazard aberdeen"
-    
   },
   {
     "Business Name": "Automotor Finance, LTD",
@@ -543,7 +505,6 @@
     "Local Agent": "Branch Manager Gordon Kellock A.C.I.I ",
     "Phone Number": "3926",
     "Telegraph Address": "hazard aberdeen"
-    
   },
   {
     "Business Name": "Salmon and Gluckstein, LTD",
@@ -557,7 +518,6 @@
     "Local Agent": "",
     "Phone Number": "",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "George Dickie",
@@ -571,7 +531,6 @@
     "Local Agent": "Proprietrix L A Christie",
     "Phone Number": "367",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "Leslie Hatt",
@@ -585,7 +544,6 @@
     "Local Agent": "",
     "Phone Number": "780",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "R. Gall and Co",
@@ -599,7 +557,6 @@
     "Local Agent": "",
     "Phone Number": "",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "The Forsyth Hotel",
@@ -613,7 +570,6 @@
     "Local Agent": "",
     "Phone Number": "",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "Findlay and Co.,LTD",
@@ -627,7 +583,6 @@
     "Local Agent": "",
     "Phone Number": "6823",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "R. J Smith",
@@ -641,7 +596,6 @@
     "Local Agent": "",
     "Phone Number": "",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "M.K. Gillespie",
@@ -655,7 +609,6 @@
     "Local Agent": "",
     "Phone Number": "",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "J. Lizars",
@@ -669,7 +622,6 @@
     "Local Agent": "",
     "Phone Number": "",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "Queen's Cinema",
@@ -683,7 +635,6 @@
     "Local Agent": "",
     "Phone Number": "",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "Jmaes Allan and Co.(Aberdeen)LTD",
@@ -697,7 +648,6 @@
     "Local Agent": " ",
     "Phone Number": "297",
     "Telegraph Address": "Allans's Upholsterers"
-    
   },
   {
     "Business Name": "R.C. Bowers, Granite Co",
@@ -711,7 +661,6 @@
     "Local Agent": "Agent John A Robb",
     "Phone Number": "297",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "James M Robertson",
@@ -725,7 +674,6 @@
     "Local Agent": "",
     "Phone Number": "5020",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "James Adams ",
@@ -739,7 +687,6 @@
     "Local Agent": "",
     "Phone Number": "",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "Ellis and McHardy, LTD",
@@ -753,7 +700,6 @@
     "Local Agent": "18 Regent Quay, Aberdeen",
     "Phone Number": "2889, 2890, 2891",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "J.W. Baker LTD",
@@ -767,7 +713,6 @@
     "Local Agent": "",
     "Phone Number": "648",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "Frasers (Aberdeen),LTD",
@@ -781,7 +726,6 @@
     "Local Agent": "",
     "Phone Number": "7307",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "William Raitt",
@@ -795,7 +739,6 @@
     "Local Agent": "",
     "Phone Number": "7307",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "Archibald S. Little",
@@ -809,7 +752,6 @@
     "Local Agent": "",
     "Phone Number": "7307",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "Jamieson and Carry",
@@ -823,7 +765,6 @@
     "Local Agent": "",
     "Phone Number": "1219",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "G and W Thomson",
@@ -837,7 +778,6 @@
     "Local Agent": "",
     "Phone Number": "1078",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "R Leslie Rollo  ",
@@ -851,7 +791,6 @@
     "Local Agent": "",
     "Phone Number": "231",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "D. Polson Hall",
@@ -865,7 +804,6 @@
     "Local Agent": "",
     "Phone Number": "231",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "A. Galloway Brown, C.A",
@@ -879,7 +817,6 @@
     "Local Agent": "",
     "Phone Number": "5554",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "The Yorkshire Insurance Co LTD",
@@ -893,7 +830,6 @@
     "Local Agent": "Branch Manager Robert Brown, Ernest T Calwell, Resident Secretary",
     "Phone Number": "1260",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "The Scottish Boiler and General Insurance Co LTD",
@@ -907,7 +843,6 @@
     "Local Agent": "Resident Secretary Archiebald McAllum",
     "Phone Number": "1260",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "Williamson Booth, Minto and Morrison",
@@ -921,7 +856,6 @@
     "Local Agent": "",
     "Phone Number": "",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "T. Walker Hector",
@@ -935,7 +869,6 @@
     "Local Agent": "",
     "Phone Number": "",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "Adam Bros.LTD",
@@ -949,7 +882,6 @@
     "Local Agent": "",
     "Phone Number": "",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "A. B. Hughes",
@@ -963,7 +895,6 @@
     "Local Agent": "",
     "Phone Number": "",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "Road Transport and General Insurance Co.LTD",
@@ -977,7 +908,6 @@
     "Local Agent": "",
     "Phone Number": "",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "Motor Credit Services LTD",
@@ -991,7 +921,6 @@
     "Local Agent": "",
     "Phone Number": "",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "Pat Grant",
@@ -1005,7 +934,6 @@
     "Local Agent": "",
     "Phone Number": "",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "The Liverpool and London and Globe Insurance Co LTD",
@@ -1019,7 +947,6 @@
     "Local Agent": "",
     "Phone Number": "",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "The Central Insurance Co.LTD",
@@ -1033,7 +960,6 @@
     "Local Agent": "",
     "Phone Number": "",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "Royal Exchange Assurance",
@@ -1047,7 +973,6 @@
     "Local Agent": "",
     "Phone Number": "",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "Royal Bank Buildings ,Royal Bank of Scotland",
@@ -1061,7 +986,6 @@
     "Local Agent": "Thomas M Rankin",
     "Phone Number": "",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "Cochran and MacPherson",
@@ -1075,7 +999,6 @@
     "Local Agent": "",
     "Phone Number": "",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "F. J Cochran",
@@ -1089,7 +1012,6 @@
     "Local Agent": "",
     "Phone Number": "",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "N.J.J.Walker  ",
@@ -1103,7 +1025,6 @@
     "Local Agent": "",
     "Phone Number": "",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "David G. Cochran",
@@ -1117,7 +1038,6 @@
     "Local Agent": "",
     "Phone Number": "",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "R.B.Findlayson",
@@ -1131,7 +1051,6 @@
     "Local Agent": "",
     "Phone Number": "",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "",
@@ -1145,7 +1064,6 @@
     "Local Agent": "",
     "Phone Number": "Local Agent",
     "Telegraph Address": "Telegraphic Address"
-    
   },
   {
     "Business Name": "Athenaeum Hotel & Restaurant ",
@@ -1159,7 +1077,6 @@
     "Local Agent": "",
     "Phone Number": "",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "Findlay & Co., Ltd.",
@@ -1173,7 +1090,6 @@
     "Local Agent": "",
     "Phone Number": "",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "Mrs Gordon",
@@ -1187,7 +1103,6 @@
     "Local Agent": "",
     "Phone Number": "",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "Miss Marion Hay",
@@ -1201,7 +1116,6 @@
     "Local Agent": "",
     "Phone Number": "",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "George Alexander",
@@ -1215,7 +1129,6 @@
     "Local Agent": "",
     "Phone Number": "777",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "Aberdeen Highland Association; ",
@@ -1229,7 +1142,6 @@
     "Local Agent": "hon. secy. and treas., William Watt",
     "Phone Number": "",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "Aberdeen Mutual Assurance and Friendly Society",
@@ -1243,7 +1155,6 @@
     "Local Agent": "secretary, George Alexander",
     "Phone Number": "",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "J. F. Gillan",
@@ -1257,7 +1168,6 @@
     "Local Agent": "",
     "Phone Number": "777",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "Dundee Equitable Boot Depot",
@@ -1271,7 +1181,6 @@
     "Local Agent": "manager Daniel McCowan",
     "Phone Number": "",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "Ross and Ledingham",
@@ -1285,7 +1194,6 @@
     "Local Agent": "",
     "Phone Number": "",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "Mitchell and Muil, Ltd.",
@@ -1299,7 +1207,6 @@
     "Local Agent": "",
     "Phone Number": "",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "Press Photos; Cecil Skene",
@@ -1313,7 +1220,6 @@
     "Local Agent": "Cecil Skene",
     "Phone Number": "",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "Maypole Dairy Co., Ltd",
@@ -1327,7 +1233,6 @@
     "Local Agent": "manager, George Mutch",
     "Phone Number": "",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "G. H. Swapp",
@@ -1341,7 +1246,6 @@
     "Local Agent": "",
     "Phone Number": "999",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "G. S. Esson, M.A",
@@ -1355,7 +1259,6 @@
     "Local Agent": "",
     "Phone Number": "2381",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "George Anderson, C.A.",
@@ -1369,7 +1272,6 @@
     "Local Agent": "",
     "Phone Number": "2684",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "Alexander Cruden",
@@ -1383,7 +1285,6 @@
     "Local Agent": "",
     "Phone Number": "",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "Mackay Bros. & Co. (Aberdeen) Ltd.",
@@ -1397,7 +1298,6 @@
     "Local Agent": "",
     "Phone Number": "",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "Norman C Howarth",
@@ -1411,7 +1311,6 @@
     "Local Agent": "",
     "Phone Number": "",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "Paul Bros., Ltd",
@@ -1425,7 +1324,6 @@
     "Local Agent": " Richard Wilson, agent",
     "Phone Number": "",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "Price's Patent Candle Co., Ltd",
@@ -1439,7 +1337,6 @@
     "Local Agent": "",
     "Phone Number": "",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "Appleton, Machin & Smiles, Ltd.",
@@ -1453,7 +1350,6 @@
     "Local Agent": "",
     "Phone Number": "6833",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "H. P. Tyler, Ltd.",
@@ -1467,7 +1363,6 @@
     "Local Agent": "",
     "Phone Number": "",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "British Vacuum Cleaner Co.",
@@ -1481,7 +1376,6 @@
     "Local Agent": "",
     "Phone Number": "",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "Ross & Company",
@@ -1495,7 +1389,6 @@
     "Local Agent": "",
     "Phone Number": "",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "H. J. Gray & Connachie",
@@ -1509,7 +1402,6 @@
     "Local Agent": "",
     "Phone Number": "1237",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "W. Dixon Connochie",
@@ -1523,7 +1415,6 @@
     "Local Agent": "",
     "Phone Number": "",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "Gavin Sinclair, J.P.",
@@ -1537,7 +1428,6 @@
     "Local Agent": "",
     "Phone Number": "",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "George Forbes",
@@ -1551,7 +1441,6 @@
     "Local Agent": "",
     "Phone Number": "",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "John Lints",
@@ -1565,7 +1454,6 @@
     "Local Agent": "",
     "Phone Number": "",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "George Gordon",
@@ -1579,7 +1467,6 @@
     "Local Agent": "",
     "Phone Number": "4227",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "Dan Flynn",
@@ -1593,7 +1480,6 @@
     "Local Agent": "",
     "Phone Number": "7301 & 7302",
     "Telegraph Address": "Hockey, Aberdeen"
-    
   },
   {
     "Business Name": "W. T. C. Penman",
@@ -1607,7 +1493,6 @@
     "Local Agent": "",
     "Phone Number": "",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "Sun Ray Ladies Hairdressing Salon",
@@ -1621,7 +1506,6 @@
     "Local Agent": "",
     "Phone Number": "4664",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "Aberdeen Knitwear Co.",
@@ -1635,7 +1519,6 @@
     "Local Agent": "",
     "Phone Number": "",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "C. & C. House Purchase Co., Ltd. (Glasgow)",
@@ -1649,7 +1532,6 @@
     "Local Agent": "",
     "Phone Number": "",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "Alex. Bell & Co., ",
@@ -1663,7 +1545,6 @@
     "Local Agent": "",
     "Phone Number": "",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "Robert Leith",
@@ -1677,7 +1558,6 @@
     "Local Agent": "",
     "Phone Number": "3206",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "James Morrice & Son ",
@@ -1691,7 +1571,6 @@
     "Local Agent": "",
     "Phone Number": "",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "Rowntree & Co., Ltd",
@@ -1705,7 +1584,6 @@
     "Local Agent": " J. Blyth, representative",
     "Phone Number": "",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "J. F. Tocher, D.Sc, LL.D., F. I. C",
@@ -1719,7 +1597,6 @@
     "Local Agent": "",
     "Phone Number": "2729",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "Wm. Jas. Williamson ",
@@ -1733,7 +1610,6 @@
     "Local Agent": "",
     "Phone Number": "",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "John Corrigall",
@@ -1747,7 +1623,6 @@
     "Local Agent": "",
     "Phone Number": "",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "Wm. Pirie",
@@ -1761,7 +1636,6 @@
     "Local Agent": "",
     "Phone Number": "",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "The Provident Clothing and Supply Co., Ltd",
@@ -1775,7 +1649,6 @@
     "Local Agent": " R. Allardyce, manager",
     "Phone Number": "",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "J. S. Fry & Sons, Ltd",
@@ -1789,7 +1662,6 @@
     "Local Agent": "S. A. Williams, agent",
     "Phone Number": "",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "Abercar, Ltd.",
@@ -1803,7 +1675,6 @@
     "Local Agent": "",
     "Phone Number": "",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "Electrolux Ltd.",
@@ -1817,7 +1688,6 @@
     "Local Agent": "",
     "Phone Number": "",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "A. R. Wannop",
@@ -1831,7 +1701,6 @@
     "Local Agent": "",
     "Phone Number": "",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "Porter & Cushnie",
@@ -1845,7 +1714,6 @@
     "Local Agent": "",
     "Phone Number": "",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "Old Age Pensions",
@@ -1859,7 +1727,6 @@
     "Local Agent": "Clerk, Alex. M. Craig",
     "Phone Number": "",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "Aberdeen Burgh Insurance Committee",
@@ -1873,7 +1740,6 @@
     "Local Agent": "Clerk, Alex. M. Craig",
     "Phone Number": "",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "George S. Anderson & Co.",
@@ -1887,7 +1753,6 @@
     "Local Agent": "",
     "Phone Number": "",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "Mrs. Alex. Gordon Horne",
@@ -1901,7 +1766,6 @@
     "Local Agent": "",
     "Phone Number": "",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "John N. Clark",
@@ -1915,7 +1779,6 @@
     "Local Agent": "",
     "Phone Number": "",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "Barlow & Jones, Ltd.",
@@ -1929,7 +1792,6 @@
     "Local Agent": "",
     "Phone Number": "",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "North of Scotland College of Agriculture",
@@ -1943,7 +1805,6 @@
     "Local Agent": "Secretary R. N. Lemmon",
     "Phone Number": "1046",
     "Telegraph Address": "Nosca, Aberdeen"
-    
   },
   {
     "Business Name": "Craibstone School of Rural Domestic Economy",
@@ -1957,7 +1818,6 @@
     "Local Agent": "",
     "Phone Number": "",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "W. A. Watson",
@@ -1971,7 +1831,6 @@
     "Local Agent": "",
     "Phone Number": "",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "A. A. Prosser, secretary of the North of Scotland College of Agriculture",
@@ -1985,7 +1844,6 @@
     "Local Agent": "",
     "Phone Number": "",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "Craibstone Agricultural & Horticultural Experimental Areas in Forestry Department",
@@ -1999,7 +1857,6 @@
     "Local Agent": "Superintendent F. K. Boyd",
     "Phone Number": "1046",
     "Telegraph Address": "Nosca, Aberdeen"
-    
   },
   {
     "Business Name": "John M. Aiken, R.S.A., A.R.E.",
@@ -2013,7 +1870,6 @@
     "Local Agent": "",
     "Phone Number": "",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "Thomas Rennie",
@@ -2027,7 +1883,6 @@
     "Local Agent": "",
     "Phone Number": "4511",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "Ellams Duplicator Co., Ltd.",
@@ -2041,7 +1896,6 @@
     "Local Agent": "",
     "Phone Number": "",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "John C. Scott (T. H. Downing and Co., Ltd., Leicester)",
@@ -2055,7 +1909,6 @@
     "Local Agent": "",
     "Phone Number": "",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "Albert D. Imper, BSc., Phd. N.D.A.",
@@ -2069,7 +1922,6 @@
     "Local Agent": "",
     "Phone Number": "1046",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "Jas. D. McCombie, B.L.",
@@ -2083,7 +1935,6 @@
     "Local Agent": "",
     "Phone Number": "1237",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "George Shaw",
@@ -2097,7 +1948,6 @@
     "Local Agent": "",
     "Phone Number": "",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "Colonial Mutual Life Assurance Society, Ltd",
@@ -2111,7 +1961,6 @@
     "Local Agent": "Resident secretary J. R. Wallace",
     "Phone Number": "4450",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "J. F. Campbell & Co.",
@@ -2125,7 +1974,6 @@
     "Local Agent": "",
     "Phone Number": "",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "Stead & Simpson Ltd",
@@ -2139,7 +1987,6 @@
     "Local Agent": "",
     "Phone Number": "",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "Style & Mantle",
@@ -2153,7 +2000,6 @@
     "Local Agent": "",
     "Phone Number": "839",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "Swears & Wells, Ltd.",
@@ -2167,7 +2013,6 @@
     "Local Agent": "",
     "Phone Number": "6175",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "H. Samuel, Ltd",
@@ -2181,7 +2026,6 @@
     "Local Agent": "",
     "Phone Number": "6229",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "John Falconer & Co., Ltd.",
@@ -2195,7 +2039,6 @@
     "Local Agent": "",
     "Phone Number": "",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "National Bank of Scotland, Limited (Chief Office)",
@@ -2209,7 +2052,6 @@
     "Local Agent": "Agent, William McNab",
     "Phone Number": "2382",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "Corporation Gas Showrooms",
@@ -2223,7 +2065,6 @@
     "Local Agent": "Superintendent, D. Parkinson",
     "Phone Number": "",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "Public Library and Reading Room (East Branch)",
@@ -2237,7 +2078,6 @@
     "Local Agent": "librarian in charge, Miss Clark",
     "Phone Number": "",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "C. O. U. Oddfellows' F. S. ",
@@ -2251,7 +2091,6 @@
     "Local Agent": "",
     "Phone Number": "",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "Singer Sewing Machine Co., Ltd.",
@@ -2265,7 +2104,6 @@
     "Local Agent": "",
     "Phone Number": "",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "Esslemont & Macintosh ",
@@ -2279,7 +2117,6 @@
     "Local Agent": "",
     "Phone Number": "",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "Roselle, ladies' and children's outfitter (M. J. McKay)",
@@ -2293,7 +2130,6 @@
     "Local Agent": "M. J. McKay",
     "Phone Number": "3582",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "Frederick I. Hyams, of Hyams Bros.",
@@ -2307,7 +2143,6 @@
     "Local Agent": "",
     "Phone Number": "5680",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "Metcalfe",
@@ -2321,7 +2156,6 @@
     "Local Agent": "",
     "Phone Number": "",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "West-End Hosiery Shop; proprietrix Madame Entrop",
@@ -2335,7 +2169,6 @@
     "Local Agent": " Proprietrix Madame Entrop",
     "Phone Number": "",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "G. L. MacKeggie",
@@ -2349,7 +2182,6 @@
     "Local Agent": "",
     "Phone Number": "",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "Mary E. J. Mackie",
@@ -2363,7 +2195,6 @@
     "Local Agent": "",
     "Phone Number": "",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "Pegler & Co., Ltd.",
@@ -2377,7 +2208,6 @@
     "Local Agent": "",
     "Phone Number": "6768",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "Arthur W. MacMahon",
@@ -2391,7 +2221,6 @@
     "Local Agent": "",
     "Phone Number": "187",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "",
@@ -2405,7 +2234,6 @@
     "Local Agent": "",
     "Phone Number": "",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "Mitchell & Muil, Ltd",
@@ -2419,7 +2247,6 @@
     "Local Agent": "",
     "Phone Number": "",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "A. & W. Alexander",
@@ -2433,7 +2260,6 @@
     "Local Agent": "",
     "Phone Number": "",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "The British Linen Bank (West-End branch)",
@@ -2447,7 +2273,6 @@
     "Local Agent": "Agent, C.S. Asher",
     "Phone Number": "16",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "A. & J. Macnab",
@@ -2461,7 +2286,6 @@
     "Local Agent": "",
     "Phone Number": "2179",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "McHattie & Lumsden",
@@ -2475,7 +2299,6 @@
     "Local Agent": "",
     "Phone Number": "1071",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "National Provident Institution",
@@ -2489,7 +2312,6 @@
     "Local Agent": "James C. V. Cruickshank, assistant district manager",
     "Phone Number": "",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "Miss Frances Robertson, M.B.S",
@@ -2503,7 +2325,6 @@
     "Local Agent": "",
     "Phone Number": "",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "The Divan: W. Dawson",
@@ -2517,7 +2338,6 @@
     "Local Agent": "",
     "Phone Number": "3550",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "W. F. Hay",
@@ -2531,7 +2351,6 @@
     "Local Agent": "",
     "Phone Number": "1784",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "J. M. Chrystie, F.R.F.P.S. (Glas.), L.R.C.P. & S.(Edin.), L.D.S., R.F.P.S.(Glas.)",
@@ -2545,7 +2364,6 @@
     "Local Agent": "",
     "Phone Number": "611",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "E. M. Chrystie, L.D.S., R.F.P.S. (Glas.)",
@@ -2559,7 +2377,6 @@
     "Local Agent": "",
     "Phone Number": "",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "David Beck, Dispensing Opticians Ltd.",
@@ -2573,7 +2390,6 @@
     "Local Agent": "",
     "Phone Number": "",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "John Ledingham & Son, Ltd.",
@@ -2587,7 +2403,6 @@
     "Local Agent": "",
     "Phone Number": "2544",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "Bruce Mackenzie, Ltd.",
@@ -2601,7 +2416,6 @@
     "Local Agent": "",
     "Phone Number": "2176",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "T. Watson",
@@ -2615,7 +2429,6 @@
     "Local Agent": "",
     "Phone Number": "2660",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "West-End Fancy Goods Store",
@@ -2629,7 +2442,6 @@
     "Local Agent": "",
     "Phone Number": "",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "Arch. McKellar",
@@ -2643,7 +2455,6 @@
     "Local Agent": "",
     "Phone Number": "1891",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "McGregor McLean",
@@ -2657,7 +2468,6 @@
     "Local Agent": "",
     "Phone Number": "2130",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "Bowman",
@@ -2671,7 +2481,6 @@
     "Local Agent": "",
     "Phone Number": "",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "Dugan & Mitchell",
@@ -2685,7 +2494,6 @@
     "Local Agent": "",
     "Phone Number": "94",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "John Raffan",
@@ -2699,7 +2507,6 @@
     "Local Agent": "",
     "Phone Number": "217",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "Peter Shand",
@@ -2713,7 +2520,6 @@
     "Local Agent": "",
     "Phone Number": "217",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "Hyams Bros.",
@@ -2727,7 +2533,6 @@
     "Local Agent": "",
     "Phone Number": "3363",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "National Bank of Scotland, Ltd., West End Branch",
@@ -2741,7 +2546,6 @@
     "Local Agent": " Alexander McLeay, agent",
     "Phone Number": "2926",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "Mrs. Wm. Moggach",
@@ -2755,7 +2559,6 @@
     "Local Agent": "",
     "Phone Number": "237",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "Sun Insurance Office, Ltd",
@@ -2769,7 +2572,6 @@
     "Local Agent": "district secretary, Douglas W. Brown",
     "Phone Number": "2294",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "Sun Life Assurance Society",
@@ -2783,7 +2585,6 @@
     "Local Agent": "manager W. Wilson Scott",
     "Phone Number": "1931",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "The Gordon Cleaning Co. (Huntly)",
@@ -2797,7 +2598,6 @@
     "Local Agent": "",
     "Phone Number": "3971",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "J. J. Stewart",
@@ -2811,7 +2611,6 @@
     "Local Agent": "",
     "Phone Number": "",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "A. J. B. Strachan",
@@ -2825,7 +2624,6 @@
     "Local Agent": "",
     "Phone Number": "851",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "M. A. Ross",
@@ -2839,7 +2637,6 @@
     "Local Agent": "",
     "Phone Number": "5533",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "West End Book Shop",
@@ -2853,7 +2650,6 @@
     "Local Agent": "",
     "Phone Number": "6",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "C. Herbert McDonald",
@@ -2867,7 +2663,6 @@
     "Local Agent": "",
     "Phone Number": "3666",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "Miss E. Greig",
@@ -2881,7 +2676,6 @@
     "Local Agent": "",
     "Phone Number": "",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "Thomsons'",
@@ -2895,7 +2689,6 @@
     "Local Agent": "",
     "Phone Number": "1945",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "N. of S. Bank Ltd. (Western branch)",
@@ -2909,7 +2702,6 @@
     "Local Agent": " agent, James F. Cooper",
     "Phone Number": "",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "Alex. B. Beattie ",
@@ -2923,7 +2715,6 @@
     "Local Agent": "",
     "Phone Number": "3523",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "J. Jeffrey Moffat",
@@ -2937,7 +2728,6 @@
     "Local Agent": "",
     "Phone Number": "",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "A. B. Robertson & Son, Ltd.",
@@ -2951,7 +2741,6 @@
     "Local Agent": "",
     "Phone Number": "398 & 399",
     "Telegraph Address": "Light, Aberdeen"
-    
   },
   {
     "Business Name": "Pearl Assurance Co., Ltd.",
@@ -2965,7 +2754,6 @@
     "Local Agent": "divisional manager, W. B. Wight",
     "Phone Number": "1486",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "Robert D. Stephenson",
@@ -2979,7 +2767,6 @@
     "Local Agent": "",
     "Phone Number": "6543",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "",
@@ -2993,7 +2780,6 @@
     "Local Agent": "",
     "Phone Number": "3016",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "Scottish Provident Institution",
@@ -3007,7 +2793,6 @@
     "Local Agent": "W. M. Graham, local secy.",
     "Phone Number": "46",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "John Haywood",
@@ -3021,7 +2806,6 @@
     "Local Agent": "",
     "Phone Number": "",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "The Eagle Star and British Dominions Insurance Co., Ltd",
@@ -3035,7 +2819,6 @@
     "Local Agent": "branch manager, P. Sinclair Brown, F.C.I.I.",
     "Phone Number": "5711 & 5712",
     "Telegraph Address": "Domarico, Aberdeen"
-    
   },
   {
     "Business Name": "Claud Hamilton (Aberdeen) Ltd.",
@@ -3049,7 +2832,6 @@
     "Local Agent": "",
     "Phone Number": "7100",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "Motor Union Insurance Co., Ltd.",
@@ -3063,7 +2845,6 @@
     "Local Agent": "",
     "Phone Number": "3257",
     "Telegraph Address": "Motunicon, Aberdeen"
-    
   },
   {
     "Business Name": "Automobile Association",
@@ -3077,7 +2858,6 @@
     "Local Agent": "",
     "Phone Number": "",
     "Telegraph Address": "Fanum, Aberdeen"
-    
   },
   {
     "Business Name": "Car Corporation of Great Britain ltd.",
@@ -3091,7 +2871,6 @@
     "Local Agent": "",
     "Phone Number": "3257",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "Sun Life Assurance Co. of Canada",
@@ -3105,7 +2884,6 @@
     "Local Agent": "branch manager, A. J. Cruickshank",
     "Phone Number": "2585",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "Hector Powe, Ltd.",
@@ -3119,7 +2897,6 @@
     "Local Agent": "",
     "Phone Number": "5703",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "Mrs. Rose Lightfoot, M.I.S.Ch.",
@@ -3133,7 +2910,6 @@
     "Local Agent": "",
     "Phone Number": "5795",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "Ardente (R. H. Dent)",
@@ -3147,7 +2923,6 @@
     "Local Agent": "",
     "Phone Number": "4534",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "Roderick Tweedie, Ltd.",
@@ -3161,7 +2936,6 @@
     "Local Agent": "",
     "Phone Number": "",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "George Sim & Co.",
@@ -3175,7 +2949,6 @@
     "Local Agent": "",
     "Phone Number": "3914",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "E. R. Lumsden, M.A.",
@@ -3189,7 +2962,6 @@
     "Local Agent": "",
     "Phone Number": "1950",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "The Amicable Building Co., Ltd",
@@ -3203,7 +2975,6 @@
     "Local Agent": "",
     "Phone Number": "6000",
     "Telegraph Address": "Amicable, Aberdeen"
-    
   },
   {
     "Business Name": "Modern Homes (Abdn.) Ltd.",
@@ -3217,7 +2988,6 @@
     "Local Agent": "",
     "Phone Number": "6000",
     "Telegraph Address": "Amicable, Aberdeen"
-    
   },
   {
     "Business Name": "T. Scott Sutherland, F.R.I.B.A.",
@@ -3231,7 +3001,6 @@
     "Local Agent": "",
     "Phone Number": "6000",
     "Telegraph Address": "Amicable, Aberdeen"
-    
   },
   {
     "Business Name": "Scottish Amicable Building Soc.",
@@ -3245,7 +3014,6 @@
     "Local Agent": "branch manager, T. Scott Sutherland",
     "Phone Number": "",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "Scottish Union and National Insurance Co.",
@@ -3259,7 +3027,6 @@
     "Local Agent": "resident secretary, Robert Aitken",
     "Phone Number": "516",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "Chas. W. Gall, M.A., L.L.B",
@@ -3273,7 +3040,6 @@
     "Local Agent": "",
     "Phone Number": "",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "Alex. Aitken & Sons",
@@ -3287,7 +3053,6 @@
     "Local Agent": "",
     "Phone Number": "806",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "John C. Deane",
@@ -3301,7 +3066,6 @@
     "Local Agent": "",
     "Phone Number": "593",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "Abbot & Co. ",
@@ -3315,7 +3079,6 @@
     "Local Agent": "",
     "Phone Number": "6819",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "Andrew McRobb, Ltd.",
@@ -3329,7 +3092,6 @@
     "Local Agent": "",
     "Phone Number": "2413",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "J. & A. Davidson",
@@ -3343,7 +3105,6 @@
     "Local Agent": "",
     "Phone Number": "2873",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "Clydesdale Bank Ltd.",
@@ -3357,7 +3118,6 @@
     "Local Agent": "agent, Alex W. Howitt",
     "Phone Number": "2451",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "Stewart & Murray",
@@ -3371,7 +3131,6 @@
     "Local Agent": "",
     "Phone Number": "117",
     "Telegraph Address": "Signum, Aberdeen"
-    
   },
   {
     "Business Name": "T. P. E. Murray, M.A., L.L.B.",
@@ -3385,7 +3144,6 @@
     "Local Agent": "",
     "Phone Number": "117",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "Deeside District Council of the County",
@@ -3399,7 +3157,6 @@
     "Local Agent": "clerk and treas., John Murray, J.P",
     "Phone Number": "",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "Aberdeen and District Horse Shoers' and Agricultural Blacksmiths' Association ",
@@ -3413,7 +3170,6 @@
     "Local Agent": "secretary and treasurer, T. P. E. Murray ",
     "Phone Number": "",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "The Royal London Mutual Insurance, Ltd.",
@@ -3427,7 +3183,6 @@
     "Local Agent": "",
     "Phone Number": "",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "Roadways Transport Development Ltd.",
@@ -3441,7 +3196,6 @@
     "Local Agent": "branch manager, Alan T. M. Stephen ",
     "Phone Number": "5224",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "Alliance Assurance Co. Ltd.",
@@ -3455,7 +3209,6 @@
     "Local Agent": " local manager, Wm. D. Nicholson",
     "Phone Number": "2483",
     "Telegraph Address": "Societate, Aberdeen"
-    
   },
   {
     "Business Name": "Offices of the Royal Infirmary and Mental Hospital",
@@ -3469,7 +3222,6 @@
     "Local Agent": "",
     "Phone Number": "",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "South Aberdeen Unionist Association",
@@ -3483,7 +3235,6 @@
     "Local Agent": "secretary, J. Cranna",
     "Phone Number": "4261",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "Aberdeen Joint Hospital Steam Heating & Laundry Co.",
@@ -3497,7 +3248,6 @@
     "Local Agent": "secretary, John A. McConachie",
     "Phone Number": "7071",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "N. of S. Bank Ltd (West-End branch)",
@@ -3511,7 +3261,6 @@
     "Local Agent": "agent, James F. Cooper",
     "Phone Number": "",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "Norwich Union Insce. Soc., Ltd.",
@@ -3525,7 +3274,6 @@
     "Local Agent": "",
     "Phone Number": "23",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "Norwich Union Life Insce. Soc..",
@@ -3539,7 +3287,6 @@
     "Local Agent": "Alex. S. Anderson, M.B.E.",
     "Phone Number": "23",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "Hunter & Gordon",
@@ -3553,7 +3300,6 @@
     "Local Agent": "",
     "Phone Number": "4755 & 4756",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "Wm. Mackay",
@@ -3567,7 +3313,6 @@
     "Local Agent": "",
     "Phone Number": "",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "Jas. Johnstone",
@@ -3581,7 +3326,6 @@
     "Local Agent": "",
     "Phone Number": "",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "Aberdeen Fish Trade Association",
@@ -3595,7 +3339,6 @@
     "Local Agent": "secretary W. Davidson",
     "Phone Number": "2567",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "British Law Insurance Co., Ltd..",
@@ -3609,7 +3352,6 @@
     "Local Agent": "British Law Insurance Co., Ltd; dist. secretary, Jas. H. McRobert, A.C.I.I.",
     "Phone Number": "",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "General Accident, Fire and Life Assce. Corporation Ltd.; branch manager, S. Hutcheson",
@@ -3623,7 +3365,6 @@
     "Local Agent": "General Accident, Fire and Life Assce. Corporation Ltd.; branch manager, S. Hutcheson",
     "Phone Number": "3270 & 3271",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "The State Assurance Co., Ltd",
@@ -3637,7 +3378,6 @@
     "Local Agent": "The State Assurance Co., Ltd",
     "Phone Number": "346",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "British Equitable Assurance Co., Ltd",
@@ -3651,7 +3391,6 @@
     "Local Agent": "British Equitable Assurance Co., Ltd; district inspector, D. J. Morton",
     "Phone Number": "",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "G. H. Bower & Gibb",
@@ -3665,7 +3404,6 @@
     "Local Agent": "G. H. Bower & Gibb",
     "Phone Number": "802",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "G. & A. Horne",
@@ -3679,7 +3417,6 @@
     "Local Agent": "G. & A. Horne",
     "Phone Number": "",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "Miss Isabel Forbes",
@@ -3693,7 +3430,6 @@
     "Local Agent": "Miss Isabel Forbes",
     "Phone Number": "",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "Photo Art Club",
@@ -3707,7 +3443,6 @@
     "Local Agent": "Photo Art Club; secretary, William Duncan",
     "Phone Number": "",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "Geo. Cruickshank & Co.",
@@ -3721,7 +3456,6 @@
     "Local Agent": "Geo. Cruickshank & Co.",
     "Phone Number": "5710",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "Warden Insurance Co. Ltd",
@@ -3735,7 +3469,6 @@
     "Local Agent": "Warden Insurance Co. Ltd; branch manager, R. Smith",
     "Phone Number": "828",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "The Standard Property Investment Co., Ltd",
@@ -3749,7 +3482,6 @@
     "Local Agent": "The Standard Property Investment Co., Ltd",
     "Phone Number": "2253",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "Scottish Equitable Life Assurance Society",
@@ -3763,7 +3495,6 @@
     "Local Agent": "Scottish Equitable Life Assurance Society; resident secretary, K. A. M. Duthie",
     "Phone Number": "2253",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "William Garden, Ltd",
@@ -3777,7 +3508,6 @@
     "Local Agent": "William Garden, Ltd",
     "Phone Number": "1050",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "George Watt & Stewart",
@@ -3791,7 +3521,6 @@
     "Local Agent": "George Watt & Stewart",
     "Phone Number": "",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "Wm. Ross",
@@ -3805,7 +3534,6 @@
     "Local Agent": "Wm. Ross",
     "Phone Number": "552",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "Employers' Liability Assurance Corporation Ltd",
@@ -3819,7 +3547,6 @@
     "Local Agent": "Employers' Liability Assurance Corporation Ltd; resident inspector, W. S. Rannie",
     "Phone Number": "4023",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "Clerical, Medical and General Life Assurance Society",
@@ -3833,7 +3560,6 @@
     "Local Agent": "Clerical, Medical and General Life Assurance Society",
     "Phone Number": "4023",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "Alec Fraser",
@@ -3847,7 +3573,6 @@
     "Local Agent": "Alec Fraser",
     "Phone Number": "",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "Hugh F. Campbell",
@@ -3861,7 +3586,6 @@
     "Local Agent": "",
     "Phone Number": "568",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "Reith & Anderson Ltd",
@@ -3875,7 +3599,6 @@
     "Local Agent": "",
     "Phone Number": "6720",
     "Telegraph Address": "Estates, Aberdeen"
-    
   },
   {
     "Business Name": "Jas. J. G. Fyfe",
@@ -3889,7 +3612,6 @@
     "Local Agent": "",
     "Phone Number": "5084",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "W. Balfour Robb",
@@ -3903,7 +3625,6 @@
     "Local Agent": "",
     "Phone Number": "5084",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "John Lewis Ltd. (Torry Coaling Co.)",
@@ -3917,7 +3638,6 @@
     "Local Agent": "",
     "Phone Number": "7000",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "John & W. G. Craigen",
@@ -3931,7 +3651,6 @@
     "Local Agent": "",
     "Phone Number": "488",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "Francis S. Teunon, M.A., B.L.",
@@ -3945,7 +3664,6 @@
     "Local Agent": "Advocate of John & W. G. Craigen",
     "Phone Number": "",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "Wm. Murray",
@@ -3959,7 +3677,6 @@
     "Local Agent": "",
     "Phone Number": "7008 & 7009",
     "Telegraph Address": "Bonus, Aberdeen"
-    
   },
   {
     "Business Name": "T. S. Aikman",
@@ -3973,7 +3690,6 @@
     "Local Agent": "",
     "Phone Number": "4945",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "National Insurance Audit Dept.",
@@ -3987,7 +3703,6 @@
     "Local Agent": "",
     "Phone Number": "",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "Royal Insurance Co., Ltd",
@@ -4001,7 +3716,6 @@
     "Local Agent": " A. Fraser, local manager",
     "Phone Number": "845 & 846",
     "Telegraph Address": "Royal, Aberdeen"
-    
   },
   {
     "Business Name": "British Engine Boiler and Electrical Insurance Co., Ltd",
@@ -4015,7 +3729,6 @@
     "Local Agent": "district representative, D. Wark",
     "Phone Number": "845 & 846",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "Royal Northern Club;",
@@ -4029,7 +3742,6 @@
     "Local Agent": "G. B. McAra, steward",
     "Phone Number": "2293",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "Young Men's Christian Institute",
@@ -4043,7 +3755,6 @@
     "Local Agent": "John A. Macdonald, secretary",
     "Phone Number": "",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "The Aberdeen Town Council Music Hall",
@@ -4057,7 +3768,6 @@
     "Local Agent": " manager, A.B. Charles",
     "Phone Number": "",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "Watt & Milne",
@@ -4071,7 +3781,6 @@
     "Local Agent": "Watt & Milne",
     "Phone Number": "86",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "Aberdeen Liberal Association",
@@ -4085,7 +3794,6 @@
     "Local Agent": "Aberdeen Liberal Association",
     "Phone Number": "",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "",
@@ -4099,7 +3807,6 @@
     "Local Agent": "",
     "Phone Number": "",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "Kincardine and West Aberdeen Liberal Association",
@@ -4113,7 +3820,6 @@
     "Local Agent": "",
     "Phone Number": "5007",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "British Women's Temperance Association",
@@ -4127,7 +3833,6 @@
     "Local Agent": "",
     "Phone Number": "2738",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "Ocean Accident and Guarantee Corporation Limited",
@@ -4141,7 +3846,6 @@
     "Local Agent": "branch manager, G. H. Stewart",
     "Phone Number": "2439",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "Thos. W. Harrow",
@@ -4155,7 +3859,6 @@
     "Local Agent": "",
     "Phone Number": "6633",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "Strathdee's Restaurant and Cafe",
@@ -4169,7 +3872,6 @@
     "Local Agent": "",
     "Phone Number": "6570",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "John Cruickshank & Co.",
@@ -4183,7 +3885,6 @@
     "Local Agent": "",
     "Phone Number": "1195",
     "Telegraph Address": "Losses, Aberdeen"
-    
   },
   {
     "Business Name": "Aston Hotel (Temperance)",
@@ -4197,7 +3898,6 @@
     "Local Agent": "proprietor Jas. Anderson",
     "Phone Number": "3377",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "A. G. Duncan",
@@ -4211,7 +3911,6 @@
     "Local Agent": "",
     "Phone Number": "",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "Corporation Electricity Dept.",
@@ -4225,7 +3924,6 @@
     "Local Agent": "",
     "Phone Number": "",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "West-End Cafe",
@@ -4239,7 +3937,6 @@
     "Local Agent": "",
     "Phone Number": "2309",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "Scottish Temperance & General Assurance Co., Ltd.",
@@ -4253,7 +3950,6 @@
     "Local Agent": "resident secretary, Alfred J. Robertson",
     "Phone Number": "941",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "The Scottish Plate Glass Insurance Co., Ltd.",
@@ -4267,7 +3963,6 @@
     "Local Agent": "district superintendent, R. Park Yunnie",
     "Phone Number": "1175",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "Guardian Assurance Co., Ltd.",
@@ -4281,7 +3976,6 @@
     "Local Agent": "local secretary, R. Park Yunnie",
     "Phone Number": "1175",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "Municipal Mutual Insurance Ltd.",
@@ -4295,7 +3989,6 @@
     "Local Agent": "",
     "Phone Number": "7215",
     "Telegraph Address": "Immune, Aberdeen"
-    
   },
   {
     "Business Name": "Edwin L. Williamson, F.S.I.",
@@ -4309,7 +4002,6 @@
     "Local Agent": "",
     "Phone Number": "3487",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "Peter Scott",
@@ -4323,7 +4015,6 @@
     "Local Agent": "",
     "Phone Number": "858",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "Aberdeen Photographic Assoc.",
@@ -4337,7 +4028,6 @@
     "Local Agent": "secretary, Miss H. M. Bailey",
     "Phone Number": "",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "Harry Forbes",
@@ -4351,7 +4041,6 @@
     "Local Agent": "",
     "Phone Number": "858",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "George Falconer & Co.",
@@ -4365,7 +4054,6 @@
     "Local Agent": "",
     "Phone Number": "412",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "W. Lindsay Cook",
@@ -4379,7 +4067,6 @@
     "Local Agent": "",
     "Phone Number": "",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "Mrs. John Anderson (of G. Bruce & Co.)",
@@ -4393,7 +4080,6 @@
     "Local Agent": "",
     "Phone Number": "5566",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "Montague Burton, Ltd",
@@ -4407,7 +4093,6 @@
     "Local Agent": "",
     "Phone Number": "",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "Maison Louis",
@@ -4421,7 +4106,6 @@
     "Local Agent": "",
     "Phone Number": "",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "Empress Caf , Ltd.",
@@ -4435,7 +4119,6 @@
     "Local Agent": "",
     "Phone Number": "2972",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "The True Form Boot Co, Ltd.",
@@ -4449,7 +4132,6 @@
     "Local Agent": "",
     "Phone Number": "",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "Alexander T. Milne",
@@ -4463,7 +4145,6 @@
     "Local Agent": "",
     "Phone Number": "",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "Aberdeen-Angus Cattle Society",
@@ -4477,7 +4158,6 @@
     "Local Agent": "",
     "Phone Number": "",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "Alex Scatterty",
@@ -4491,7 +4171,6 @@
     "Local Agent": "",
     "Phone Number": "",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "Eric C. Finlayson",
@@ -4505,7 +4184,6 @@
     "Local Agent": "",
     "Phone Number": "898",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "The Acetylene Corporation of Great Britain Ltd.",
@@ -4519,7 +4197,6 @@
     "Local Agent": "",
     "Phone Number": "",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "John D. Robbie",
@@ -4533,7 +4210,6 @@
     "Local Agent": "",
     "Phone Number": "",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "James Webster",
@@ -4547,7 +4223,6 @@
     "Local Agent": "",
     "Phone Number": "",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "Railway Passengers Assurance Co.",
@@ -4561,7 +4236,6 @@
     "Local Agent": "",
     "Phone Number": "",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "North British and Mercantile Insurance Co., Ltd.",
@@ -4575,7 +4249,6 @@
     "Local Agent": "",
     "Phone Number": "4812, 4813",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "Fine Art and General Insurance Co., Ltd.",
@@ -4589,7 +4262,6 @@
     "Local Agent": "",
     "Phone Number": "5812",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "Lumsden & Gibson",
@@ -4603,7 +4275,6 @@
     "Local Agent": "",
     "Phone Number": "",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "James Grant & Co., Ltd.",
@@ -4617,7 +4288,6 @@
     "Local Agent": "",
     "Phone Number": "3440",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "Manfield & Sons",
@@ -4631,7 +4301,6 @@
     "Local Agent": "",
     "Phone Number": "",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "Princess Caf ",
@@ -4645,7 +4314,6 @@
     "Local Agent": "",
     "Phone Number": "",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "Telfer & Co.",
@@ -4659,7 +4327,6 @@
     "Local Agent": "",
     "Phone Number": "",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "A. C. Little & Sons, Ltd.",
@@ -4673,7 +4340,6 @@
     "Local Agent": "",
     "Phone Number": "",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "Robert Hunter",
@@ -4687,7 +4353,6 @@
     "Local Agent": "",
     "Phone Number": "",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "F. W. Woolworth & Co. Ltd",
@@ -4701,7 +4366,6 @@
     "Local Agent": "",
     "Phone Number": "",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "John F. Neave, Ltd.",
@@ -4715,7 +4379,6 @@
     "Local Agent": "",
     "Phone Number": "2315",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "The Home & Colonial Stores, Ltd.",
@@ -4729,7 +4392,6 @@
     "Local Agent": "",
     "Phone Number": "",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "Fleming, Reid & Co.",
@@ -4743,7 +4405,6 @@
     "Local Agent": "",
     "Phone Number": "",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "Royal Liver Friendly Society",
@@ -4757,7 +4418,6 @@
     "Local Agent": "",
     "Phone Number": "",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "Aberdeen & District Motor Club",
@@ -4771,7 +4431,6 @@
     "Local Agent": "",
     "Phone Number": "192",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "The Federated Employers' Insurance Association, Ltd.",
@@ -4785,7 +4444,6 @@
     "Local Agent": "",
     "Phone Number": "",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "Canada Life Assurance Co.",
@@ -4799,7 +4457,6 @@
     "Local Agent": "",
     "Phone Number": "1360",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "Paton, Lythgoe & Co.",
@@ -4813,7 +4470,6 @@
     "Local Agent": "",
     "Phone Number": "",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "Paton's Shipping Offices, Ltd.",
@@ -4827,7 +4483,6 @@
     "Local Agent": "",
     "Phone Number": "192",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "Northern Pools",
@@ -4841,7 +4496,6 @@
     "Local Agent": "",
     "Phone Number": "5841",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "Walker & Johnston",
@@ -4855,7 +4509,6 @@
     "Local Agent": "",
     "Phone Number": "5841",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "George Dawson Cable",
@@ -4869,7 +4522,6 @@
     "Local Agent": "",
     "Phone Number": "",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "D.L. Debt Recovery Agency",
@@ -4883,7 +4535,6 @@
     "Local Agent": "",
     "Phone Number": "",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "Phillips & Piper, Ltd.",
@@ -4897,7 +4548,6 @@
     "Local Agent": "",
     "Phone Number": "",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "Robt. J. G. Menzies",
@@ -4911,7 +4561,6 @@
     "Local Agent": "",
     "Phone Number": "",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "T. M. Newbigging",
@@ -4925,7 +4574,6 @@
     "Local Agent": "",
     "Phone Number": "",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "Helen Cassie",
@@ -4939,7 +4587,6 @@
     "Local Agent": "",
     "Phone Number": "2626",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "W. Barratt & Co., Ltd.",
@@ -4953,7 +4600,6 @@
     "Local Agent": "",
     "Phone Number": "",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "The Hosiery Manufacturing Coy., Ltd.",
@@ -4967,7 +4613,6 @@
     "Local Agent": "",
     "Phone Number": "",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "Boots The Chemists",
@@ -4981,7 +4626,6 @@
     "Local Agent": "",
     "Phone Number": "",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "W. J. Cruickshank",
@@ -4995,7 +4639,6 @@
     "Local Agent": "",
     "Phone Number": "",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "J. Hutcheon, M.B, Ch.B",
@@ -5009,7 +4652,6 @@
     "Local Agent": "",
     "Phone Number": "",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "Saxone Shoe Co., Ltd.",
@@ -5023,7 +4665,6 @@
     "Local Agent": "",
     "Phone Number": "",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "J. S. Shewan & Son",
@@ -5037,7 +4678,6 @@
     "Local Agent": "",
     "Phone Number": "",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "Davidson Bros.",
@@ -5051,7 +4691,6 @@
     "Local Agent": "",
     "Phone Number": "",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "Scottish National Key Registry and Assurance Assoc., Ltd.",
@@ -5065,7 +4704,6 @@
     "Local Agent": "",
     "Phone Number": "",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "Birrell Ltd.",
@@ -5079,7 +4717,6 @@
     "Local Agent": "",
     "Phone Number": "",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "Irvine & Johnston",
@@ -5093,7 +4730,6 @@
     "Local Agent": "",
     "Phone Number": "",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "A. & E. Clarke",
@@ -5107,7 +4743,6 @@
     "Local Agent": "",
     "Phone Number": "",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "Goodsons, Ltd.",
@@ -5121,7 +4756,6 @@
     "Local Agent": "",
     "Phone Number": "",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "McMillans, Ltd.",
@@ -5135,7 +4769,6 @@
     "Local Agent": "",
     "Phone Number": "",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "Trinity Hall",
@@ -5149,7 +4782,6 @@
     "Local Agent": "",
     "Phone Number": "",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "Palace Hotel",
@@ -5163,7 +4795,6 @@
     "Local Agent": "",
     "Phone Number": "",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "Geo Pegler & Co.",
@@ -5177,7 +4808,6 @@
     "Local Agent": "",
     "Phone Number": "6767",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "Wm. Kennaway, Ltd.",
@@ -5191,7 +4821,6 @@
     "Local Agent": "",
     "Phone Number": "",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "John Hay",
@@ -5205,7 +4834,6 @@
     "Local Agent": "",
     "Phone Number": "",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "A. Marshall McKenzie & Son",
@@ -5219,7 +4847,6 @@
     "Local Agent": "",
     "Phone Number": "835",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "John G. Marr",
@@ -5233,7 +4860,6 @@
     "Local Agent": "",
     "Phone Number": "835",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "A. J. Miller",
@@ -5247,7 +4873,6 @@
     "Local Agent": "",
     "Phone Number": "3393",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "J. Duncan MacDiarmid",
@@ -5261,7 +4886,6 @@
     "Local Agent": "",
     "Phone Number": "",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "R. M. Gordon",
@@ -5275,7 +4899,6 @@
     "Local Agent": "",
     "Phone Number": "",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "The Car and General Insurance Corporation, Ltd.",
@@ -5289,7 +4912,6 @@
     "Local Agent": "",
     "Phone Number": "170",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "Samuel Munro",
@@ -5303,7 +4925,6 @@
     "Local Agent": "",
     "Phone Number": "3454",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "Miss C. Anderson",
@@ -5317,7 +4938,6 @@
     "Local Agent": "",
     "Phone Number": "914",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "John A. Dunn",
@@ -5331,7 +4951,6 @@
     "Local Agent": "",
     "Phone Number": "",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "Union Street",
@@ -5345,7 +4964,6 @@
     "Local Agent": "",
     "Phone Number": "",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "George M. Hay",
@@ -5359,7 +4977,6 @@
     "Local Agent": "",
     "Phone Number": "860",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "John Craig",
@@ -5373,7 +4990,6 @@
     "Local Agent": "",
     "Phone Number": "",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "R. R. Gall",
@@ -5387,7 +5003,6 @@
     "Local Agent": "",
     "Phone Number": "2203",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "Alexander Caithness",
@@ -5401,7 +5016,6 @@
     "Local Agent": "",
     "Phone Number": "",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "Scottish Co-op. Wholesale Soc.",
@@ -5415,7 +5029,6 @@
     "Local Agent": "",
     "Phone Number": "",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "Aberdeen Designs Ltd.",
@@ -5429,7 +5042,6 @@
     "Local Agent": "",
     "Phone Number": "",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "Marshall & Philip",
@@ -5443,7 +5055,6 @@
     "Local Agent": "",
     "Phone Number": "",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "The Picture House",
@@ -5457,7 +5068,6 @@
     "Local Agent": "",
     "Phone Number": "",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "Peter Mitchell",
@@ -5471,7 +5081,6 @@
     "Local Agent": "",
     "Phone Number": "",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "Paterson, Sons, & Marr Wood, Ltd.",
@@ -5485,7 +5094,6 @@
     "Local Agent": "",
     "Phone Number": "",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "Marr Wood & Patterson Sons, Ltd.",
@@ -5499,7 +5107,6 @@
     "Local Agent": "",
     "Phone Number": "",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "R. S. McColl, Ltd.",
@@ -5513,7 +5120,6 @@
     "Local Agent": "",
     "Phone Number": "",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "Alfred Catto",
@@ -5527,7 +5133,6 @@
     "Local Agent": "",
     "Phone Number": "",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "Hoover Ltd.",
@@ -5541,7 +5146,6 @@
     "Local Agent": "",
     "Phone Number": "",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "Richard C. Kelman, M.A.",
@@ -5555,7 +5159,6 @@
     "Local Agent": "",
     "Phone Number": "2395",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "A. & J. Smith",
@@ -5569,7 +5172,6 @@
     "Local Agent": "",
     "Phone Number": "1137",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "Cameron's Register Office",
@@ -5583,7 +5185,6 @@
     "Local Agent": "",
     "Phone Number": "",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "William Kirkwood",
@@ -5597,7 +5198,6 @@
     "Local Agent": "",
     "Phone Number": "403",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "James Brown",
@@ -5611,7 +5211,6 @@
     "Local Agent": "",
     "Phone Number": "2778",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "Hazlehead Golf Club",
@@ -5625,7 +5224,6 @@
     "Local Agent": "",
     "Phone Number": "",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "Scottish Federation of Merchant Tailors",
@@ -5639,7 +5237,6 @@
     "Local Agent": "",
     "Phone Number": "",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "Gordon & Smith",
@@ -5653,7 +5250,6 @@
     "Local Agent": "",
     "Phone Number": "6161",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "Reith Bros.",
@@ -5667,7 +5263,6 @@
     "Local Agent": "",
     "Phone Number": "405",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "Stephen & Smith",
@@ -5681,7 +5276,6 @@
     "Local Agent": "",
     "Phone Number": "",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "Geo. Mollison",
@@ -5695,7 +5289,6 @@
     "Local Agent": "",
     "Phone Number": "",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "John D. Munro",
@@ -5709,7 +5302,6 @@
     "Local Agent": "",
     "Phone Number": "",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "Lieutenancy of Aberdeenshire Office",
@@ -5723,7 +5315,6 @@
     "Local Agent": "",
     "Phone Number": "2581",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "North of Scotland Canadian Mortgage Co., Ltd.",
@@ -5737,7 +5328,6 @@
     "Local Agent": "",
     "Phone Number": "2580",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "St. Andrews Ambulance Association",
@@ -5751,7 +5341,6 @@
     "Local Agent": "",
     "Phone Number": "7100",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "British Red Cross Society",
@@ -5765,7 +5354,6 @@
     "Local Agent": "",
     "Phone Number": "",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "Duncan MacRae",
@@ -5779,7 +5367,6 @@
     "Local Agent": "",
     "Phone Number": "",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "John Smith & Co. (Wools), Ltd.",
@@ -5793,7 +5380,6 @@
     "Local Agent": "",
     "Phone Number": "5248",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "Union Bank of Scotland Limited (West-End Branch)",
@@ -5807,7 +5393,6 @@
     "Local Agent": "",
     "Phone Number": "879",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "Western Assurance Company",
@@ -5821,7 +5406,6 @@
     "Local Agent": "",
     "Phone Number": "",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "Rotary Club",
@@ -5835,7 +5419,6 @@
     "Local Agent": "",
     "Phone Number": "1883",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "J. Downie Campbell",
@@ -5849,7 +5432,6 @@
     "Local Agent": "",
     "Phone Number": "1883",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "Harry Ogilvie",
@@ -5863,7 +5445,6 @@
     "Local Agent": "",
     "Phone Number": "",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "James Brown (Aberdeen), Ltd.",
@@ -5877,7 +5458,6 @@
     "Local Agent": "",
     "Phone Number": "4201",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "A. Lorimer",
@@ -5891,7 +5471,6 @@
     "Local Agent": "",
     "Phone Number": "",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "William A. Leith",
@@ -5905,7 +5484,6 @@
     "Local Agent": "",
     "Phone Number": "",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "J. Ogilvie Munro, jun.",
@@ -5919,7 +5497,6 @@
     "Local Agent": "",
     "Phone Number": "",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "James S. Innes",
@@ -5933,7 +5510,6 @@
     "Local Agent": "",
     "Phone Number": "",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "J. S. Duthie",
@@ -5947,7 +5523,6 @@
     "Local Agent": "",
     "Phone Number": "",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "R. W. Johnston",
@@ -5961,7 +5536,6 @@
     "Local Agent": "",
     "Phone Number": "",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "Davidson & Kay",
@@ -5975,7 +5549,6 @@
     "Local Agent": "",
     "Phone Number": "",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "Watt & Grant, Ltd.",
@@ -5989,7 +5562,6 @@
     "Local Agent": "",
     "Phone Number": "",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "A. & R. Milne",
@@ -6003,7 +5575,6 @@
     "Local Agent": "",
     "Phone Number": "",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "J. B. Rennet, advocate, and C. A. Samule Pope, solicitor",
@@ -6017,7 +5588,6 @@
     "Local Agent": "",
     "Phone Number": "824",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "John H. Drummond",
@@ -6031,7 +5601,6 @@
     "Local Agent": "",
     "Phone Number": "",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "City of Glasgow Friendly and Approved Society",
@@ -6045,7 +5614,6 @@
     "Local Agent": "",
     "Phone Number": "",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "Charles A. Michie",
@@ -6059,7 +5627,6 @@
     "Local Agent": "",
     "Phone Number": "",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "A. H. L. Mackinnon",
@@ -6073,7 +5640,6 @@
     "Local Agent": "",
     "Phone Number": "",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "A. J. Morrison",
@@ -6087,7 +5653,6 @@
     "Local Agent": "",
     "Phone Number": "",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "Bower & Smith, C. A.",
@@ -6101,7 +5666,6 @@
     "Local Agent": "",
     "Phone Number": "",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "Mrs. Smith",
@@ -6115,7 +5679,6 @@
     "Local Agent": "",
     "Phone Number": "",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "Mrs. Clara Willis",
@@ -6129,7 +5692,6 @@
     "Local Agent": "",
     "Phone Number": "",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "D. Wyllie & Son",
@@ -6143,7 +5705,6 @@
     "Local Agent": "",
     "Phone Number": "",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "W. J. Milne Ltd.",
@@ -6157,7 +5718,6 @@
     "Local Agent": "",
     "Phone Number": "1295",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "David Henderson",
@@ -6171,7 +5731,6 @@
     "Local Agent": "",
     "Phone Number": "",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "James Farquharson",
@@ -6185,7 +5744,6 @@
     "Local Agent": "",
     "Phone Number": "",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "Mrs. MacDonald",
@@ -6199,7 +5757,6 @@
     "Local Agent": "",
     "Phone Number": "",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "Robert Cable",
@@ -6213,7 +5770,6 @@
     "Local Agent": "",
     "Phone Number": "",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "Post Office Aberdeen Directory Ltd.",
@@ -6227,7 +5783,6 @@
     "Local Agent": "",
     "Phone Number": "",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "J. Alexander & Co.",
@@ -6241,7 +5796,6 @@
     "Local Agent": "",
     "Phone Number": "466",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "Liverpool Victoria Insurance Offices",
@@ -6255,7 +5809,6 @@
     "Local Agent": "",
     "Phone Number": "1102",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "The Phoenix Assurance Co., Ltd.",
@@ -6269,7 +5822,6 @@
     "Local Agent": "",
     "Phone Number": "1966",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "London Guarantee and Accident Co, Ltd.",
@@ -6283,7 +5835,6 @@
     "Local Agent": "",
     "Phone Number": "1966",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "Ministry of Transport Driving Tests",
@@ -6297,7 +5848,6 @@
     "Local Agent": "",
     "Phone Number": "",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "H.M. Office of Works",
@@ -6311,7 +5861,6 @@
     "Local Agent": "",
     "Phone Number": "",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "Messrs. Barnet's",
@@ -6325,7 +5874,6 @@
     "Local Agent": "",
     "Phone Number": "",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "Milne & Munro",
@@ -6339,7 +5887,6 @@
     "Local Agent": "",
     "Phone Number": "1028",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "T. C. Smith & Co.",
@@ -6353,7 +5900,6 @@
     "Local Agent": "",
     "Phone Number": "",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "Braemar Hotel",
@@ -6367,7 +5913,6 @@
     "Local Agent": "",
     "Phone Number": "",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "And. Collie & Co.",
@@ -6381,7 +5926,6 @@
     "Local Agent": "",
     "Phone Number": "",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "Miss Mary Silver",
@@ -6395,7 +5939,6 @@
     "Local Agent": "",
     "Phone Number": "5416",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "Watt Bros.",
@@ -6409,7 +5952,6 @@
     "Local Agent": "",
     "Phone Number": "",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "Alexanders Distributors (Aberdeen), Ltd.",
@@ -6423,7 +5965,6 @@
     "Local Agent": "",
     "Phone Number": "",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "North-East Savings Committee",
@@ -6437,7 +5978,6 @@
     "Local Agent": "",
     "Phone Number": "2699",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "Scottish Savings Committee",
@@ -6451,7 +5991,6 @@
     "Local Agent": "",
     "Phone Number": "2699",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "Associated Women's Friendly Society",
@@ -6465,7 +6004,6 @@
     "Local Agent": "",
     "Phone Number": "",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "Department of Health for Scotland; Regional Medical Office",
@@ -6479,7 +6017,6 @@
     "Local Agent": "",
     "Phone Number": "6314",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "Helen Bagrie",
@@ -6493,7 +6030,6 @@
     "Local Agent": "",
     "Phone Number": "",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "James M. Farrell",
@@ -6507,7 +6043,6 @@
     "Local Agent": "",
     "Phone Number": "",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "Johnston, Reid & Co.",
@@ -6521,7 +6056,6 @@
     "Local Agent": "",
     "Phone Number": "",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "",
@@ -6535,7 +6069,6 @@
     "Local Agent": "",
     "Phone Number": "",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "Nature Cure Centre",
@@ -6549,7 +6082,6 @@
     "Local Agent": "",
     "Phone Number": "2149",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "",
@@ -6563,7 +6095,6 @@
     "Local Agent": "",
     "Phone Number": "",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "H. Thomson",
@@ -6577,7 +6108,6 @@
     "Local Agent": "",
     "Phone Number": "2807",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "Farquharson & Co., Ltd.",
@@ -6591,7 +6121,6 @@
     "Local Agent": "",
     "Phone Number": "168",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "D. C. Cruickshank",
@@ -6605,7 +6134,6 @@
     "Local Agent": "",
     "Phone Number": "",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "George M. Bowman",
@@ -6619,7 +6147,6 @@
     "Local Agent": "",
     "Phone Number": "",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "Standard Life Assurance Co.",
@@ -6633,7 +6160,6 @@
     "Local Agent": "",
     "Phone Number": "3493",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "Bank of Scotland, West-End Branch",
@@ -6647,7 +6173,6 @@
     "Local Agent": "D A Rennie",
     "Phone Number": "5362",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "Galloway & Sykes Ltd.",
@@ -6661,7 +6186,6 @@
     "Local Agent": "",
     "Phone Number": "4760",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "Jas B. Nicol",
@@ -6675,7 +6199,6 @@
     "Local Agent": "",
     "Phone Number": "790",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "",
@@ -6689,7 +6212,6 @@
     "Local Agent": "",
     "Phone Number": "",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "J. & A. Ogilvie",
@@ -6703,7 +6225,6 @@
     "Local Agent": "",
     "Phone Number": "",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "Wm. Brown & Sons",
@@ -6717,7 +6238,6 @@
     "Local Agent": "",
     "Phone Number": "1204",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "Refuge Assurance Co., Ltd.",
@@ -6731,7 +6251,6 @@
     "Local Agent": "",
     "Phone Number": "",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "William Mollison",
@@ -6745,7 +6264,6 @@
     "Local Agent": "",
     "Phone Number": "3004",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "James Iverach",
@@ -6759,7 +6277,6 @@
     "Local Agent": "",
     "Phone Number": "",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "National Employers' Mutual General Insurance Assoc. Ltd.",
@@ -6773,7 +6290,6 @@
     "Local Agent": "",
     "Phone Number": "2246",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "G. P. Wilson",
@@ -6787,7 +6303,6 @@
     "Local Agent": "",
     "Phone Number": "2246",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "Miss B. A. Stephens",
@@ -6801,7 +6316,6 @@
     "Local Agent": "",
     "Phone Number": "",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "Mrs B. Mearns",
@@ -6815,7 +6329,6 @@
     "Local Agent": "",
     "Phone Number": "",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "James E. Henderson Ltd.",
@@ -6829,7 +6342,6 @@
     "Local Agent": "",
     "Phone Number": "",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "J. & J. Cameron",
@@ -6843,7 +6355,6 @@
     "Local Agent": "",
     "Phone Number": "",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "George Hay",
@@ -6857,7 +6368,6 @@
     "Local Agent": "",
     "Phone Number": "",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "Rossleigh Cycle and Motor Company, Ltd.",
@@ -6871,7 +6381,6 @@
     "Local Agent": "",
     "Phone Number": "4785, 4786",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "Mrs McDonald",
@@ -6885,7 +6394,6 @@
     "Local Agent": "",
     "Phone Number": "2762",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "The Century Insurance Co., Ltd",
@@ -6899,7 +6407,6 @@
     "Local Agent": "",
     "Phone Number": "",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "Friend's Provident and Century Life Offices",
@@ -6913,7 +6420,6 @@
     "Local Agent": "",
     "Phone Number": "",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "Alex. Bruce",
@@ -6927,7 +6433,6 @@
     "Local Agent": "",
     "Phone Number": "",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "J. & C. Graham",
@@ -6941,7 +6446,6 @@
     "Local Agent": "",
     "Phone Number": "1969",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "Jaeger Underwear and Outwear",
@@ -6955,7 +6459,6 @@
     "Local Agent": "",
     "Phone Number": "",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "Storie, Cruden and Simpson",
@@ -6969,7 +6472,6 @@
     "Local Agent": "",
     "Phone Number": "",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "Miss Anita Henderson, Central Bureau",
@@ -6983,7 +6485,6 @@
     "Local Agent": "",
     "Phone Number": "",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "William Rattray",
@@ -6997,7 +6498,6 @@
     "Local Agent": "",
     "Phone Number": "",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "Fullers, Ltd.",
@@ -7011,7 +6511,6 @@
     "Local Agent": "",
     "Phone Number": "",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "Millers Bros.",
@@ -7025,7 +6524,6 @@
     "Local Agent": "",
     "Phone Number": "4864",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "Halifax Building Society",
@@ -7039,7 +6537,6 @@
     "Local Agent": "",
     "Phone Number": "",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "Boots, The Chemists",
@@ -7053,7 +6550,6 @@
     "Local Agent": "",
     "Phone Number": "",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "J. Pullar & Sons, Ltd.",
@@ -7067,7 +6563,6 @@
     "Local Agent": "",
     "Phone Number": "1273",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "Singer Sewing Machine Co., Ltd.",
@@ -7081,7 +6576,6 @@
     "Local Agent": "",
     "Phone Number": "4098",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "William M. Mellis",
@@ -7095,7 +6589,6 @@
     "Local Agent": "",
     "Phone Number": "",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "Nicoll",
@@ -7109,7 +6602,6 @@
     "Local Agent": "",
     "Phone Number": "",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "M. Gerard",
@@ -7123,7 +6615,6 @@
     "Local Agent": "",
     "Phone Number": "447",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "Wm. Cay & Sons",
@@ -7137,7 +6628,6 @@
     "Local Agent": "",
     "Phone Number": "",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "Roberts (Aberdeen), Ltd.",
@@ -7151,7 +6641,6 @@
     "Local Agent": "",
     "Phone Number": "2695",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "George M. Shinnia",
@@ -7165,7 +6654,6 @@
     "Local Agent": "",
     "Phone Number": "",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "Spirella Parlours; Margaret Forbes",
@@ -7179,7 +6667,6 @@
     "Local Agent": "",
     "Phone Number": "1816",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "Mrs. George Beighton",
@@ -7193,7 +6680,6 @@
     "Local Agent": "",
     "Phone Number": "",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "Hurry & Flett",
@@ -7207,7 +6693,6 @@
     "Local Agent": "",
     "Phone Number": "",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "George Hurry (of H. & Flett)",
@@ -7221,7 +6706,6 @@
     "Local Agent": "",
     "Phone Number": "",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "Nan K. Johnston",
@@ -7235,7 +6719,6 @@
     "Local Agent": "",
     "Phone Number": "",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "Knowles & Sons",
@@ -7249,7 +6732,6 @@
     "Local Agent": "",
     "Phone Number": "1002, 1003, 1846",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "Canadian Fur Co.",
@@ -7263,7 +6745,6 @@
     "Local Agent": "",
     "Phone Number": "",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "The Capitol",
@@ -7277,7 +6758,6 @@
     "Local Agent": "",
     "Phone Number": "",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "The Capitol Caf ",
@@ -7291,7 +6771,6 @@
     "Local Agent": "",
     "Phone Number": "",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "Wm. Munro",
@@ -7305,7 +6784,6 @@
     "Local Agent": "",
     "Phone Number": "",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "E. Bonici",
@@ -7319,7 +6797,6 @@
     "Local Agent": "",
     "Phone Number": "",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "Mrs. Scotland, Lennox House",
@@ -7333,7 +6810,6 @@
     "Local Agent": "",
     "Phone Number": "",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "E. L. Thomson",
@@ -7347,7 +6823,6 @@
     "Local Agent": "",
     "Phone Number": "2021",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "Mrs. Campbell, Osborne Hotel",
@@ -7361,7 +6836,6 @@
     "Local Agent": "",
     "Phone Number": "",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "Robert Burnett",
@@ -7375,7 +6849,6 @@
     "Local Agent": "",
     "Phone Number": "",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "Balmoral Lounge Bar",
@@ -7389,7 +6862,6 @@
     "Local Agent": "",
     "Phone Number": "",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "Findlay's Dairy",
@@ -7403,7 +6875,6 @@
     "Local Agent": "",
     "Phone Number": "1750",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "R. S. McColl, Ltd.",
@@ -7417,7 +6888,6 @@
     "Local Agent": "",
     "Phone Number": "",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "James Duncan",
@@ -7431,7 +6901,6 @@
     "Local Agent": "",
     "Phone Number": "5105",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "Mrs. Rae",
@@ -7445,7 +6914,6 @@
     "Local Agent": "",
     "Phone Number": "",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "J. D. Fraser",
@@ -7459,7 +6927,6 @@
     "Local Agent": "",
     "Phone Number": "",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "Buttercup Dairy Co., Ltd.",
@@ -7473,7 +6940,6 @@
     "Local Agent": "",
     "Phone Number": "",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "Marlowe (Aberdeen), Ltd.",
@@ -7487,7 +6953,6 @@
     "Local Agent": "",
     "Phone Number": "",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "Gordons",
@@ -7501,7 +6966,6 @@
     "Local Agent": "",
     "Phone Number": "",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "McArthur & Stephen",
@@ -7515,7 +6979,6 @@
     "Local Agent": "",
     "Phone Number": "",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "The Picture Playhouse",
@@ -7529,7 +6992,6 @@
     "Local Agent": "",
     "Phone Number": "",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "Aberdeen Dairy Co.",
@@ -7543,7 +7005,6 @@
     "Local Agent": "",
     "Phone Number": "1795",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "James Scott & Son (Aberdeen), Ltd.",
@@ -7557,7 +7018,6 @@
     "Local Agent": "",
     "Phone Number": "",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "F. W. F. Wishart, Ltd.",
@@ -7571,7 +7031,6 @@
     "Local Agent": "",
     "Phone Number": "",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "Chas. H. Murray",
@@ -7585,7 +7044,6 @@
     "Local Agent": "",
     "Phone Number": "6557",
     "Telegraph Address": ""
-    
   },
   {
     "Business Name": "Chivas Brothers, Limited",
@@ -7599,6 +7057,5 @@
     "Local Agent": "",
     "Phone Number": "",
     "Telegraph Address": ""
-    
   }
 ]
