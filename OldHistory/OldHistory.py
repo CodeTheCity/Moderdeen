@@ -1,39 +1,69 @@
-import requests
-import json
-from tqdm import tqdm
-
-JSON_URL = "https://raw.githubusercontent.com/CodeTheCity/Moderdeen/main/OldHistory/HistoricalBuildings.json"
-FIXED_ADDRESS = "Union+Street&city=Aberdeen&country=UK"
-
 def geocode_location(location):
     house_number = location.get("House Number", "")
     name = location.get("Business Name", "")
+    residential = location.get("Residential", "")
+    building_name = location.get("Building Name ", "")
+    location["Address"] = "Union Street"
+    location["City"] = "Aberdeen"
+    business_type = location.get("Business Type", "")
+    agent = location.get("Local Agent", "")
+    phone = location.get("Phone Number", "")
+    telegraph = location.get("Telegraph Address", "")
+
+    # Check and set "Residential" to "Unknown" if it's empty
+    if residential == "":
+        location["Residential"] = "Unknown"
+
+    # Check and set "Building Name" to "Unknown" if it's empty
+    if building_name == "":
+        location["Building Name "] = "Unknown"
+
+    # Check and set "Business Type" to "Unknown" if it's empty
+    if business_type == "":
+        location["Business Type"] = "Unknown"
+
+    # Check and set "Local Agent" to "Unknown" if it's empty
+    if agent == "":
+        location["Local Agent"] = "Unknown"
+
+    # Check and set "Phone Number" to "Unknown" if it's empty
+    if phone == "":
+        location["Phone Number"] = "Unknown"
+
+    # Check and set "Telegraph Address" to "Unknown" if it's empty
+    if telegraph == "":
+        location["Telegraph Address"] = "Unknown"
 
     if house_number:
-        address = f"{house_number}+{FIXED_ADDRESS}"
+        address = f"street={house_number}+{FIXED_ADDRESS}"
     elif name:
-        address = f"{name.replace(' ', '+')}&street={FIXED_ADDRESS}"
+        address = f"q={name.replace(' ', '+')}&street={FIXED_ADDRESS}"
     else:
-        location["Business Name"] = "Unknown"  # Set Business Name to "Unknown"
+        location["Business Name"] = "Unknown"
+        location["House Number"] = "Unknown"
         return None
 
-    url = f"https://geocode.maps.co/search?street={address}"
+    url = f"https://geocode.maps.co/search?{address}"
 
     response = requests.get(url)
     if response.status_code == 200:
         data = response.json()
         if data and len(data) > 0:
             first_result = data[0]
-            location["Latitude"] = first_result.get("lat", "")
-            location["Longitude"] = first_result.get("lon", "")
+            if "Aberdeen" in first_result.get("display_name", ""):
+                location["Latitude"] = first_result.get("lat", "")
+                location["Longitude"] = first_result.get("lon", "")
+            else:
+                location["Latitude"] = ""
+                location["Longitude"] = ""
         else:
             location["Latitude"] = ""
             location["Longitude"] = ""
     else:
         location["Latitude"] = ""
         location["Longitude"] = ""
-    
-    print(house_number, name, url)
+
+
 
 def main():
     try:
