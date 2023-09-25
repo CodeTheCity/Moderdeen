@@ -52,10 +52,11 @@ def geocode_location(location):
     else:
         location["Business Name"] = "Unknown"
         location["House Number"] = "Unknown"
-        location["Latitude"] = ""
-        location["Longitude"] = ""
         return None
-
+    if name == "":
+        location["Business Name"] = "Unknown"
+    if house_number == "":
+        location["House Number"] = "Unknown"
     url = f"https://geocode.maps.co/search?{address}"
 
     response = requests.get(url)
