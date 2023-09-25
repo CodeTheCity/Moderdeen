@@ -1,3 +1,10 @@
+import requests
+import json
+from tqdm import tqdm
+
+JSON_URL = "https://raw.githubusercontent.com/CodeTheCity/Moderdeen/main/OldHistory/HistoricalBuildings.json"
+FIXED_ADDRESS = "Union+Street&city=Aberdeen&country=UK"
+
 def geocode_location(location):
     house_number = location.get("House Number", "")
     name = location.get("Business Name", "")
@@ -9,6 +16,7 @@ def geocode_location(location):
     agent = location.get("Local Agent", "")
     phone = location.get("Phone Number", "")
     telegraph = location.get("Telegraph Address", "")
+    date = location.get("Business Established","")
 
     # Check and set "Residential" to "Unknown" if it's empty
     if residential == "":
@@ -34,6 +42,9 @@ def geocode_location(location):
     if telegraph == "":
         location["Telegraph Address"] = "Unknown"
 
+    if date == "":
+        location["Business Established"] = "Unknown"
+
     if house_number:
         address = f"street={house_number}+{FIXED_ADDRESS}"
     elif name:
@@ -41,6 +52,8 @@ def geocode_location(location):
     else:
         location["Business Name"] = "Unknown"
         location["House Number"] = "Unknown"
+        location["Latitude"] = ""
+        location["Longitude"] = ""
         return None
 
     url = f"https://geocode.maps.co/search?{address}"
