@@ -6,7 +6,8 @@
     <!-- Include Leaflet CSS and JavaScript -->
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
     <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
-    
+    <link rel="icon" type="image/x-icon" href="https://raw.githubusercontent.com/CodeTheCity/Moderdeen/main/OldHistory/favicon.ico" />
+
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -38,7 +39,26 @@
         #map {
             width: 100%;
             height: 400px;
-            margin: 0 auto;
+            margin-bottom: 20px; /* Add margin-bottom to create buffer */
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        table, th, td {
+            border: 1px solid #ccc;
+        }
+
+        th, td {
+            padding: 8px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #007acc;
+            color: white;
         }
     </style>
 </head>
@@ -48,11 +68,25 @@
     <!-- Dropdown for selecting a building -->
     <label for="buildingSelect">Select a Building:</label>
     <select id="buildingSelect">
+        <!-- Default option -->
+        <option value="-1">Select a building</option>
         <!-- Options will be added using JavaScript -->
     </select>
 
     <!-- Map container -->
     <div id="map"></div>
+
+    <!-- Table to display building information -->
+    <table id="buildingInfo">
+        <thead>
+            <tr>
+                <th colspan="2" id="buildingNameHeader">Building Name</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- Information will be populated using JavaScript -->
+        </tbody>
+    </table>
 
     <script>
         // Initialize the Leaflet map
@@ -79,6 +113,25 @@
             }
         }
 
+        // Function to populate the table with building information
+        function populateTable(building) {
+            var table = document.getElementById("buildingInfo").getElementsByTagName('tbody')[0];
+            table.innerHTML = ""; // Clear previous data
+
+            for (var key in building) {
+                if (building.hasOwnProperty(key) && key !== "Latitude" && key !== "Longitude") {
+                    var row = table.insertRow();
+                    var cell1 = row.insertCell(0);
+                    var cell2 = row.insertCell(1);
+                    cell1.innerHTML = key;
+                    cell2.innerHTML = building[key];
+                }
+            }
+
+            // Update the table header to show the name of the selected building
+            document.getElementById("buildingNameHeader").textContent = building["Business Name"];
+        }
+
         // Load the remote JSON file
         fetch('https://raw.githubusercontent.com/CodeTheCity/Moderdeen/main/OldHistory/ModifiedHistory.json')
             .then(response => response.json())
@@ -87,11 +140,27 @@
 
                 // Event listener for dropdown change
                 document.getElementById("buildingSelect").addEventListener("change", function () {
-                    var selectedBuilding = data[this.value];
-                    var lat = parseFloat(selectedBuilding.Latitude);
-                    var lon = parseFloat(selectedBuilding.Longitude);
-                    map.setView([lat, lon], 16); // Center the map on the selected building
-                    addMarker(lat, lon); // Add a marker to the map
+                    var selectedIndex = this.value;
+                    if (selectedIndex !== "-1") {
+                        var selectedBuilding = data[selectedIndex];
+                        var lat = parseFloat(selectedBuilding.Latitude);
+                        var lon = parseFloat(selectedBuilding.Longitude);
+                        map.setView([lat, lon], 16); // Center the map on the selected building
+                        addMarker(lat, lon); // Add a marker to the map
+                        populateTable(selectedBuilding); // Populate the table with building information
+                    } else {
+                        // If the default option is selected, clear the map and table
+                        map.setView([57.1453448, -2.1031418], 16); // Reset map view
+                        map.eachLayer(function (layer) {
+                            if (layer instanceof L.Marker) {
+                                map.removeLayer(layer); // Remove markers from the map
+                            }
+                        });
+                        var table = document.getElementById("buildingInfo").getElementsByTagName('tbody')[0];
+                        table.innerHTML = ""; // Clear table data
+                        // Reset the table header
+                        document.getElementById("buildingNameHeader").textContent = "Building Name";
+                    }
                 });
             })
             .catch(error => console.error('Error:', error));
