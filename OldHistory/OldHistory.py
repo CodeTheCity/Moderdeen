@@ -1,8 +1,9 @@
 import requests
 import json
+from tqdm import tqdm  # Import tqdm for the loading bar
 
 # Define the URL of the JSON file and the fixed address
-JSON_URL = "https://raw.githubusercontent.com/CodeTheCity/Moderdeen/main/OldHistory/OldHistory.json"
+JSON_URL = "https://raw.githubusercontent.com/CodeTheCity/Moderdeen/main/OldHistory/HistoricalBuildings.json"
 FIXED_ADDRESS = "Union+Street&city=Aberdeen&country=UK"
 
 # Function to perform geocoding
@@ -22,9 +23,11 @@ def geocode_location(location):
     response = requests.get(url)
     if response.status_code == 200:
         data = response.json()
-        if data.get("latitude") and data.get("longitude"):
-            location["Latitude"] = data["latitude"]
-            location["Longitude"] = data["longitude"]
+        if data and len(data) > 0:
+            # Extract latitude and longitude from the first result
+            first_result = data[0]
+            location["Latitude"] = first_result.get("lat", "")
+            location["Longitude"] = first_result.get("lon", "")
         else:
             location["Latitude"] = ""
             location["Longitude"] = ""
@@ -42,7 +45,10 @@ def main():
         json_text = response.text.lstrip('\ufeff')
         json_data = json.loads(json_text)
         
-        for entry in json_data:
+        # Create a loading bar using tqdm
+        progress_bar = tqdm(json_data, desc="Geocoding Progress", ncols=100)
+        
+        for entry in progress_bar:
             geocode_location(entry)
 
         with open("ModifiedHistory.json", "w") as output_file:
