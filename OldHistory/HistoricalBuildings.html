@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Building Marker Map</title>
+    <!-- Include Leaflet CSS and JavaScript -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+    
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+        }
+
+        h1 {
+            background-color: #007acc;
+            color: white;
+            padding: 10px;
+            margin: 0;
+        }
+
+        label {
+            font-weight: bold;
+            margin-top: 20px;
+        }
+
+        #buildingSelect {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        #map {
+            width: 100%;
+            height: 400px;
+            margin: 0 auto;
+        }
+    </style>
+</head>
+<body>
+    <h1>Building Marker Map</h1>
+
+    <!-- Dropdown for selecting a building -->
+    <label for="buildingSelect">Select a Building:</label>
+    <select id="buildingSelect">
+        <!-- Options will be added using JavaScript -->
+    </select>
+
+    <!-- Map container -->
+    <div id="map"></div>
+
+    <script>
+        // Initialize the Leaflet map
+        var map = L.map('map').setView([57.1453448, -2.1031418], 16); // Set the initial map coordinates and zoom level
+        
+        // Add an OpenStreetMap tile layer
+        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+        }).addTo(map);
+
+        // Define a function to add a marker to the map
+        function addMarker(lat, lon) {
+            var marker = L.marker([lat, lon]).addTo(map);
+        }
+
+        // Function to populate the dropdown with building names
+        function populateDropdown(buildings) {
+            var select = document.getElementById("buildingSelect");
+            for (var i = 0; i < buildings.length; i++) {
+                var option = document.createElement("option");
+                option.value = i;
+                option.text = buildings[i]["Business Name"];
+                select.appendChild(option);
+            }
+        }
+
+        // Load the remote JSON file
+        fetch('https://raw.githubusercontent.com/CodeTheCity/Moderdeen/main/OldHistory/ModifiedHistory.json')
+            .then(response => response.json())
+            .then(data => {
+                populateDropdown(data);
+
+                // Event listener for dropdown change
+                document.getElementById("buildingSelect").addEventListener("change", function () {
+                    var selectedBuilding = data[this.value];
+                    var lat = parseFloat(selectedBuilding.Latitude);
+                    var lon = parseFloat(selectedBuilding.Longitude);
+                    map.setView([lat, lon], 16); // Center the map on the selected building
+                    addMarker(lat, lon); // Add a marker to the map
+                });
+            })
+            .catch(error => console.error('Error:', error));
+    </script>
+</body>
+</html>
