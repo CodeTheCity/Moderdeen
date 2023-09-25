@@ -1,35 +1,51 @@
-import csv
 import requests
 import json
 
-# Replace 'your_remote_url_here' with the actual URL of the remote TSV file
-remote_url = 'https://raw.githubusercontent.com/CodeTheCity/history_jam/master/1937_Union_Street.tsv'
-
-try:
-    response = requests.get(remote_url)
-    response.raise_for_status()  # Check for any HTTP request errors
-
-    # Create a temporary in-memory file-like object for CSV parsing
-    tsvfile = csv.reader(response.text.strip().splitlines(), delimiter='\t')
-
-    # Create a list to store the rows
-    data = []
-
-    # Skip the header row if present
-    header = next(tsvfile, None)
-
-    for row in tsvfile:
-        data.append(row)
-
-    # Define the output JSON file name
-    json_output_file = 'data.json'
-
-    # Save the TSV data as a JSON file
-    with open(json_output_file, 'w') as jsonfile:
-        json.dump(data, jsonfile, indent=4)
+def forward_geocode_from_json(json_url, output_file):
+    # Fetch the JSON data from the provided URL
+    response = requests.get(json_url)
     
-    print(f"Data saved as {json_output_file}")
-except requests.exceptions.RequestException as e:
-    print(f"Request error: {str(e)}")
-except Exception as e:
-    print(f"An error occurred: {str(e)}")
+    if response.status_code != 200:
+        return None
+    
+    data = response.json()
+    geocoded_data = []
+    
+    for item in data:
+        address = item.get("Address")
+        city = item.get("City")
+        
+        if address and city:
+            # Construct the geocoding URL
+            url = f"https://geocode.maps.co/search?q={address.replace(' ', '+')}&street={address.replace(' ', '+')}&city={city}&country=uk"
+            response = requests.get(url)
+            
+            if response.status_code == 200:
+                geocode_data = response.json()
+                
+                if geocode_data and len(geocode_data) > 0:
+                    first_element = geocode_data[0]
+                    lat_str = first_element.get("lat")
+                    lon_str = first_element.get("lon")
+                    
+                    # Parse lat and lon as floats
+                    lat = float(lat_str) if lat_str else None
+                    lon = float(lon_str) if lon_str else None
+                    
+                    item["Latitude"] = lat
+                    item["Longitude"] = lon
+            
+        geocoded_data.append(item)
+    
+    # Save the geocoded data to the output file
+    with open(output_file, 'w') as outfile:
+        json.dump(geocoded_data, outfile, indent=4)
+    
+    return geocoded_data
+
+# Usage example:
+json_url = "https://example.com/your/json/file.json"
+output_file = "geocoded_data.json"
+geocoded_data = forward_geocode_from_json(json_url, output_file)
+
+# The geocoded data is saved to "geocoded_data.json" in the current working directory.
