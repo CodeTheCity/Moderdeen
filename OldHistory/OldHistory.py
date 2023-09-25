@@ -1,64 +1,57 @@
 import requests
 import json
 
-def forward_geocode_from_json(json_url, output_file):
-    # Fetch the JSON data from the provided URL
-    response = requests.get(json_url)
-    
-    if response.status_code != 200:
+# Define the URL of the JSON file and the fixed address
+JSON_URL = "https://raw.githubusercontent.com/CodeTheCity/Moderdeen/main/OldHistory/OldHistory.json"
+FIXED_ADDRESS = "Union+Street&city=Aberdeen&country=UK"
+
+# Function to perform geocoding
+def geocode_location(location):
+    house_number = location.get("House Number", "")
+    name = location.get("Business Name", "")
+
+    if house_number:
+        address = f"{house_number}+{FIXED_ADDRESS}"
+    elif name:
+        address = f"{name.replace(' ', '+')}&street=union+street&city=aberdeen&country=uk"
+    else:
         return None
-    
-    try:
+
+    url = f"https://geocode.maps.co/search?street={address}"
+
+    response = requests.get(url)
+    if response.status_code == 200:
         data = response.json()
-    except json.JSONDecodeError:
-        print("Error decoding JSON response.")
-        return None
-    
-    geocoded_data = []
-    
-    for item in data:
-        if not isinstance(item, dict):
-            print("Skipping non-dictionary item in JSON data.")
-            continue
+        if data.get("latitude") and data.get("longitude"):
+            location["Latitude"] = data["latitude"]
+            location["Longitude"] = data["longitude"]
+        else:
+            location["Latitude"] = ""
+            location["Longitude"] = ""
+    else:
+        location["Latitude"] = ""
+        location["Longitude"] = ""
 
-        address = item.get("Address")
-        city = item.get("City")
+# Function to read, update, and save JSON data
+def main():
+    try:
+        response = requests.get(JSON_URL)
+        response.raise_for_status()
         
-        if address and city:
-            # Construct the geocoding URL
-            url = f"https://geocode.maps.co/search?q={address.replace(' ', '+')}&street={address.replace(' ', '+')}&city={city}&country=uk"
-            response = requests.get(url)
-            
-            if response.status_code == 200:
-                try:
-                    geocode_data = response.json()
-                except json.JSONDecodeError:
-                    print(f"Error decoding JSON response for address: {address}")
-                    continue
-                
-                if geocode_data and len(geocode_data) > 0:
-                    first_element = geocode_data[0]
-                    lat_str = first_element.get("lat")
-                    lon_str = first_element.get("lon")
-                    
-                    # Parse lat and lon as floats
-                    lat = float(lat_str) if lat_str else None
-                    lon = float(lon_str) if lon_str else None
-                    
-                    item["Latitude"] = lat
-                    item["Longitude"] = lon
-            
-        geocoded_data.append(item)
-    
-    # Save the geocoded data to the output file
-    with open(output_file, 'w') as outfile:
-        json.dump(geocoded_data, outfile, indent=4)
-    
-    return geocoded_data
+        # Remove the BOM manually
+        json_text = response.text.lstrip('\ufeff')
+        json_data = json.loads(json_text)
+        
+        for entry in json_data:
+            geocode_location(entry)
 
-# Usage example:
-json_url = "https://github.com/CodeTheCity/Moderdeen/blob/main/OldHistory/OldHistory.json"
-output_file = "geocoded_data.json"
-geocoded_data = forward_geocode_from_json(json_url, output_file)
+        with open("ModifiedHistory.json", "w") as output_file:
+            json.dump(json_data, output_file, indent=2)
+        
+        print("Geocoding and saving completed successfully.")
+    
+    except requests.exceptions.RequestException as e:
+        print(f"Error: {e}")
 
-# The geocoded data is saved to "geocoded_data.json" in the current working directory.
+if __name__ == "__main__":
+    main()
