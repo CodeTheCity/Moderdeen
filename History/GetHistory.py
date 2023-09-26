@@ -1,5 +1,6 @@
 import json
 import requests
+from concurrent.futures import ThreadPoolExecutor
 import DataRefiner as DR
 from tqdm import tqdm
 
@@ -11,6 +12,7 @@ node_geojson_url = 'https://raw.githubusercontent.com/CodeTheCity/Moderdeen/main
 way_geojson_url = 'https://raw.githubusercontent.com/CodeTheCity/Moderdeen/main/History/ListOfWays.geojson'
 
 print("Started getting IDs")
+
 # Function to fetch IDs from GeoJSON and add them to the id_list
 def fetch_ids_from_geojson(geojson_url):
     try:
@@ -35,24 +37,32 @@ def fetch_ids_from_geojson(geojson_url):
         print(f"Error decoding JSON: {str(e)}")
     except Exception as e:
         print(f"An error occurred: {str(e)}")
+
 # Fetch IDs from both GeoJSON files
 fetch_ids_from_geojson(node_geojson_url)
 fetch_ids_from_geojson(way_geojson_url)
 
 combined_data = []
 
-# Loop through the @id values and fetch data from the API with a loading bar
-print("Getting JSONs")
-for id_value in tqdm(id_list):
+# Function to fetch data for a given id_value and append it to combined_data
+def fetch_data_and_append(id_value):
     url = f"https://api.openstreetmap.org/api/0.6/{id_value}/history.json"
     response = requests.get(url)
     if response.status_code == 200:
         data = response.json()
-
         data = DR.extract_data(data)
-        combined_data.append(data)
+        return data
     else:
         print(f"Failed to fetch data for {id_value}")
+        return None
+
+# Create a ThreadPoolExecutor with a maximum of 4 worker threads
+with ThreadPoolExecutor(max_workers=4) as executor:
+    # Use executor.map to parallelize fetching data for id_list
+    results = executor.map(fetch_data_and_append, id_list)
+    for result in tqdm(results, total=len(id_list), desc="Getting JSONs"):
+        if result:
+            combined_data.append(result)
 
 # Write the combined JSON data to a file
 output_file_path = 'combined_data.json'
