@@ -1,11 +1,12 @@
 import requests
 import json
 from tqdm import tqdm
+from concurrent.futures import ThreadPoolExecutor
 
 JSON_URL = "https://raw.githubusercontent.com/CodeTheCity/Moderdeen/main/OldHistory/HistoricalBuildings.json"
 FIXED_ADDRESS = "Union+Street&city=Aberdeen&country=UK"
 
-def geocode_location(location):
+def geocode_location(session, location):
     house_number = location.get("House Number", "")
     name = location.get("Business Name", "")
     residential = location.get("Residential", "")
@@ -57,9 +58,11 @@ def geocode_location(location):
         location["Business Name"] = "Unknown"
     if house_number == "":
         location["House Number"] = "Unknown"
+        
     url = f"https://geocode.maps.co/search?{address}"
 
-    response = requests.get(url)
+    response = session.get(url)
+    
     if response.status_code == 200:
         data = response.json()
         if data and len(data) > 0:
@@ -73,30 +76,24 @@ def geocode_location(location):
         else:
             location["Latitude"] = ""
             location["Longitude"] = ""
+            
     else:
         location["Latitude"] = ""
         location["Longitude"] = ""
-
-
 
 def main():
     try:
         response = requests.get(JSON_URL)
         response.raise_for_status()
-        
         json_text = response.text.lstrip('\ufeff')
         json_data = json.loads(json_text)
-        
         progress_bar = tqdm(json_data, desc="Geocoding Progress", ncols=100)
-        
-        for entry in progress_bar:
-            geocode_location(entry)
-
+        with ThreadPoolExecutor(max_workers=5) as executor:
+            with requests.Session() as session:
+                list(executor.map(lambda entry: geocode_location(session, entry), progress_bar))
         with open("ModifiedHistory.json", "w") as output_file:
             json.dump(json_data, output_file, indent=2)
-        
         print("Geocoding and saving completed successfully.")
-    
     except requests.exceptions.RequestException as e:
         print(f"Error: {e}")
 
