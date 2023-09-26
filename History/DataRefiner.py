@@ -1,6 +1,6 @@
 import requests
-import time
 from concurrent.futures import ThreadPoolExecutor
+from collections import defaultdict
 
 # Fixed address for Union Street, Aberdeen, UK
 FIXED_ADDRESS = "Union+Street&city=Aberdeen&country=UK"
@@ -124,7 +124,7 @@ def process_element(element):
 
     else:
         # This is the first item with this name, add it to the dictionary
-        extracted_data[name] = {
+        extracted_data = {
             "id": id_value,
             "name": original_name,  # Keep the original casing
             "timestamp": timestamp,
@@ -146,12 +146,22 @@ def process_element(element):
     return extracted_data
 
 def extract_data(json_data):
-    extracted_data_list = []
-    
+    extracted_data_dict = defaultdict(list)
+
     # Create a ThreadPoolExecutor with a maximum of 4 worker threads
     with ThreadPoolExecutor(max_workers=4) as executor:
         results = executor.map(process_element, json_data.get("elements", []))
         for result in results:
-            extracted_data_list.append(result)
+            name = result.get("name", "Unknown").lower()  # Convert name to lowercase for comparison
+            extracted_data_dict[name].append(result)
+
+    extracted_data_list = []
+
+    for name, items in extracted_data_dict.items():
+        # Sort items by timestamp in descending order
+        items.sort(key=lambda x: x["timestamp"], reverse=True)
+
+        # Append the item with the latest timestamp to the result list
+        extracted_data_list.append(items[0])
 
     return extracted_data_list
